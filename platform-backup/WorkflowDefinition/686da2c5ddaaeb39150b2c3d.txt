@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1752015557007,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686da2c5ddaaeb39150b2c3d",
+	"lastModifiedBy":34,
+	"lcName":"automation_chat by unifyappsdelete11752014266078",
+	"modifiedTime":1752015603814,
+	"name":"Automation_Chat by UnifyAppsDelete11752014266078",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_JtGoJ-1",
+			"id":"n_AYc7u",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
