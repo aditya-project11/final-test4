@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","ticktick"],
 	"createdTime":1756541942596,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_qw2MP",
+			"fromNodeId":"n_DEeeK",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_gIh5E",
+			"toNodeId":"n_rFFBf",
 			"type":"next"
 		}
 	],
 	"id":"68b2b3f6e482c576c90ab1b8",
 	"lastModifiedBy":34,
 	"lcName":"automation_ticktickdelete11756541625030",
-	"modifiedTime":1756541942596,
+	"modifiedTime":1756541948450,
 	"name":"Automation_TickTickDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_qw2MP-1",
-			"id":"_qw2MP",
-			"index":0,
+			"id":"n_DEeeK",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"ticktick",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_qw2MP-1",
-			"id":"_gIh5E",
-			"index":0,
+			"id":"n_rFFBf",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"TickTick",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
