@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287636371,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_PD52C",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Qheu8",
+			"type":"next"
+		}
+	],
+	"id":"68904e14aad3151f9f134ef9",
+	"lastModifiedBy":34,
+	"lcName":"build to preview 11754284269014",
+	"modifiedTime":1754372403869,
+	"name":"build to preview 11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PD52C-1",
+			"id":"_PD52C",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PD52C-1",
+			"id":"_Qheu8",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
