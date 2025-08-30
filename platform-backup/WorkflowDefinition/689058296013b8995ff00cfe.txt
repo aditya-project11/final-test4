@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754290217002,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_CZQDJ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_aH3xi",
+			"type":"next"
+		}
+	],
+	"id":"689058296013b8995ff00cfe",
+	"lastModifiedBy":34,
+	"lcName":"callable via api-trigger condition 11754284269014",
+	"modifiedTime":1754372157573,
+	"name":"callable via API-trigger condition 11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_CZQDJ-1",
+			"id":"_CZQDJ",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_CZQDJ-1",
+			"id":"_aH3xi",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
