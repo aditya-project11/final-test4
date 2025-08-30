@@ -1,50 +1,189 @@
 {
-	"appsUsed":[],
+	"appsUsed":["slack"],
 	"createdTime":1756544352483,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_xen7T",
+			"fromNodeId":"n_3o0z1",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_GwtjM",
+			"toNodeId":"n_DcphA",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_DcphA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_iEcGW",
 			"type":"next"
 		}
 	],
 	"id":"68b2bd60e482c576c90b28f9",
 	"lastModifiedBy":34,
 	"lcName":"logging_addmessage_11756541623062",
-	"modifiedTime":1756544352483,
+	"modifiedTime":1756544377211,
 	"name":"logging_addMessage_11756541623062",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_xen7T-1",
-			"id":"_xen7T",
-			"index":0,
+			"id":"n_3o0z1",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"output":{
+							"type":"string",
+							"title":"output"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"output"
+					]
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"Input1":{
+							"type":"integer",
+							"title":"Input1"
+						},
+						"Input2":{
+							"type":"integer",
+							"title":"Input2"
+						},
+						"Input3":{
+							"type":"integer",
+							"title":"Input3"
+						}
+					},
+					"additionalProperties":false
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":27598,
+				"connectionId":"662f8ddb91d8ba4394d0cce6",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_xen7T-1",
-			"id":"_GwtjM",
-			"index":0,
+			"id":"n_DcphA",
+			"index":2,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"channel":"unify-apps",
+				"text":"Test message",
+				"mrkdwn":true
+			},
+			"options":{
+				"bulkheadConfig":{
+					"enabled":false,
+					"global":false
+				},
+				"businessHoursConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"cacheConfig":{
+					"enabled":false,
+					"usagePolicy":"ALWAYS"
+				},
+				"circuitBreakerConfig":{
+					"enabled":false
+				},
+				"disableLogging":false,
+				"enabledForReExecution":false,
+				"hookConfig":{
+					"enabled":false,
+					"postHooks":[
+						
+					],
+					"preHooks":[
+						
+					]
+				},
+				"logConfig":{
+					"enabled":true,
+					"logPolicies":[
+						{
+							"level":"INFO",
+							"maskedFields":[],
+							"message":"Two Numbers are {{ n_3o0z1.outputs.Input1 }} {{ n_3o0z1.outputs.Input2 }} {{ n_DcphA.outputs.ok }} ",
+							"onlyOnFailure":false
+						}
+					]
+				},
+				"rateLimitConfig":{
+					"enabled":false,
+					"waitForNextWindow":false
+				},
+				"retryConfig":{
+					"captureRetries":false,
+					"enabled":false
+				},
+				"stepError":"STOP",
+				"telemetryConfig":{
+					"enableTelemetry":false,
+					"metricConfigs":[
+						
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Slack",
+			"title":"Post message",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_xen7T-1",
+			"id":"n_iEcGW",
+			"index":3,
+			"inputs":{
+				"result":{
+					"output":"{{ n_DcphA.outputs.ok }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +194,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
