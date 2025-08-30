@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["firebase","shopify"],
 	"createdTime":1756543402965,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_ds7kh",
+			"fromNodeId":"n_5xTBt",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_BLPkZ",
+			"toNodeId":"n_ogU22",
 			"type":"next"
 		}
 	],
 	"id":"68b2b9aae482c576c90af6d0",
 	"lastModifiedBy":34,
 	"lcName":"automation_firebasedelete11756541641242",
-	"modifiedTime":1756543402965,
+	"modifiedTime":1756543413965,
 	"name":"Automation_FirebaseDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ds7kh-1",
-			"id":"_ds7kh",
-			"index":0,
+			"id":"n_5xTBt",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"firebase",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ds7kh-1",
-			"id":"_BLPkZ",
-			"index":0,
+			"id":"n_ogU22",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Firebase",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
