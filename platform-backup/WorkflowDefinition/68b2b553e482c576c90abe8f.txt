@@ -5,46 +5,121 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_SFNgB",
+			"fromNodeId":"n_ssnTg",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_stAqz",
+			"toNodeId":"n_Ofg6l",
 			"type":"next"
 		}
 	],
 	"id":"68b2b553e482c576c90abe8f",
 	"lastModifiedBy":34,
 	"lcName":"verify_api_triggering_body_listinttype_117565416324330",
-	"modifiedTime":1756542291197,
+	"modifiedTime":1756542305495,
 	"name":"Verify_API_Triggering_Body_ListIntType_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":693,
+				"resourceName":"callables_from_api"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_SFNgB-1",
-			"id":"_SFNgB",
-			"index":0,
+			"id":"n_ssnTg",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"body":{
+						"type":"object",
+						"properties":{
+							"List_integers":{
+								"type":"array",
+								"items":{
+									"type":"integer"
+								},
+								"title":"List_integers"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							"List_integers"
+						]
+					}
+				},
+				"endpointType":"REST",
+				"response":[
+					{
+						"status":200,
+						"contentType":"application/json",
+						"textBody":{
+							"type":"string"
+						},
+						"name":"200",
+						"body":{
+							"type":"object",
+							"properties":{
+								"List_integers":{
+									"type":"array",
+									"items":{
+										"type":"integer"
+									},
+									"title":"List_integers"
+								}
+							},
+							"additionalProperties":false,
+							"required":[
+								"List_integers"
+							]
+						}
+					}
+				],
+				"streamingResponse":false
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via API",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":684,
+				"resourceName":"callables_return_response_to_api",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_SFNgB-1",
-			"id":"_stAqz",
-			"index":0,
+			"id":"n_Ofg6l",
+			"index":2,
+			"inputs":{
+				"streamingCompleted":true,
+				"responseName":"200_200",
+				"body":{
+					"List_integers":{
+						"source":"{{ n_ssnTg.outputs.body.List_integers }}",
+						"ua:type":"mappedArray",
+						"items":"{{ n_ssnTg.outputs.body.List_integers }}"
+					}
+				},
+				"status":200
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Respond to API request",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +130,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
