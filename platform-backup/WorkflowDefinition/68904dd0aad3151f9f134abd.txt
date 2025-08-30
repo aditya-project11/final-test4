@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287568280,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_GeoKW",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_zgjKc",
+			"type":"next"
+		}
+	],
+	"id":"68904dd0aad3151f9f134abd",
+	"lastModifiedBy":34,
+	"lcName":"create list use saved snippet and check linking is happening correctly unlink the schema from the snippet and make changes in the schema_117542842668050",
+	"modifiedTime":1754372412813,
+	"name":"Create list use saved snippet and check linking is happening correctly unlink the schema from the snippet and make changes in the schema_117542842668050",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GeoKW-1",
+			"id":"_GeoKW",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GeoKW-1",
+			"id":"_zgjKc",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
