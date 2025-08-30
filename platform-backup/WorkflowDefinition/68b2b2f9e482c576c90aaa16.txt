@@ -2,6 +2,15 @@
 	"appsUsed":[],
 	"createdTime":1756541689014,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756541720861,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2b318e482c576c90aaad6",
+		"deploymentTag":"helloWorld",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -31,7 +40,7 @@
 	"id":"68b2b2f9e482c576c90aaa16",
 	"lastModifiedBy":34,
 	"lcName":"search_version_tags_117565416412420",
-	"modifiedTime":1756541718176,
+	"modifiedTime":1756541725001,
 	"name":"Search_Version_Tags_117565416412420",
 	"nodes":[
 		{
@@ -213,5 +222,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
