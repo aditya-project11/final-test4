@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756543407500,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756543421684,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2b9bde482c576c90af7b3",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68b2b9afe482c576c90af721",
 	"lastModifiedBy":34,
 	"lcName":"testruns_formjson_117565416250300",
-	"modifiedTime":1756543418481,
+	"modifiedTime":1756543426074,
 	"name":"TestRuns_formJSON_117565416250300",
 	"nodes":[
 		{
@@ -102,5 +110,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
