@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751967954004,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_ftxIT",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_rvaRt",
+			"type":"next"
+		}
+	],
+	"id":"686ce8d2daa34b63d1078667",
+	"lastModifiedBy":34,
+	"lcName":"zendesk_connection_test_workflow_117519669692640",
+	"modifiedTime":1754310040183,
+	"name":"Zendesk_connection_test_workflow_117519669692640",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ftxIT-1",
+			"id":"_ftxIT",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ftxIT-1",
+			"id":"_rvaRt",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
