@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["filestage","shopify"],
 	"createdTime":1756543401171,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_XoVJI",
+			"fromNodeId":"n_2OI4G",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_e5xYh",
+			"toNodeId":"n_Toxmd",
 			"type":"next"
 		}
 	],
 	"id":"68b2b9a9e482c576c90af6b2",
 	"lastModifiedBy":34,
 	"lcName":"automation_filestagedelete11756541641242",
-	"modifiedTime":1756543401171,
+	"modifiedTime":1756543411692,
 	"name":"Automation_FilestageDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_XoVJI-1",
-			"id":"_XoVJI",
-			"index":0,
+			"id":"n_2OI4G",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"filestage",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_XoVJI-1",
-			"id":"_e5xYh",
-			"index":0,
+			"id":"n_Toxmd",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Filestage",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
