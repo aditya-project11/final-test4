@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","total_expert"],
 	"createdTime":1756541966823,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_9eQVV",
+			"fromNodeId":"n_x5hbE",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_ogqLF",
+			"toNodeId":"n_nvzan",
 			"type":"next"
 		}
 	],
 	"id":"68b2b40ee482c576c90ab466",
 	"lastModifiedBy":34,
 	"lcName":"automation_total expertdelete11756541625030",
-	"modifiedTime":1756541966823,
+	"modifiedTime":1756541975608,
 	"name":"Automation_Total ExpertDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_9eQVV-1",
-			"id":"_9eQVV",
-			"index":0,
+			"id":"n_x5hbE",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"total_expert",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_9eQVV-1",
-			"id":"_ogqLF",
-			"index":0,
+			"id":"n_nvzan",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Total Expert",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
