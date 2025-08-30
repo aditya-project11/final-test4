@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756543976354,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_08H6u",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_lWjVM",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bbe8e482c576c90b04d7",
 	"lastModifiedBy":34,
 	"lcName":"automation_microsoft entra iddelete11756541641242",
-	"modifiedTime":1756543976354,
+	"modifiedTime":1756543993008,
 	"name":"Automation_Microsoft Entra IDDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_08H6u-1",
-			"id":"_08H6u",
-			"index":0,
+			"id":"n_WHyRb",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_08H6u-1",
-			"id":"_lWjVM",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
