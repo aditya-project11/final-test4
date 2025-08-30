@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","tableau"],
 	"createdTime":1756541893753,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_DKQNX",
+			"fromNodeId":"n_ch5zA",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_KbZwP",
+			"toNodeId":"n_FhQRn",
 			"type":"next"
 		}
 	],
 	"id":"68b2b3c5e482c576c90aaf32",
 	"lastModifiedBy":34,
 	"lcName":"automation_tableaudelete11756541625030",
-	"modifiedTime":1756541893753,
+	"modifiedTime":1756541902100,
 	"name":"Automation_TableauDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_DKQNX-1",
-			"id":"_DKQNX",
-			"index":0,
+			"id":"n_ch5zA",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"tableau",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_DKQNX-1",
-			"id":"_KbZwP",
-			"index":0,
+			"id":"n_FhQRn",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Tableau",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
