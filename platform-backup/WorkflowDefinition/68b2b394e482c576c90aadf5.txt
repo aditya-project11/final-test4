@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","stability_ai"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541844574,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_db3uD",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_vSAgZ",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b394e482c576c90aadf5",
 	"lastModifiedBy":34,
 	"lcName":"automation_stability aidelete11756541625030",
-	"modifiedTime":1756541852089,
+	"modifiedTime":1756541857264,
 	"name":"Automation_Stability AIDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_4XK64-1",
 			"id":"n_db3uD",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"stability_ai",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_4XK64-1",
-			"id":"n_vSAgZ",
-			"index":2,
-			"skip":false,
-			"subTitle":"Stability AI",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
