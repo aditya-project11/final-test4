@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756542153320,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_ggyAj",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_pniNn",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b4c9e482c576c90aba7e",
 	"lastModifiedBy":34,
 	"lcName":"automation_wordpressdelete11756541625030",
-	"modifiedTime":1756542153320,
+	"modifiedTime":1756542166910,
 	"name":"Automation_WordpressDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_ggyAj-1",
-			"id":"_ggyAj",
-			"index":0,
+			"id":"n_Sl0sm",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_ggyAj-1",
-			"id":"_pniNn",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
