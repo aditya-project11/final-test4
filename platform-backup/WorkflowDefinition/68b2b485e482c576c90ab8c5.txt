@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","voyageai"],
 	"createdTime":1756542085878,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_VsInW",
+			"fromNodeId":"n_wAsJu",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_VI130",
+			"toNodeId":"n_vzJWO",
 			"type":"next"
 		}
 	],
 	"id":"68b2b485e482c576c90ab8c5",
 	"lastModifiedBy":34,
 	"lcName":"automation_voyage aidelete11756541625030",
-	"modifiedTime":1756542085878,
+	"modifiedTime":1756542094011,
 	"name":"Automation_Voyage AIDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_VsInW-1",
-			"id":"_VsInW",
-			"index":0,
+			"id":"n_wAsJu",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"voyageai",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_VsInW-1",
-			"id":"_VI130",
-			"index":0,
+			"id":"n_vzJWO",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Voyage AI",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
