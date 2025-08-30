@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["freshservice","shopify"],
 	"createdTime":1756543469979,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_dLLma",
+			"fromNodeId":"n_17Imx",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_5OVmi",
+			"toNodeId":"n_l5z73",
 			"type":"next"
 		}
 	],
 	"id":"68b2b9ede482c576c90af9f0",
 	"lastModifiedBy":34,
 	"lcName":"automation_freshservicedelete11756541641242",
-	"modifiedTime":1756543469979,
+	"modifiedTime":1756543479968,
 	"name":"Automation_FreshserviceDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_dLLma-1",
-			"id":"_dLLma",
-			"index":0,
+			"id":"n_17Imx",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"freshservice",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_dLLma-1",
-			"id":"_5OVmi",
-			"index":0,
+			"id":"n_l5z73",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Freshservice",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
