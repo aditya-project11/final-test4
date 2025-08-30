@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1753808631522,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"6888fef7b7572707bd0a4dc3",
+	"lastModifiedBy":34,
+	"lcName":"automation_pineconedelete11753805614653",
+	"modifiedTime":1753808645161,
+	"name":"Automation_PineconeDelete11753805614653",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_0HX8O-1",
+			"id":"n_2MiAn",
+			"index":1,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
