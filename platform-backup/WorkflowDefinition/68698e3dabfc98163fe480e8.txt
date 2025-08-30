@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751748157578,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Xnkb5",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ZOMOE",
+			"type":"next"
+		}
+	],
+	"id":"68698e3dabfc98163fe480e8",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonwoocommerce_11751744174820",
+	"modifiedTime":1751748172754,
+	"name":"TestButtonWooCommerce_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Xnkb5-1",
+			"id":"_Xnkb5",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Xnkb5-1",
+			"id":"_ZOMOE",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
