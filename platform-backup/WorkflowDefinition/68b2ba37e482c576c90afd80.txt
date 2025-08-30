@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["gmail","shopify"],
 	"createdTime":1756543543082,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_dEwjz",
+			"fromNodeId":"n_1m5uA",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_YA2QD",
+			"toNodeId":"n_jy6d0",
 			"type":"next"
 		}
 	],
 	"id":"68b2ba37e482c576c90afd80",
 	"lastModifiedBy":34,
 	"lcName":"automation_gmaildelete11756541641242",
-	"modifiedTime":1756543543082,
+	"modifiedTime":1756543552858,
 	"name":"Automation_GmailDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_dEwjz-1",
-			"id":"_dEwjz",
-			"index":0,
+			"id":"n_1m5uA",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"gmail",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_dEwjz-1",
-			"id":"_YA2QD",
-			"index":0,
+			"id":"n_jy6d0",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Gmail",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
