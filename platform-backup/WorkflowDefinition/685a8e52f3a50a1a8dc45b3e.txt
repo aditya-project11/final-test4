@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750765138647,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_8LWLf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_XxAUE",
+			"type":"next"
+		}
+	],
+	"id":"685a8e52f3a50a1a8dc45b3e",
+	"lastModifiedBy":34,
+	"lcName":"automation_pdf by unifyappsdelete11750764212677",
+	"modifiedTime":1754310663165,
+	"name":"Automation_PDF by UnifyAppsDelete11750764212677",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_8LWLf-1",
+			"id":"_8LWLf",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_8LWLf-1",
+			"id":"_XxAUE",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
