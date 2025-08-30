@@ -10,12 +10,35 @@
 			"skip":false,
 			"toNodeId":"n_wSAl9",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_wSAl9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Kzac9",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Kzac9",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_6K1mK",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_Kzac9",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_bJzop",
+			"type":"next"
 		}
 	],
 	"id":"68b2b5abe482c576c90ac431",
 	"lastModifiedBy":34,
 	"lcName":"save & exit 11756541625030",
-	"modifiedTime":1756542387221,
+	"modifiedTime":1756542396003,
 	"name":"Save & Exit 11756541625030",
 	"nodes":[
 		{
@@ -23,7 +46,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_bs3mv-1",
 			"id":"n_75rY2",
@@ -42,7 +65,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_bs3mv-1",
 			"id":"n_wSAl9",
@@ -50,6 +73,49 @@
 			"skip":false,
 			"subTitle":"Mailchimp",
 			"title":"Select an action",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":593,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_bs3mv-1",
+			"id":"n_Kzac9",
+			"index":3,
+			"inputs":{
+				
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_Kzac9@_bs3mv-1@y",
+			"id":"n_6K1mK",
+			"index":4,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_Kzac9@_bs3mv-1@n",
+			"id":"n_bJzop",
+			"index":5,
+			"skip":false,
+			"title":"Select an app and action",
 			"type":"ACTION"
 		}
 	],
@@ -65,5 +131,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
