@@ -5,46 +5,85 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_DuCm9",
+			"fromNodeId":"n_dLR6x",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_8XjJF",
+			"toNodeId":"n_dfXx6",
 			"type":"next"
 		}
 	],
 	"id":"68b2bed7e482c576c90b4db7",
 	"lastModifiedBy":34,
 	"lcName":"callautomationbatch_117565416324330",
-	"modifiedTime":1756544727945,
+	"modifiedTime":1756544736610,
 	"name":"callAutomationBatch_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_DuCm9-1",
-			"id":"_DuCm9",
-			"index":0,
+			"id":"n_dLR6x",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":534,
+				"resourceName":"callables_call_automation_batch",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_DuCm9-1",
-			"id":"_8XjJF",
-			"index":0,
+			"id":"n_dfXx6",
+			"index":2,
+			"inputs":{
+				"automationId":"68b2beb7e482c576c90b4c0f",
+				"runtimeConnections":{
+					
+				},
+				"synchronous":true,
+				"distributeWorkflowLoad":false,
+				"parametersList":[
+					{
+						"input_String":"Unifyapps0"
+					},
+					{
+						"input_String":"Unifyapps1"
+					},
+					{
+						"input_String":"Unifyapps2"
+					}
+				],
+				"version":"-1"
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Call automation (batch)",
+			"type":"CALL_WORKFLOW"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +94,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
