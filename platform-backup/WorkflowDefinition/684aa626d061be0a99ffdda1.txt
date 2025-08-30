@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749722662044,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_3FDbv",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_o2GOG",
+			"type":"next"
+		}
+	],
+	"id":"684aa626d061be0a99ffdda1",
+	"lastModifiedBy":34,
+	"lcName":"envvariableininputpanel_true117497215312070",
+	"modifiedTime":1754312049333,
+	"name":"envVariableInInputPanel_True117497215312070",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_3FDbv-1",
+			"id":"_3FDbv",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_3FDbv-1",
+			"id":"_o2GOG",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
