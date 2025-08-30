@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["salesloft","shopify"],
 	"createdTime":1756541712873,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_7sQJ9",
+			"fromNodeId":"n_DuPZt",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_G6lWc",
+			"toNodeId":"n_GY8nq",
 			"type":"next"
 		}
 	],
 	"id":"68b2b310e482c576c90aaaaa",
 	"lastModifiedBy":34,
 	"lcName":"automation_salesloftdelete11756541625030",
-	"modifiedTime":1756541712873,
+	"modifiedTime":1756541721241,
 	"name":"Automation_SalesloftDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_7sQJ9-1",
-			"id":"_7sQJ9",
-			"index":0,
+			"id":"n_DuPZt",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"salesloft",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_7sQJ9-1",
-			"id":"_G6lWc",
-			"index":0,
+			"id":"n_GY8nq",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Salesloft",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
