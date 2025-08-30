@@ -5,46 +5,106 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_G2pOT",
+			"fromNodeId":"n_AMhcL",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_ZCPym",
+			"toNodeId":"n_zkMw1",
 			"type":"next"
 		}
 	],
 	"id":"68b2bf6ae482c576c90b50cb",
 	"lastModifiedBy":34,
 	"lcName":"groovycodeinputparams_117565416324330",
-	"modifiedTime":1756544874653,
+	"modifiedTime":1756544898694,
 	"name":"groovyCodeInputParams_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_G2pOT-1",
-			"id":"_G2pOT",
-			"index":0,
+			"id":"n_AMhcL",
+			"index":1,
 			"skip":false,
+			"subTitle":"Callable",
 			"title":"Select a trigger event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":635,
+				"resourceName":"code_by_unifyapps_groovy",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_G2pOT-1",
-			"id":"_ZCPym",
-			"index":0,
+			"id":"n_zkMw1",
+			"index":2,
+			"inputs":{
+				"input":{
+					"type":"object",
+					"properties":{
+						"inputObject":{
+							"type":"object",
+							"properties":{
+								
+							},
+							"additionalProperties":false,
+							"title":"inputObject"
+						},
+						"inputString":{
+							"type":"string",
+							"title":"inputString"
+						},
+						"inputInteger":{
+							"type":"integer",
+							"title":"inputInteger"
+						},
+						"inputNumber":{
+							"type":"number",
+							"title":"inputNumber"
+						},
+						"inputBoolean":{
+							"type":"boolean",
+							"title":"inputBoolean"
+						},
+						"inputArray":{
+							"type":"array",
+							"items":{
+								"type":"string"
+							},
+							"title":"inputArray"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"inputObject",
+						"inputString",
+						"inputInteger",
+						"inputNumber",
+						"inputBoolean",
+						"inputArray"
+					]
+				},
+				"compile_static":false
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute Groovy code",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +115,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
