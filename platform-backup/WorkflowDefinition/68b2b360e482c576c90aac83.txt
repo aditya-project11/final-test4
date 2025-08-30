@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","skuvault"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541792593,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_n1qVo",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_itfjV",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b360e482c576c90aac83",
 	"lastModifiedBy":34,
 	"lcName":"automation_skuvaultdelete11756541625030",
-	"modifiedTime":1756541801144,
+	"modifiedTime":1756541806227,
 	"name":"Automation_SkuVaultDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_ssyAW-1",
 			"id":"n_n1qVo",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"skuvault",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_ssyAW-1",
-			"id":"n_itfjV",
-			"index":2,
-			"skip":false,
-			"subTitle":"SkuVault",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
