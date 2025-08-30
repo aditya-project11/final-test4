@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287570888,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_2INj4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_MpUHU",
+			"type":"next"
+		}
+	],
+	"id":"68904dd2aad3151f9f134aea",
+	"lastModifiedBy":34,
+	"lcName":"create list define nested fields for a field using use code snippet, the new nested fields are being added and the existing fields are not being removed_117542842668050",
+	"modifiedTime":1754372412525,
+	"name":"Create list define nested fields for a field using Use Code Snippet, the new nested fields are being added and the existing fields are not being removed_117542842668050",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2INj4-1",
+			"id":"_2INj4",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2INj4-1",
+			"id":"_MpUHU",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
