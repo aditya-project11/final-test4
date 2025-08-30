@@ -1,21 +1,15 @@
 {
-	"appsUsed":["facebook_ads","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756543355495,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_m0PdW",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_mKDcR",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b97be482c576c90af49e",
 	"lastModifiedBy":34,
 	"lcName":"automation_facebook adsdelete11756541641242",
-	"modifiedTime":1756543376981,
+	"modifiedTime":1756543382358,
 	"name":"Automation_Facebook AdsDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_QHAzr-1",
 			"id":"n_m0PdW",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"facebook_ads",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_QHAzr-1",
-			"id":"n_mKDcR",
-			"index":2,
-			"skip":false,
-			"subTitle":"Facebook Ads",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
