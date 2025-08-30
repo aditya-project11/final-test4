@@ -1,21 +1,15 @@
 {
-	"appsUsed":["edination","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756543294642,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_joxcw",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_3kKyj",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b93ee482c576c90af0c8",
 	"lastModifiedBy":34,
 	"lcName":"automation_edinationdelete11756541641242",
-	"modifiedTime":1756543304265,
+	"modifiedTime":1756543309815,
 	"name":"Automation_EdiNationDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_8Pser-1",
 			"id":"n_joxcw",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"edination",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_8Pser-1",
-			"id":"n_3kKyj",
-			"index":2,
-			"skip":false,
-			"subTitle":"EdiNation",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
