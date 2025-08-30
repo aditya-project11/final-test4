@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756544456626,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_y96mR",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_qQaIm",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bdc8e482c576c90b3440",
 	"lastModifiedBy":34,
 	"lcName":"automation_razorpaydelete11756541641242",
-	"modifiedTime":1756544456626,
+	"modifiedTime":1756544475099,
 	"name":"Automation_RazorpayDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_y96mR-1",
-			"id":"_y96mR",
-			"index":0,
+			"id":"n_e149v",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_y96mR-1",
-			"id":"_qQaIm",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
