@@ -5,46 +5,69 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_NHbID",
+			"fromNodeId":"n_I0nTB",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_K8RDx",
+			"toNodeId":"n_LorX2",
 			"type":"next"
 		}
 	],
 	"id":"68b2b8efe482c576c90aeb57",
 	"lastModifiedBy":34,
 	"lcName":"converthtmlplaintextimagecontent_117565416324330",
-	"modifiedTime":1756543215464,
+	"modifiedTime":1756543238471,
 	"name":"ConvertHTMLPlainTextimagecontent_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_NHbID-1",
-			"id":"_NHbID",
-			"index":0,
+			"id":"n_I0nTB",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":624,
+				"resourceName":"utility_by_unifyapps_from_html_to_plain_text",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_NHbID-1",
-			"id":"_K8RDx",
-			"index":0,
+			"id":"n_LorX2",
+			"index":2,
+			"inputs":{
+				"conversionType":"plainText",
+				"htmlString":"\"<!DOCTYPE html><html><head><title>The Website Run Under Browser</title></head><body><h1>Gallery</h1><p>Check out this amazing photo:</p><img src='https://example.com/photo.jpg' alt='Amazing Photo'></body></html>\""
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Utility by UnifyApps",
+			"title":"Convert HTML to text",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +78,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
