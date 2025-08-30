@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","toggl"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541950748,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_hymw1",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_BMMqA",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b3fee482c576c90ab2b1",
 	"lastModifiedBy":34,
 	"lcName":"automation_toggldelete11756541625030",
-	"modifiedTime":1756541957688,
+	"modifiedTime":1756541962876,
 	"name":"Automation_TogglDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_WthIo-1",
 			"id":"n_hymw1",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"toggl",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_WthIo-1",
-			"id":"n_BMMqA",
-			"index":2,
-			"skip":false,
-			"subTitle":"Toggl",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
