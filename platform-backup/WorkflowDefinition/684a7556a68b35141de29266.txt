@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749710166636,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_7VQGr",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_KA5im",
+			"type":"next"
+		}
+	],
+	"id":"684a7556a68b35141de29266",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonoracle e-business suite_11749710160287",
+	"modifiedTime":1754312438338,
+	"name":"TestButtonOracle E-Business Suite_11749710160287",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7VQGr-1",
+			"id":"_7VQGr",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7VQGr-1",
+			"id":"_KA5im",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
