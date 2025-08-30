@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749760742837,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_IL0O2",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_0xaUX",
+			"type":"next"
+		}
+	],
+	"id":"684b3ae64953a069fc176fe7",
+	"lastModifiedBy":34,
+	"lcName":"webhook_extra_omit_data_117497570744120",
+	"modifiedTime":1754311523460,
+	"name":"Webhook_Extra_Omit_Data_117497570744120",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IL0O2-1",
+			"id":"_IL0O2",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IL0O2-1",
+			"id":"_0xaUX",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
