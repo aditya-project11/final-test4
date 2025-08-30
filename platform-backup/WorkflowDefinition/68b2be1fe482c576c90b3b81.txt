@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756544543464,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756544557440,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2be2de482c576c90b3d07",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68b2be1fe482c576c90b3b81",
 	"lastModifiedBy":34,
 	"lcName":"automation-trigger condition with where group conditions 11756541632433",
-	"modifiedTime":1756544554940,
+	"modifiedTime":1756544575708,
 	"name":"Automation-trigger condition with Where group conditions 11756541632433",
 	"nodes":[
 		{
@@ -44,17 +52,46 @@
 						"output_String"
 					]
 				},
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"filters":[
+								{
+									"property":"{{ n_a2HbW.outputs.input_String }}",
+									"filter":{
+										"operator":"ENDS_WITH",
+										"value":"apps"
+									}
+								},
+								{
+									"property":"{{ n_a2HbW.outputs.input_Integer }}",
+									"filter":{
+										"operator":"EQUAL",
+										"value":"-22"
+									}
+								}
+							],
+							"operator":"AND"
+						}
+					],
+					"operator":"AND"
+				},
 				"setup":{
 					"type":"object",
 					"properties":{
 						"input_String":{
 							"type":"string",
 							"title":"input_String"
+						},
+						"input_Integer":{
+							"type":"number",
+							"title":"input_Integer"
 						}
 					},
 					"additionalProperties":false,
 					"required":[
-						"input_String"
+						"input_String",
+						"input_Integer"
 					]
 				}
 			},
@@ -102,5 +139,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
