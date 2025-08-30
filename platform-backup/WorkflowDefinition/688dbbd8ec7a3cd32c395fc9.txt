@@ -1,0 +1,100 @@
+{
+	"appsUsed":[],
+	"createdTime":1754119128108,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_tv6mY",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_HrqHL",
+			"type":"next"
+		}
+	],
+	"id":"688dbbd8ec7a3cd32c395fc9",
+	"lastModifiedBy":34,
+	"lcName":"create variables define nested fields for a field using use code snippet, the new nested fields are being added and the existing fields are not being removed_117541183590670",
+	"modifiedTime":1754119156653,
+	"name":"Create variables define nested fields for a field using Use Code Snippet, the new nested fields are being added and the existing fields are not being removed_117541183590670",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":628,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_QfDKq-1",
+			"id":"n_tv6mY",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":640,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_QfDKq-1",
+			"id":"n_HrqHL",
+			"index":2,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					
+				},
+				"schema":{
+					"$comment":"Create variables define nested fields for a field using Use Code Snippet, the new nested fields are being added and the existing fields are not being removed_117541183590670117541183590670",
+					"$ref":"#/definitions/entity|e_code_snippet|e_688dbbe4a42b21b5506ffee8"
+				}
+			},
+			"inputs":{
+				
+			},
+			"outputSchema":{
+				"type":"SCHEMA",
+				"dynamic":false,
+				"schema":{
+					"$comment":"Create variables define nested fields for a field using Use Code Snippet, the new nested fields are being added and the existing fields are not being removed_117541183590670117541183590670",
+					"$ref":"#/definitions/entity|e_code_snippet|e_688dbbe4a42b21b5506ffee8"
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":["entity|e_code_snippet|e_688dbbe4a42b21b5506ffee8"],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
