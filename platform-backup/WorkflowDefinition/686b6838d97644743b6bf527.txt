@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751869496655,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_eFoxN",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_mPGyG",
+			"type":"next"
+		}
+	],
+	"id":"686b6838d97644743b6bf527",
+	"lastModifiedBy":34,
+	"lcName":"check_apptriggernodes_117518684908990",
+	"modifiedTime":1754310163064,
+	"name":"Check_AppTriggerNodes_117518684908990",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_eFoxN-1",
+			"id":"_eFoxN",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_eFoxN-1",
+			"id":"_mPGyG",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
