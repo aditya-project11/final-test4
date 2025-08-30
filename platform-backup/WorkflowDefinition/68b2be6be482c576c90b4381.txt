@@ -2,49 +2,170 @@
 	"appsUsed":[],
 	"createdTime":1756544619997,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756544634821,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2be7ae482c576c90b4536",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_PF6fd",
+			"fromNodeId":"n_zPLcl",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_GtWxq",
+			"toNodeId":"n_LrKSu",
 			"type":"next"
 		}
 	],
 	"id":"68b2be6be482c576c90b4381",
 	"lastModifiedBy":34,
 	"lcName":"redeploy_outside_project_117565416174620",
-	"modifiedTime":1756544619997,
+	"modifiedTime":1756544644298,
 	"name":"reDeploy_outside_project_117565416174620",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PF6fd-1",
-			"id":"_PF6fd",
-			"index":0,
+			"id":"n_zPLcl",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"queryParams":{
+						"type":"object",
+						"properties":{
+							"editQueryOutsideProject":{
+								"type":"integer",
+								"title":"editQueryOutsideProject"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					},
+					"headers":{
+						"type":"object",
+						"properties":{
+							"editHeaderOutsideProject":{
+								"type":"array",
+								"items":{
+									"type":"string"
+								},
+								"title":"editHeaderOutsideProject"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					},
+					"pathParams":{
+						"type":"object",
+						"properties":{
+							"editPathOutsideProject":{
+								"type":"number",
+								"title":"editPathOutsideProject"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					},
+					"body":{
+						"type":"object",
+						"properties":{
+							"editSchemaOutsideProject":{
+								"type":"number",
+								"title":"editSchemaOutsideProject"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							"editSchemaOutsideProject"
+						]
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":642,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PF6fd-1",
-			"id":"_GtWxq",
-			"index":0,
+			"id":"n_LrKSu",
+			"index":2,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					
+				},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"Output":{
+							"type":"integer",
+							"title":"Output"
+						}
+					},
+					"required":[
+						"Output"
+					]
+				}
+			},
+			"inputs":{
+				
+			},
+			"outputSchema":{
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"Output":{
+							"type":"integer",
+							"title":"Output"
+						}
+					},
+					"required":[
+						"Output"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +176,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
