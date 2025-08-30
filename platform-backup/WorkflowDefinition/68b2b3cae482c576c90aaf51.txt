@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","tadabase"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541898403,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_JhoYr",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_vShHS",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b3cae482c576c90aaf51",
 	"lastModifiedBy":34,
 	"lcName":"automation_tadabasedelete11756541625030",
-	"modifiedTime":1756541906263,
+	"modifiedTime":1756541911357,
 	"name":"Automation_TadabaseDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Ek8I0-1",
 			"id":"n_JhoYr",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"tadabase",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Ek8I0-1",
-			"id":"n_vShHS",
-			"index":2,
-			"skip":false,
-			"subTitle":"Tadabase",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
