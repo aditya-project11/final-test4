@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["formstack","shopify"],
 	"createdTime":1756543437388,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_n1vtB",
+			"fromNodeId":"n_xQYT1",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_npmbC",
+			"toNodeId":"n_8hHon",
 			"type":"next"
 		}
 	],
 	"id":"68b2b9cde482c576c90af837",
 	"lastModifiedBy":34,
 	"lcName":"automation_formstackdelete11756541641242",
-	"modifiedTime":1756543437388,
+	"modifiedTime":1756543447459,
 	"name":"Automation_FormstackDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_n1vtB-1",
-			"id":"_n1vtB",
-			"index":0,
+			"id":"n_xQYT1",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"formstack",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_n1vtB-1",
-			"id":"_npmbC",
-			"index":0,
+			"id":"n_8hHon",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Formstack",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
