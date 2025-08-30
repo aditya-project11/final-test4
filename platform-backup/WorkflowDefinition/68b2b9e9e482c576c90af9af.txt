@@ -1,21 +1,15 @@
 {
-	"appsUsed":["freshdesk","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756543465090,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_mX0L5",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_LMqn8",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b9e9e482c576c90af9af",
 	"lastModifiedBy":34,
 	"lcName":"automation_freshdeskdelete11756541641242",
-	"modifiedTime":1756543476671,
+	"modifiedTime":1756543481991,
 	"name":"Automation_FreshdeskDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_3DAby-1",
 			"id":"n_mX0L5",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"freshdesk",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_3DAby-1",
-			"id":"n_LMqn8",
-			"index":2,
-			"skip":false,
-			"subTitle":"Freshdesk",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
