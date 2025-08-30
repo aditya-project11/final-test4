@@ -5,46 +5,104 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_J6LsB",
+			"fromNodeId":"n_p53Jn",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_Gdna6",
+			"toNodeId":"n_V7gCz",
 			"type":"next"
 		}
 	],
 	"id":"68b2bde9e482c576c90b36f7",
 	"lastModifiedBy":34,
 	"lcName":"condition box|string input - is present 11756541632433",
-	"modifiedTime":1756544489064,
+	"modifiedTime":1756544512593,
 	"name":"Condition Box|String Input - Is present 11756541632433",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_J6LsB-1",
-			"id":"_J6LsB",
-			"index":0,
+			"id":"n_p53Jn",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"output_String":{
+							"type":"string",
+							"title":"output_String"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"output_String"
+					]
+				},
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"{{ n_p53Jn.outputs.input_String }}",
+							"filter":{
+								"operator":"EXISTS"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"input_String":{
+							"type":"string",
+							"title":"input_String"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"input_String"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_J6LsB-1",
-			"id":"_Gdna6",
-			"index":0,
+			"id":"n_V7gCz",
+			"index":2,
+			"inputs":{
+				"result":{
+					"output_String":"{{ n_p53Jn.outputs.input_String }}"
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +113,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
