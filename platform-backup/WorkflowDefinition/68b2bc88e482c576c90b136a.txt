@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756544136073,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_GnyIL",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_ATo3l",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bc88e482c576c90b136a",
 	"lastModifiedBy":34,
 	"lcName":"automation_notiondelete11756541641242",
-	"modifiedTime":1756544136073,
+	"modifiedTime":1756544151451,
 	"name":"Automation_NotionDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_GnyIL-1",
-			"id":"_GnyIL",
-			"index":0,
+			"id":"n_9CdHN",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_GnyIL-1",
-			"id":"_ATo3l",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
