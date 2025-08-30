@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","wrike"],
 	"createdTime":1756542179346,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_aLm2C",
+			"fromNodeId":"n_CVHBt",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_wu29k",
+			"toNodeId":"n_tg8uD",
 			"type":"next"
 		}
 	],
 	"id":"68b2b4e3e482c576c90abb09",
 	"lastModifiedBy":34,
 	"lcName":"automation_wrikedelete11756541625030",
-	"modifiedTime":1756542179346,
+	"modifiedTime":1756542189713,
 	"name":"Automation_WrikeDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_aLm2C-1",
-			"id":"_aLm2C",
-			"index":0,
+			"id":"n_CVHBt",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"wrike",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_aLm2C-1",
-			"id":"_wu29k",
-			"index":0,
+			"id":"n_tg8uD",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Wrike",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
