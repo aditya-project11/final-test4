@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1754119905296,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"688dbee1ec7a3cd32c39872d",
+	"lastModifiedBy":34,
+	"lcName":"automation_zoho booksdelete11754118390218",
+	"modifiedTime":1754119920359,
+	"name":"Automation_Zoho BooksDelete11754118390218",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_96s3m-1",
+			"id":"n_rtp4Q",
+			"index":1,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
