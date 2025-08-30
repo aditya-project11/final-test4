@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756544296168,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_xIWp3",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_2CNn1",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bd28e482c576c90b23de",
 	"lastModifiedBy":34,
 	"lcName":"automation_pendodelete11756541641242",
-	"modifiedTime":1756544296168,
+	"modifiedTime":1756544311469,
 	"name":"Automation_PendoDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_xIWp3-1",
-			"id":"_xIWp3",
-			"index":0,
+			"id":"n_7wU5o",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_xIWp3-1",
-			"id":"_2CNn1",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
