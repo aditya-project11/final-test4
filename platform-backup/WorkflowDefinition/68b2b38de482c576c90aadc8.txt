@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","sprinklr"],
 	"createdTime":1756541837088,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_FBbYa",
+			"fromNodeId":"n_XJRNu",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_OnnOQ",
+			"toNodeId":"n_wtiN3",
 			"type":"next"
 		}
 	],
 	"id":"68b2b38de482c576c90aadc8",
 	"lastModifiedBy":34,
 	"lcName":"automation_sprinklrdelete11756541625030",
-	"modifiedTime":1756541837088,
+	"modifiedTime":1756541845394,
 	"name":"Automation_SprinklrDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_FBbYa-1",
-			"id":"_FBbYa",
-			"index":0,
+			"id":"n_XJRNu",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"sprinklr",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_FBbYa-1",
-			"id":"_OnnOQ",
-			"index":0,
+			"id":"n_wtiN3",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Sprinklr",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
