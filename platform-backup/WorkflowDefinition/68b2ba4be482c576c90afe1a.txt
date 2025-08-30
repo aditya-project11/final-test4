@@ -5,46 +5,80 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Fm8pQ",
+			"fromNodeId":"n_eE1GR",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_VEbGG",
+			"toNodeId":"n_DO1CZ",
 			"type":"next"
 		}
 	],
 	"id":"68b2ba4be482c576c90afe1a",
 	"lastModifiedBy":34,
 	"lcName":"validate_default_toggle_state_117565416363280",
-	"modifiedTime":1756543563879,
+	"modifiedTime":1756543572687,
 	"name":"validate_default_toggle_state_117565416363280",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Fm8pQ-1",
-			"id":"_Fm8pQ",
-			"index":0,
+			"id":"n_eE1GR",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"output":{
+							"type":"string",
+							"title":"output"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"output"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Fm8pQ-1",
-			"id":"_VEbGG",
-			"index":0,
+			"id":"n_DO1CZ",
+			"index":2,
+			"inputs":{
+				"result":{
+					"output":"cool"
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +89,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
