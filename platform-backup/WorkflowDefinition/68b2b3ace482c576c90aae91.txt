@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","stedi"],
 	"createdTime":1756541868869,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_z0bRX",
+			"fromNodeId":"n_ubNbT",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_GKG9M",
+			"toNodeId":"n_ydP0O",
 			"type":"next"
 		}
 	],
 	"id":"68b2b3ace482c576c90aae91",
 	"lastModifiedBy":34,
 	"lcName":"automation_stedidelete11756541625030",
-	"modifiedTime":1756541868869,
+	"modifiedTime":1756541877103,
 	"name":"Automation_StediDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_z0bRX-1",
-			"id":"_z0bRX",
-			"index":0,
+			"id":"n_ubNbT",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"stedi",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_z0bRX-1",
-			"id":"_GKG9M",
-			"index":0,
+			"id":"n_ydP0O",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Stedi",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
