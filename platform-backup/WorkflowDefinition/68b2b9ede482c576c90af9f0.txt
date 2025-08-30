@@ -1,21 +1,15 @@
 {
-	"appsUsed":["freshservice","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756543469979,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_17Imx",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_l5z73",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b9ede482c576c90af9f0",
 	"lastModifiedBy":34,
 	"lcName":"automation_freshservicedelete11756541641242",
-	"modifiedTime":1756543479968,
+	"modifiedTime":1756543486769,
 	"name":"Automation_FreshserviceDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_dLLma-1",
 			"id":"n_17Imx",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"freshservice",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_dLLma-1",
-			"id":"n_l5z73",
-			"index":2,
-			"skip":false,
-			"subTitle":"Freshservice",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
