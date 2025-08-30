@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","webex_teams"],
+	"appsUsed":["shopify"],
 	"createdTime":1756542122766,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_awQnq",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_DfSPS",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b4aae482c576c90ab9b1",
 	"lastModifiedBy":34,
 	"lcName":"automation_webex teamsdelete11756541625030",
-	"modifiedTime":1756542131603,
+	"modifiedTime":1756542136598,
 	"name":"Automation_Webex TeamsDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_PmMJG-1",
 			"id":"n_awQnq",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"webex_teams",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_PmMJG-1",
-			"id":"n_DfSPS",
-			"index":2,
-			"skip":false,
-			"subTitle":"Webex Teams",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
