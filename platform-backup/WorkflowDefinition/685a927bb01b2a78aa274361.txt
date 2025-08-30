@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750766203548,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"685a927bb01b2a78aa274361",
+	"lastModifiedBy":34,
+	"lcName":"automation_salesloftdelete11750764212677",
+	"modifiedTime":1750766300847,
+	"name":"Automation_SalesloftDelete11750764212677",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NTqfm-1",
+			"id":"n_iAyXi",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
