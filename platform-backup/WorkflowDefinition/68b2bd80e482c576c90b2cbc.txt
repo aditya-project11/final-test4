@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["practice_fusion","shopify"],
 	"createdTime":1756544384611,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_ZmDbB",
+			"fromNodeId":"n_VcIYe",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_66y6s",
+			"toNodeId":"n_Pcb5o",
 			"type":"next"
 		}
 	],
 	"id":"68b2bd80e482c576c90b2cbc",
 	"lastModifiedBy":34,
 	"lcName":"automation_practice fusiondelete11756541641242",
-	"modifiedTime":1756544384611,
+	"modifiedTime":1756544393831,
 	"name":"Automation_Practice FusionDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ZmDbB-1",
-			"id":"_ZmDbB",
-			"index":0,
+			"id":"n_VcIYe",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"practice_fusion",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ZmDbB-1",
-			"id":"_66y6s",
-			"index":0,
+			"id":"n_Pcb5o",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Practice Fusion",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
