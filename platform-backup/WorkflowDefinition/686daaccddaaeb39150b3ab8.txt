@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1752017612421,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686daaccddaaeb39150b3ab8",
+	"lastModifiedBy":34,
+	"lcName":"automation_ibm mqdelete11752014266078",
+	"modifiedTime":1752017656014,
+	"name":"Automation_IBM MQDelete11752014266078",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_wYWa3-1",
+			"id":"n_Ob6Z7",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
