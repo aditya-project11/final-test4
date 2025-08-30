@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","tadabase"],
 	"createdTime":1756541898403,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Ek8I0",
+			"fromNodeId":"n_JhoYr",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_uk89b",
+			"toNodeId":"n_vShHS",
 			"type":"next"
 		}
 	],
 	"id":"68b2b3cae482c576c90aaf51",
 	"lastModifiedBy":34,
 	"lcName":"automation_tadabasedelete11756541625030",
-	"modifiedTime":1756541898403,
+	"modifiedTime":1756541906263,
 	"name":"Automation_TadabaseDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Ek8I0-1",
-			"id":"_Ek8I0",
-			"index":0,
+			"id":"n_JhoYr",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"tadabase",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Ek8I0-1",
-			"id":"_uk89b",
-			"index":0,
+			"id":"n_vShHS",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Tadabase",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
