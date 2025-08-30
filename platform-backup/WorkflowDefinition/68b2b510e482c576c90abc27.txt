@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","zendesk"],
 	"createdTime":1756542224576,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_UyUAP",
+			"fromNodeId":"n_N0gJF",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_R0mDs",
+			"toNodeId":"n_rY8e5",
 			"type":"next"
 		}
 	],
 	"id":"68b2b510e482c576c90abc27",
 	"lastModifiedBy":34,
 	"lcName":"automation_zendeskdelete11756541625030",
-	"modifiedTime":1756542224576,
+	"modifiedTime":1756542233691,
 	"name":"Automation_ZendeskDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_UyUAP-1",
-			"id":"_UyUAP",
-			"index":0,
+			"id":"n_N0gJF",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"zendesk",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_UyUAP-1",
-			"id":"_R0mDs",
-			"index":0,
+			"id":"n_rY8e5",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Zendesk",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
