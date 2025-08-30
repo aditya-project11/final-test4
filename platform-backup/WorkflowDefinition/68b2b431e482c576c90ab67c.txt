@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","ups"],
 	"createdTime":1756542001724,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_rR6h8",
+			"fromNodeId":"n_MsE1W",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_kwwWw",
+			"toNodeId":"n_94i44",
 			"type":"next"
 		}
 	],
 	"id":"68b2b431e482c576c90ab67c",
 	"lastModifiedBy":34,
 	"lcName":"automation_upsdelete11756541625030",
-	"modifiedTime":1756542001724,
+	"modifiedTime":1756542010206,
 	"name":"Automation_UPSDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_rR6h8-1",
-			"id":"_rR6h8",
-			"index":0,
+			"id":"n_MsE1W",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"ups",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_rR6h8-1",
-			"id":"_kwwWw",
-			"index":0,
+			"id":"n_94i44",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"UPS",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
