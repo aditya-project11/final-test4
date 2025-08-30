@@ -2,14 +2,44 @@
 	"appsUsed":["shopify"],
 	"createdTime":1756541631830,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756541643849,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2b2cbe482c576c90aa838",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
-		
+		{
+			"fromNodeId":"n_yDFDV",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_IP1ha",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_IP1ha",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_0pwyw",
+			"type":"next"
+		}
 	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":["EXPORT_AS_TEMPLATE","A","C","S","VI","D","TEST","VIEW_RUNS","E","V","VS","DEP"],
+				"principalIds":["74063"],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"68b2b2bfe482c576c90aa7c8",
-	"lastModifiedBy":34,
+	"lastModifiedBy":74063,
 	"lcName":"concurrentpopupfornewversion - 11756541623062",
-	"modifiedTime":1756541640787,
+	"modifiedTime":1756541694149,
 	"name":"concurrentPopupForNewVersion - 11756541623062",
 	"nodes":[
 		{
@@ -20,7 +50,7 @@
 				"resourceName":"shopify_on_order_create"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_MuQiW-1",
 			"id":"n_yDFDV",
@@ -35,6 +65,38 @@
 				"type":"EVENT"
 			},
 			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"stop",
+				"resourceVersion":0,
+				"resourceName":"stop"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_MuQiW-1",
+			"id":"n_IP1ha",
+			"index":2,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
+		},
+		{
+			"context":{
+				"appName":"stop"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_MuQiW-1",
+			"id":"n_0pwyw",
+			"index":3,
+			"skip":false,
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
@@ -49,5 +111,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":4
 }
