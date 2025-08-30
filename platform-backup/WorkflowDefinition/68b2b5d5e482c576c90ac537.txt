@@ -5,46 +5,192 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_yHTeV",
+			"fromNodeId":"n_9LldF",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_U8nIH",
+			"toNodeId":"n_XCGbi",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_XCGbi",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_W8TPk",
 			"type":"next"
 		}
 	],
 	"id":"68b2b5d5e482c576c90ac537",
 	"lastModifiedBy":34,
 	"lcName":"callexternalgraphql_117565416230620",
-	"modifiedTime":1756542421110,
+	"modifiedTime":1756542451956,
 	"name":"callExternalGraphQL_117565416230620",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":693,
+				"resourceName":"callables_from_api"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_yHTeV-1",
-			"id":"_yHTeV",
-			"index":0,
+			"id":"n_9LldF",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"body":{
+						"type":"object",
+						"properties":{
+							"input":{
+								"type":"string",
+								"title":"input"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							"input"
+						]
+					}
+				},
+				"endpointType":"REST",
+				"response":[
+					{
+						"status":200,
+						"contentType":"application/json",
+						"textBody":{
+							"type":"string"
+						},
+						"name":"success",
+						"body":{
+							"type":"object",
+							"properties":{
+								"output":{
+									"type":"string",
+									"title":"output"
+								}
+							},
+							"additionalProperties":false,
+							"required":[
+								"output"
+							]
+						}
+					}
+				],
+				"streamingResponse":false
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via API",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"custom_http_endpoint",
+				"resourceVersion":634,
+				"resourceName":"custom_http_endpoint_execute_graphql",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_yHTeV-1",
-			"id":"_U8nIH",
-			"index":0,
+			"id":"n_XCGbi",
+			"index":2,
+			"inputs":{
+				"variables":{
+					"name":"unify",
+					"age":11
+				},
+				"query":"query Hello($name: String!, $age: Int) { hello(person: { name: $name, age: $age }) }",
+				"enableProxy":false,
+				"requestTimeoutInSecs":-1,
+				"httpMethod":"POST",
+				"connectionType":"DIRECT",
+				"sslVerify":false,
+				"path":"/graphql",
+				"responseSchema":{
+					"type":"object",
+					"properties":{
+						"data":{
+							"type":"object",
+							"properties":{
+								
+							},
+							"additionalProperties":false,
+							"title":"data"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"data"
+					]
+				},
+				"baseUrl":"https://graphql.postman-echo.com",
+				"variableSchema":{
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"name"
+						},
+						"age":{
+							"type":"number",
+							"title":"age"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"name",
+						"age"
+					]
+				},
+				"headersList":[
+					{
+						"key":"Content-Type",
+						"value":"application/json"
+					}
+				],
+				"authType":"CUSTOM"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Custom HTTP Endpoint",
+			"title":"Execute GraphQL request",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":684,
+				"resourceName":"callables_return_response_to_api",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_yHTeV-1",
+			"id":"n_W8TPk",
+			"index":3,
+			"inputs":{
+				"streamingCompleted":true,
+				"responseName":"200_success",
+				"body":{
+					"output":"{{ n_XCGbi.outputs.result }}"
+				},
+				"status":200
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to API request",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +201,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
