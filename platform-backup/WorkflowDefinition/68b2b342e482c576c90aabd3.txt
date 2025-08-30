@@ -1,50 +1,44 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756541762682,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_ekCvt",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_pVmVG",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b342e482c576c90aabd3",
 	"lastModifiedBy":34,
 	"lcName":"showversionbyanotheruser - 11756541623062",
-	"modifiedTime":1756541762682,
+	"modifiedTime":1756541770461,
 	"name":"showVersionByAnotherUser - 11756541623062",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify",
+				"resourceVersion":26109,
+				"connectionId":"6798bc9b219ec7180823c4e5",
+				"resourceName":"shopify_on_order_create"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ekCvt-1",
-			"id":"_ekCvt",
-			"index":0,
+			"id":"n_KhTMa",
+			"index":1,
+			"inputs":{
+				
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Shopify",
+			"title":"Order created",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_ekCvt-1",
-			"id":"_pVmVG",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +49,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
