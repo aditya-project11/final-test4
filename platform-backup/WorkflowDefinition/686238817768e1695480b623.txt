@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751267457775,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_hKaCL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_6kW71",
+			"type":"next"
+		}
+	],
+	"id":"686238817768e1695480b623",
+	"lastModifiedBy":34,
+	"lcName":"servicenow update record - 117512662969180",
+	"modifiedTime":1751267508478,
+	"name":"ServiceNow Update record - 117512662969180",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hKaCL-1",
+			"id":"_hKaCL",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hKaCL-1",
+			"id":"_6kW71",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
