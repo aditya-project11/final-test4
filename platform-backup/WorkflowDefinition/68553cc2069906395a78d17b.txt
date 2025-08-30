@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750416578037,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68553cc2069906395a78d17b",
+	"lastModifiedBy":34,
+	"lcName":"automation_microsoft outlookdelete11750416514555",
+	"modifiedTime":1750514016382,
+	"name":"Automation_Microsoft OutlookDelete11750416514555",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_PSTxf-1",
+			"id":"n_xd0Ha",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
