@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754290218390,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_vaKht",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_RVZOB",
+			"type":"next"
+		}
+	],
+	"id":"6890582a6013b8995ff00d19",
+	"lastModifiedBy":34,
+	"lcName":"callable interface 11754284269014",
+	"modifiedTime":1754372157268,
+	"name":"Callable Interface 11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vaKht-1",
+			"id":"_vaKht",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vaKht-1",
+			"id":"_RVZOB",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
