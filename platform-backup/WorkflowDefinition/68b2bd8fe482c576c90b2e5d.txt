@@ -1,21 +1,15 @@
 {
-	"appsUsed":["productboard","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756544399298,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_BZs1q",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_aeZlT",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bd8fe482c576c90b2e5d",
 	"lastModifiedBy":34,
 	"lcName":"automation_productboarddelete11756541641242",
-	"modifiedTime":1756544409729,
+	"modifiedTime":1756544415264,
 	"name":"Automation_ProductboardDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_h9gXC-1",
 			"id":"n_BZs1q",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"productboard",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_h9gXC-1",
-			"id":"n_aeZlT",
-			"index":2,
-			"skip":false,
-			"subTitle":"Productboard",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
