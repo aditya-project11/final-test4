@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","spotify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541818162,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_eheKh",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_2Q1Mw",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b37ae482c576c90aad4c",
 	"lastModifiedBy":34,
 	"lcName":"automation_spotifydelete11756541625030",
-	"modifiedTime":1756541826343,
+	"modifiedTime":1756541831237,
 	"name":"Automation_SpotifyDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_nqkGl-1",
 			"id":"n_eheKh",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"spotify",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_nqkGl-1",
-			"id":"n_2Q1Mw",
-			"index":2,
-			"skip":false,
-			"subTitle":"Spotify",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
