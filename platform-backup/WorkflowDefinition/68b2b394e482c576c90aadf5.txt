@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","stability_ai"],
 	"createdTime":1756541844574,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_4XK64",
+			"fromNodeId":"n_db3uD",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_npBSK",
+			"toNodeId":"n_vSAgZ",
 			"type":"next"
 		}
 	],
 	"id":"68b2b394e482c576c90aadf5",
 	"lastModifiedBy":34,
 	"lcName":"automation_stability aidelete11756541625030",
-	"modifiedTime":1756541844574,
+	"modifiedTime":1756541852089,
 	"name":"Automation_Stability AIDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_4XK64-1",
-			"id":"_4XK64",
-			"index":0,
+			"id":"n_db3uD",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"stability_ai",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_4XK64-1",
-			"id":"_npBSK",
-			"index":0,
+			"id":"n_vSAgZ",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Stability AI",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
