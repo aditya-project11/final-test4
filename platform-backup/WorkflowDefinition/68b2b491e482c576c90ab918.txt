@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","walgreens"],
+	"appsUsed":["shopify"],
 	"createdTime":1756542097422,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_DMo52",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_apKkk",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b491e482c576c90ab918",
 	"lastModifiedBy":34,
 	"lcName":"automation_walgreensdelete11756541625030",
-	"modifiedTime":1756542105148,
+	"modifiedTime":1756542110212,
 	"name":"Automation_WalgreensDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_5n08L-1",
 			"id":"n_DMo52",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"walgreens",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_5n08L-1",
-			"id":"n_apKkk",
-			"index":2,
-			"skip":false,
-			"subTitle":"Walgreens",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
