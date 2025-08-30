@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","telegram"],
 	"createdTime":1756541917189,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_oMuyD",
+			"fromNodeId":"n_LV8dm",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_lZLca",
+			"toNodeId":"n_xHVcS",
 			"type":"next"
 		}
 	],
 	"id":"68b2b3dde482c576c90aafda",
 	"lastModifiedBy":34,
 	"lcName":"automation_telegramdelete11756541625030",
-	"modifiedTime":1756541917189,
+	"modifiedTime":1756541925705,
 	"name":"Automation_TelegramDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_oMuyD-1",
-			"id":"_oMuyD",
-			"index":0,
+			"id":"n_LV8dm",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"telegram",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_oMuyD-1",
-			"id":"_lZLca",
-			"index":0,
+			"id":"n_xHVcS",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Telegram",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
