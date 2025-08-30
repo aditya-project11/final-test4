@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","vonage_voice"],
 	"createdTime":1756542079035,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_tiMeu",
+			"fromNodeId":"n_rnOHQ",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_vu97n",
+			"toNodeId":"n_cVDgu",
 			"type":"next"
 		}
 	],
 	"id":"68b2b47fe482c576c90ab898",
 	"lastModifiedBy":34,
 	"lcName":"automation_vonage voicedelete11756541625030",
-	"modifiedTime":1756542079035,
+	"modifiedTime":1756542089477,
 	"name":"Automation_Vonage VoiceDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_tiMeu-1",
-			"id":"_tiMeu",
-			"index":0,
+			"id":"n_rnOHQ",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"vonage_voice",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_tiMeu-1",
-			"id":"_vu97n",
-			"index":0,
+			"id":"n_cVDgu",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Vonage Voice",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
