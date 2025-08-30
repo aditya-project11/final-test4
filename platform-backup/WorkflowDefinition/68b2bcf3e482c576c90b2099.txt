@@ -1,31 +1,50 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756544243781,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_BbW50",
+			"fromNodeId":"n_PAOvI",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_xAZbC",
+			"toNodeId":"n_RvKKO",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_RvKKO",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ASxgx",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_ASxgx",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_RvKKO",
 			"type":"next"
 		}
 	],
 	"id":"68b2bcf3e482c576c90b2099",
 	"lastModifiedBy":34,
 	"lcName":"automation_pdf by unifyappsdelete11756541641242",
-	"modifiedTime":1756544243781,
+	"modifiedTime":1756544252059,
 	"name":"Automation_PDF by UnifyAppsDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_BbW50-1",
-			"id":"_BbW50",
-			"index":0,
+			"id":"n_PAOvI",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +52,35 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"pdf_by_unifyapps",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_BbW50-1",
-			"id":"_xAZbC",
-			"index":0,
+			"id":"n_RvKKO",
+			"index":2,
+			"skip":false,
+			"subTitle":"PDF by UnifyApps",
+			"title":"Select an action",
+			"type":"LOOP"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_RvKKO@_BbW50-1@l",
+			"id":"n_ASxgx",
+			"index":3,
 			"skip":false,
 			"title":"Select an app and action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +91,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
