@@ -5,46 +5,63 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_sdW3P",
+			"fromNodeId":"n_mBDlG",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_Y0PZR",
+			"toNodeId":"n_IJvia",
 			"type":"next"
 		}
 	],
 	"id":"68b2bfd2e482c576c90b5354",
 	"lastModifiedBy":34,
 	"lcName":"groovycodemethodarguments_117565416324330",
-	"modifiedTime":1756544978472,
+	"modifiedTime":1756544987860,
 	"name":"groovyCodemethodArguments_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_sdW3P-1",
-			"id":"_sdW3P",
-			"index":0,
+			"id":"n_mBDlG",
+			"index":1,
 			"skip":false,
+			"subTitle":"Callable",
 			"title":"Select a trigger event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":662,
+				"resourceName":"code_by_unifyapps_third_party_library",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_sdW3P-1",
-			"id":"_Y0PZR",
-			"index":0,
+			"id":"n_IJvia",
+			"index":2,
+			"inputs":{
+				"parameters":[
+					"testMethodArgument"
+				]
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute method from classpath",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +72,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
