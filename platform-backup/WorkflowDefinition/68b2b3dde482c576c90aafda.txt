@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","telegram"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541917189,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_LV8dm",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_xHVcS",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b3dde482c576c90aafda",
 	"lastModifiedBy":34,
 	"lcName":"automation_telegramdelete11756541625030",
-	"modifiedTime":1756541925705,
+	"modifiedTime":1756541930682,
 	"name":"Automation_TelegramDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_oMuyD-1",
 			"id":"n_LV8dm",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"telegram",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_oMuyD-1",
-			"id":"n_xHVcS",
-			"index":2,
-			"skip":false,
-			"subTitle":"Telegram",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
