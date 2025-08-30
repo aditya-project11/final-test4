@@ -1,0 +1,51 @@
+{
+	"appsUsed":[],
+	"createdTime":1749746435562,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"684b0303bc14c361d08c0ef9",
+	"lastModifiedBy":34,
+	"lcName":"delete_datafills_checks-117497442778180",
+	"modifiedTime":1754311723958,
+	"name":"delete_Datafills_checks-117497442778180",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":617,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ahL09-1",
+			"id":"n_hUIgC",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
