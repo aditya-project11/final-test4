@@ -1,21 +1,15 @@
 {
-	"appsUsed":["quickbooks","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756544425791,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_pCw4B",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_Y9jBJ",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bda9e482c576c90b314d",
 	"lastModifiedBy":34,
 	"lcName":"automation_quickbooksdelete11756541641242",
-	"modifiedTime":1756544437120,
+	"modifiedTime":1756544442292,
 	"name":"Automation_QuickBooksDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Jyy7d-1",
 			"id":"n_pCw4B",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"quickbooks",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Jyy7d-1",
-			"id":"n_Y9jBJ",
-			"index":2,
-			"skip":false,
-			"subTitle":"QuickBooks",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
