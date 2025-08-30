@@ -4,12 +4,123 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		
+		{
+			"fromNodeId":"n_z7Uua",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ugeA4",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ugeA4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_iyngr",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_iyngr",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_7GCB2",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_7GCB2",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_7VKAe",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_7VKAe",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_wTwro",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_7VKAe",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Fhx8n",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_wTwro",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_a4KMj",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Fhx8n",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_a4KMj",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_7GCB2",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_sLu6p",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_a4KMj",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Z8xLI",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_sLu6p",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Z8xLI",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_iyngr",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_NZCX1",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Z8xLI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_4bmRG",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_NZCX1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_4bmRG",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_4bmRG",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ugeA4",
+			"type":"next"
+		}
 	],
 	"id":"68b2b49de482c576c90ab96e",
 	"lastModifiedBy":34,
 	"lcName":"condition inside loop_1 automation 11756541641242",
-	"modifiedTime":1756542116296,
+	"modifiedTime":1756542129293,
 	"name":"Condition inside Loop_1 Automation 11756541641242",
 	"nodes":[
 		{
@@ -17,7 +128,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Bn3ZV-1",
 			"id":"n_z7Uua",
@@ -29,6 +140,162 @@
 				"type":"EVENT"
 			},
 			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_Bn3ZV-1",
+			"id":"n_ugeA4",
+			"index":2,
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"Select an action",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":593,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_ugeA4@_Bn3ZV-1@l",
+			"id":"n_iyngr",
+			"index":3,
+			"inputs":{
+				
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":593,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_iyngr@n_ugeA4@_Bn3ZV-1@l@y",
+			"id":"n_7GCB2",
+			"index":4,
+			"inputs":{
+				
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":593,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_7GCB2@n_iyngr@n_ugeA4@_Bn3ZV-1@l@y@y",
+			"id":"n_7VKAe",
+			"index":5,
+			"inputs":{
+				
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_7VKAe@n_7GCB2@n_iyngr@n_ugeA4@_Bn3ZV-1@l@y@y@y",
+			"id":"n_wTwro",
+			"index":6,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_7VKAe@n_7GCB2@n_iyngr@n_ugeA4@_Bn3ZV-1@l@y@y@n",
+			"id":"n_Fhx8n",
+			"index":7,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_7GCB2@n_iyngr@n_ugeA4@_Bn3ZV-1@l@y@y",
+			"id":"n_a4KMj",
+			"index":8,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_7GCB2@n_iyngr@n_ugeA4@_Bn3ZV-1@l@y@n",
+			"id":"n_sLu6p",
+			"index":9,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_iyngr@n_ugeA4@_Bn3ZV-1@l@y",
+			"id":"n_Z8xLI",
+			"index":10,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_iyngr@n_ugeA4@_Bn3ZV-1@l@n",
+			"id":"n_NZCX1",
+			"index":11,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_ugeA4@_Bn3ZV-1@l",
+			"id":"n_4bmRG",
+			"index":12,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -43,5 +310,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
