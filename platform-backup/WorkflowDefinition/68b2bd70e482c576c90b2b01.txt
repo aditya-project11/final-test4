@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["postman","shopify"],
 	"createdTime":1756544368779,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_RDrN3",
+			"fromNodeId":"n_k3DEx",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_jIz8i",
+			"toNodeId":"n_fA2ry",
 			"type":"next"
 		}
 	],
 	"id":"68b2bd70e482c576c90b2b01",
 	"lastModifiedBy":34,
 	"lcName":"automation_postmandelete11756541641242",
-	"modifiedTime":1756544368779,
+	"modifiedTime":1756544379435,
 	"name":"Automation_PostmanDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_RDrN3-1",
-			"id":"_RDrN3",
-			"index":0,
+			"id":"n_k3DEx",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"postman",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_RDrN3-1",
-			"id":"_jIz8i",
-			"index":0,
+			"id":"n_fA2ry",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Postman",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
