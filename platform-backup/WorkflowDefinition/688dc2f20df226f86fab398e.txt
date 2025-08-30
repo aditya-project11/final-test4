@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1754120946238,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"688dc2f20df226f86fab398e",
+	"lastModifiedBy":34,
+	"lcName":"automation_ahadelete11754118381153",
+	"modifiedTime":1754120957559,
+	"name":"Automation_AhaDelete11754118381153",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_w3MSe-1",
+			"id":"n_qfB5h",
+			"index":1,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
