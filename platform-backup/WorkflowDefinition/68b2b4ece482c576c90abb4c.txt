@@ -1,31 +1,116 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756542188401,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_46r9x",
+			"fromNodeId":"n_JqKSy",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_ObF3a",
+			"toNodeId":"n_ddfyy",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ddfyy",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_3rqys",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_3rqys",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_vAH3m",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_vAH3m",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_0V3HQ",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_0V3HQ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Ml5WV",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_Ml5WV",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_0V3HQ",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_0V3HQ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_MDuYT",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_MDuYT",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_vAH3m",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_vAH3m",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_7oDHg",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_7oDHg",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_3rqys",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_3rqys",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_Onfag",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Onfag",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_ddfyy",
 			"type":"next"
 		}
 	],
 	"id":"68b2b4ece482c576c90abb4c",
 	"lastModifiedBy":34,
 	"lcName":"loop inside loop_1 automation 11756541641242",
-	"modifiedTime":1756542188401,
+	"modifiedTime":1756542208857,
 	"name":"Loop inside Loop_1 Automation 11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_46r9x-1",
-			"id":"_46r9x",
-			"index":0,
+			"id":"n_JqKSy",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +118,116 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"loop",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_46r9x-1",
-			"id":"_ObF3a",
-			"index":0,
+			"id":"n_ddfyy",
+			"index":2,
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"Select an action",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_ddfyy@_46r9x-1@l",
+			"id":"n_3rqys",
+			"index":3,
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"Select an action",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_3rqys@n_ddfyy@_46r9x-1@l@l",
+			"id":"n_vAH3m",
+			"index":4,
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"Select an action",
+			"type":"LOOP"
+		},
+		{
+			"context":{
+				"appName":"loop",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_vAH3m@n_3rqys@n_ddfyy@_46r9x-1@l@l@l",
+			"id":"n_0V3HQ",
+			"index":5,
+			"skip":false,
+			"subTitle":"Loop",
+			"title":"Select an action",
+			"type":"LOOP"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_0V3HQ@n_vAH3m@n_3rqys@n_ddfyy@_46r9x-1@l@l@l@l",
+			"id":"n_Ml5WV",
+			"index":6,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_vAH3m@n_3rqys@n_ddfyy@_46r9x-1@l@l@l",
+			"id":"n_MDuYT",
+			"index":7,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_3rqys@n_ddfyy@_46r9x-1@l@l",
+			"id":"n_7oDHg",
+			"index":8,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_ddfyy@_46r9x-1@l",
+			"id":"n_Onfag",
+			"index":9,
 			"skip":false,
 			"title":"Select an app and action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +238,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
