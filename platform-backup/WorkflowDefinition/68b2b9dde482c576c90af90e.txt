@@ -1,21 +1,15 @@
 {
-	"appsUsed":["freshchat","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756543453473,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_U2HzU",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_Z8bhm",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b9dde482c576c90af90e",
 	"lastModifiedBy":34,
 	"lcName":"automation_freshchatdelete11756541641242",
-	"modifiedTime":1756543461972,
+	"modifiedTime":1756543468474,
 	"name":"Automation_FreshchatDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_iScoS-1",
 			"id":"n_U2HzU",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"freshchat",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_iScoS-1",
-			"id":"n_Z8bhm",
-			"index":2,
-			"skip":false,
-			"subTitle":"Freshchat",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
