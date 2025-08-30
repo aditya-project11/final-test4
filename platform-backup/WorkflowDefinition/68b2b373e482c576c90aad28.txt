@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","smartsheet"],
 	"createdTime":1756541811788,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_u9YV6",
+			"fromNodeId":"n_4dIYu",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_HVtwl",
+			"toNodeId":"n_5aB6f",
 			"type":"next"
 		}
 	],
 	"id":"68b2b373e482c576c90aad28",
 	"lastModifiedBy":34,
 	"lcName":"automation_smartsheetdelete11756541625030",
-	"modifiedTime":1756541811788,
+	"modifiedTime":1756541819940,
 	"name":"Automation_SmartsheetDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_u9YV6-1",
-			"id":"_u9YV6",
-			"index":0,
+			"id":"n_4dIYu",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"smartsheet",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_u9YV6-1",
-			"id":"_HVtwl",
-			"index":0,
+			"id":"n_5aB6f",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Smartsheet",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
