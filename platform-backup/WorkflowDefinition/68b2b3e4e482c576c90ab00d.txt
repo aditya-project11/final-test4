@@ -1,31 +1,50 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756541924556,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_K9MyY",
+			"fromNodeId":"n_FweFo",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_cdiDe",
+			"toNodeId":"n_pZVY8",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_pZVY8",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_FKkT4",
+			"type":"loop"
+		},
+		{
+			"fromNodeId":"n_FKkT4",
+			"name":"loopback",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_pZVY8",
 			"type":"next"
 		}
 	],
 	"id":"68b2b3e4e482c576c90ab00d",
 	"lastModifiedBy":34,
 	"lcName":"automation_text reader by unifyappsdelete11756541625030",
-	"modifiedTime":1756541924556,
+	"modifiedTime":1756541932481,
 	"name":"Automation_Text Reader by UnifyAppsDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_K9MyY-1",
-			"id":"_K9MyY",
-			"index":0,
+			"id":"n_FweFo",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +52,35 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"text_by_unifyapps",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_K9MyY-1",
-			"id":"_cdiDe",
-			"index":0,
+			"id":"n_pZVY8",
+			"index":2,
+			"skip":false,
+			"subTitle":"Text Reader by UnifyApps",
+			"title":"Select an action",
+			"type":"LOOP"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_pZVY8@_K9MyY-1@l",
+			"id":"n_FKkT4",
+			"index":3,
 			"skip":false,
 			"title":"Select an app and action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +91,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
