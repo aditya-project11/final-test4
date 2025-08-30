@@ -1,21 +1,15 @@
 {
-	"appsUsed":["routific","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541628754,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_FbeMi",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_CFciF",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b2bce482c576c90aa7b0",
 	"lastModifiedBy":34,
 	"lcName":"automation_routificdelete11756541625030",
-	"modifiedTime":1756541636481,
+	"modifiedTime":1756541642481,
 	"name":"Automation_RoutificDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_f3Y9A-1",
 			"id":"n_FbeMi",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"routific",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_f3Y9A-1",
-			"id":"n_CFciF",
-			"index":2,
-			"skip":false,
-			"subTitle":"Routific",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
