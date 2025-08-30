@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751747982557,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_co2o3",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_xVVQk",
+			"type":"next"
+		}
+	],
+	"id":"68698d8eabfc98163fe47e6f",
+	"lastModifiedBy":34,
+	"lcName":"testbuttontalenox_11751744174820",
+	"modifiedTime":1751747997065,
+	"name":"TestButtonTalenox_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_co2o3-1",
+			"id":"_co2o3",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_co2o3-1",
+			"id":"_xVVQk",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
