@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","ware2go"],
+	"appsUsed":["shopify"],
 	"createdTime":1756542098460,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_XIAJ9",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_sbFq5",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b492e482c576c90ab91c",
 	"lastModifiedBy":34,
 	"lcName":"automation_ware2godelete11756541625030",
-	"modifiedTime":1756542107379,
+	"modifiedTime":1756542112764,
 	"name":"Automation_Ware2GoDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_SHMjP-1",
 			"id":"n_XIAJ9",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"ware2go",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_SHMjP-1",
-			"id":"n_sbFq5",
-			"index":2,
-			"skip":false,
-			"subTitle":"Ware2Go",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
