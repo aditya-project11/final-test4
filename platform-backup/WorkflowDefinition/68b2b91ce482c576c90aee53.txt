@@ -1,21 +1,15 @@
 {
-	"appsUsed":["docusign","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756543260966,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_YpGv5",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_WSnED",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b91ce482c576c90aee53",
 	"lastModifiedBy":34,
 	"lcName":"automation_docusigndelete11756541641242",
-	"modifiedTime":1756543271139,
+	"modifiedTime":1756543276320,
 	"name":"Automation_DocusignDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_O4REr-1",
 			"id":"n_YpGv5",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"docusign",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_O4REr-1",
-			"id":"n_WSnED",
-			"index":2,
-			"skip":false,
-			"subTitle":"Docusign",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
