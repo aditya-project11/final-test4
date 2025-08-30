@@ -1,21 +1,15 @@
 {
-	"appsUsed":["pop3","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756544355782,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_NsHVU",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_SZ5iX",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bd63e482c576c90b2962",
 	"lastModifiedBy":34,
 	"lcName":"automation_post office protocol v3delete11756541641242",
-	"modifiedTime":1756544365102,
+	"modifiedTime":1756544371886,
 	"name":"Automation_Post Office Protocol V3Delete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_PVvsR-1",
 			"id":"n_NsHVU",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"pop3",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_PVvsR-1",
-			"id":"n_SZ5iX",
-			"index":2,
-			"skip":false,
-			"subTitle":"Post Office Protocol V3",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
