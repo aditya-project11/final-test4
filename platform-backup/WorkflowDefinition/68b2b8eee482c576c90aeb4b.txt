@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756543214713,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756543236711,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2b904e482c576c90aecbc",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68b2b8eee482c576c90aeb4b",
 	"lastModifiedBy":34,
 	"lcName":"appears_setanddeletevariable117565416363280",
-	"modifiedTime":1756543234036,
+	"modifiedTime":1756543240818,
 	"name":"appears_setAndDeleteVariable117565416363280",
 	"nodes":[
 		{
@@ -102,5 +110,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
