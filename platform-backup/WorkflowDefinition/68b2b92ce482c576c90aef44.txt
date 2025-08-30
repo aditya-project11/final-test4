@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1756543276337,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68b2b92ce482c576c90aef44",
+	"lastModifiedBy":34,
+	"lcName":"automation_dropboxdelete11756541641242",
+	"modifiedTime":1756543291785,
+	"name":"Automation_DropboxDelete11756541641242",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_mJugx-1",
+			"id":"n_GIulr",
+			"index":1,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
