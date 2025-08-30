@@ -10,12 +10,19 @@
 			"skip":false,
 			"toNodeId":"n_SuG6P",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_SuG6P",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_kfMpK",
+			"type":"next"
 		}
 	],
 	"id":"68b2b5bfe482c576c90ac4c1",
 	"lastModifiedBy":34,
 	"lcName":"python_codebyunifyapps_testpythonmodule_117565416324330",
-	"modifiedTime":1756542417785,
+	"modifiedTime":1756542424603,
 	"name":"Python_CodeByUnifyApps_TestPythonModule_117565416324330",
 	"nodes":[
 		{
@@ -80,6 +87,19 @@
 			"id":"n_SuG6P",
 			"index":2,
 			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"answer":{
+							"type":"string",
+							"title":"answer"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"answer"
+					]
+				},
 				"configurationMode":"DEFAULT",
 				"input":{
 					"type":"object",
@@ -94,13 +114,40 @@
 						"number"
 					]
 				},
+				"code":"import math\r\nx= math.sqrt(number)\r\nresult= {}\r\nresult ['answer'] = x",
 				"isAsync":false,
-				"python_version":"3.12"
+				"python_version":"3.12",
+				"parameters":{
+					"number":"{{ n_LLUUH.outputs.number }}"
+				}
 			},
 			"skip":false,
 			"subTitle":"Code by UnifyApps",
 			"title":"Execute Python script",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_x8kKA-1",
+			"id":"n_kfMpK",
+			"index":3,
+			"inputs":{
+				"result":{
+					"Result":"{{ n_SuG6P.outputs.result.answer }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
@@ -115,5 +162,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
