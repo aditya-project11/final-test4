@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750237500707,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Stpui",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_gLxi9",
+			"type":"next"
+		}
+	],
+	"id":"6852813cda7984193d313f53",
+	"lastModifiedBy":34,
+	"lcName":"createinterfaceviaautomation_617502374921680",
+	"modifiedTime":1750515510767,
+	"name":"createInterfaceViaAutomation_617502374921680",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Stpui-1",
+			"id":"_Stpui",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Stpui-1",
+			"id":"_gLxi9",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
