@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["deputy","shopify"],
 	"createdTime":1756543231789,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_aan4i",
+			"fromNodeId":"n_6nFTU",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_AY3co",
+			"toNodeId":"n_HbpnQ",
 			"type":"next"
 		}
 	],
 	"id":"68b2b8ffe482c576c90aec75",
 	"lastModifiedBy":34,
 	"lcName":"automation_deputydelete11756541641242",
-	"modifiedTime":1756543231789,
+	"modifiedTime":1756543242023,
 	"name":"Automation_DeputyDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_aan4i-1",
-			"id":"_aan4i",
-			"index":0,
+			"id":"n_6nFTU",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"deputy",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_aan4i-1",
-			"id":"_AY3co",
-			"index":0,
+			"id":"n_HbpnQ",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Deputy",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
