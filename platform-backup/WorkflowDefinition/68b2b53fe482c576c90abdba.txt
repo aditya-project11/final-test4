@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","zoho_mail"],
 	"createdTime":1756542271993,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Q44Fd",
+			"fromNodeId":"n_s6Cx8",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_gRFpm",
+			"toNodeId":"n_xGzCj",
 			"type":"next"
 		}
 	],
 	"id":"68b2b53fe482c576c90abdba",
 	"lastModifiedBy":34,
 	"lcName":"automation_zoho maildelete11756541625030",
-	"modifiedTime":1756542271993,
+	"modifiedTime":1756542284257,
 	"name":"Automation_Zoho MailDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Q44Fd-1",
-			"id":"_Q44Fd",
-			"index":0,
+			"id":"n_s6Cx8",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"zoho_mail",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Q44Fd-1",
-			"id":"_gRFpm",
-			"index":0,
+			"id":"n_xGzCj",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Zoho Mail",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
