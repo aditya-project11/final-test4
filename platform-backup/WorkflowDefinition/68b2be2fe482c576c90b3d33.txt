@@ -29,7 +29,7 @@
 	"id":"68b2be2fe482c576c90b3d33",
 	"lastModifiedBy":34,
 	"lcName":"addmultiplelogsworkflow_11756541623062",
-	"modifiedTime":1756544586608,
+	"modifiedTime":1756544589196,
 	"name":"AddMultipleLogsWorkflow_11756541623062",
 	"nodes":[
 		{
@@ -196,5 +196,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
