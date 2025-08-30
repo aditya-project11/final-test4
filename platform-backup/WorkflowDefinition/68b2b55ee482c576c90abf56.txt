@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["hibob","shopify"],
 	"createdTime":1756542302909,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_LEiYX",
+			"fromNodeId":"n_IguX5",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_6N1yE",
+			"toNodeId":"n_vriES",
 			"type":"next"
 		}
 	],
 	"id":"68b2b55ee482c576c90abf56",
 	"lastModifiedBy":34,
 	"lcName":"automation_hibobdelete11756541625030",
-	"modifiedTime":1756542302909,
+	"modifiedTime":1756542311026,
 	"name":"Automation_HiBobDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_LEiYX-1",
-			"id":"_LEiYX",
-			"index":0,
+			"id":"n_IguX5",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"hibob",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_LEiYX-1",
-			"id":"_6N1yE",
-			"index":0,
+			"id":"n_vriES",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"HiBob",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
