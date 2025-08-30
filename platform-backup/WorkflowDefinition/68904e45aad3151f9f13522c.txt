@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287685332,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Visqn",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_klEg7",
+			"type":"next"
+		}
+	],
+	"id":"68904e45aad3151f9f13522c",
+	"lastModifiedBy":34,
+	"lcName":"validate call - 11754284269014",
+	"modifiedTime":1754372397848,
+	"name":"validate call - 11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Visqn-1",
+			"id":"_Visqn",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Visqn-1",
+			"id":"_klEg7",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
