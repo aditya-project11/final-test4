@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["delhivery","shopify"],
 	"createdTime":1756543224535,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_8Zb0S",
+			"fromNodeId":"n_VOMxI",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_bLSiH",
+			"toNodeId":"n_AlGhN",
 			"type":"next"
 		}
 	],
 	"id":"68b2b8f8e482c576c90aec03",
 	"lastModifiedBy":34,
 	"lcName":"automation_delhiverydelete11756541641242",
-	"modifiedTime":1756543224535,
+	"modifiedTime":1756543238909,
 	"name":"Automation_DelhiveryDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_8Zb0S-1",
-			"id":"_8Zb0S",
-			"index":0,
+			"id":"n_VOMxI",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"delhivery",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_8Zb0S-1",
-			"id":"_bLSiH",
-			"index":0,
+			"id":"n_AlGhN",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Delhivery",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
