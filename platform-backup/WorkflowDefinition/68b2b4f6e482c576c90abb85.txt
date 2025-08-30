@@ -5,46 +5,198 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Pbogr",
+			"fromNodeId":"n_gOfPl",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_MaebK",
+			"toNodeId":"n_upzWu",
 			"type":"next"
 		}
 	],
 	"id":"68b2b4f6e482c576c90abb85",
 	"lastModifiedBy":34,
 	"lcName":"new_request_body_automation_all_set_data_in_objcect_117565416324330",
-	"modifiedTime":1756542198096,
+	"modifiedTime":1756542257761,
 	"name":"New_request_body_automation_All_set_Data_in_Objcect_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":693,
+				"resourceName":"callables_from_api"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Pbogr-1",
-			"id":"_Pbogr",
-			"index":0,
+			"id":"n_gOfPl",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"body":{
+						"type":"object",
+						"properties":{
+							"Object_Object":{
+								"type":"array",
+								"items":{
+									"type":"object",
+									"properties":{
+										"ObjectObject_field":{
+											"type":"string",
+											"title":"ObjectObject_field"
+										},
+										"Object_field_integer":{
+											"type":"integer",
+											"title":"Object_field_integer"
+										},
+										"Object_field_Number":{
+											"type":"integer",
+											"title":"Object_field_Number"
+										},
+										"Object_field_boolean":{
+											"type":"boolean",
+											"title":"Object_field_boolean"
+										},
+										"Object_field_List":{
+											"type":"array",
+											"title":"Object_field_List"
+										},
+										"Object_field_Object":{
+											"type":"object",
+											"properties":{
+												"a":{
+													"type":"string",
+													"title":"a"
+												}
+											},
+											"title":"Object_field_Object",
+											"additionalProperties":false
+										}
+									},
+									"additionalProperties":false
+								},
+								"title":"Object_Object"
+							}
+						},
+						"additionalProperties":false
+					}
+				},
+				"endpointType":"REST",
+				"response":[
+					{
+						"status":200,
+						"contentType":"application/json",
+						"textBody":{
+							"type":"string"
+						},
+						"name":"200",
+						"body":{
+							"type":"object",
+							"properties":{
+								"Object_Object":{
+									"type":"array",
+									"items":{
+										"type":"object",
+										"properties":{
+											"ObjectObject_field":{
+												"type":"string",
+												"title":"ObjectObject_field"
+											},
+											"Object_field_integer":{
+												"type":"integer",
+												"title":"Object_field_integer"
+											},
+											"Object_field_Number":{
+												"type":"integer",
+												"title":"Object_field_Number"
+											},
+											"Object_field_boolean":{
+												"type":"boolean",
+												"title":"Object_field_boolean"
+											},
+											"Object_field_List":{
+												"type":"array",
+												"title":"Object_field_List"
+											},
+											"Object_field_Object":{
+												"type":"object",
+												"properties":{
+													"a":{
+														"type":"string",
+														"title":"a"
+													}
+												},
+												"title":"Object_field_Object",
+												"additionalProperties":false
+											}
+										},
+										"additionalProperties":false
+									},
+									"title":"Object_Object"
+								}
+							},
+							"additionalProperties":false
+						},
+						"namespaces":[
+							
+						]
+					}
+				],
+				"streamingResponse":false
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via API",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":684,
+				"resourceName":"callables_return_response_to_api",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Pbogr-1",
-			"id":"_MaebK",
-			"index":0,
+			"id":"n_upzWu",
+			"index":2,
+			"inputs":{
+				"streamingCompleted":true,
+				"responseName":"200_200",
+				"body":{
+					"Object_Object":{
+						"source":"{{ n_gOfPl.outputs.body.Object_Object }}",
+						"ua:type":"mappedArray",
+						"items":{
+							"Object_field_boolean":"{{ n_gOfPl.outputs.body.Object_Object[0].Object_field_boolean }}",
+							"Object_field_Object":{
+								"a":"{{ n_gOfPl.outputs.body.Object_Object[0].Object_field_Object.a }}"
+							},
+							"ObjectObject_field":"{{ n_gOfPl.outputs.body.Object_Object[0].ObjectObject_field }}",
+							"Object_field_List":{
+								"source":"{{ n_gOfPl.outputs.body.Object_Object[0].Object_field_List }}",
+								"ua:type":"mappedArray"
+							},
+							"Object_field_Number":"{{ n_gOfPl.outputs.body.Object_Object[0].Object_field_Number }}",
+							"Object_field_integer":"{{ n_gOfPl.outputs.body.Object_Object[0].Object_field_integer }}"
+						}
+					}
+				},
+				"status":200
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Respond to API request",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +207,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
