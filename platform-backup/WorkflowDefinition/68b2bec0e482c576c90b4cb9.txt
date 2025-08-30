@@ -29,7 +29,7 @@
 	"id":"68b2bec0e482c576c90b4cb9",
 	"lastModifiedBy":34,
 	"lcName":"mapschemawebhookworkflow_117565416230620",
-	"modifiedTime":1756544749102,
+	"modifiedTime":1756544760293,
 	"name":"MapSchemaWebhookWorkflow_117565416230620",
 	"nodes":[
 		{
@@ -39,7 +39,7 @@
 				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_6AbEw-1",
 			"id":"n_wQ6ac",
@@ -107,7 +107,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_6AbEw-1",
 			"id":"n_EPV7x",
@@ -251,7 +251,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_6AbEw-1",
 			"id":"n_soM5x",
@@ -306,7 +306,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_6AbEw-1",
 			"id":"n_kCHl4",
@@ -384,11 +384,15 @@
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
 		"enableVariableLogging":true,
+		"nodeLogLevel":"INFO",
 		"route":{
+			"headerValueTierMap":{
+				
+			},
 			"tierName":"global"
 		}
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
