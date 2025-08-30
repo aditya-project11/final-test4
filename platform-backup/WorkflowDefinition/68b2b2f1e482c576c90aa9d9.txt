@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["semrush","shopify"],
 	"createdTime":1756541681053,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_NWp8b",
+			"fromNodeId":"n_pU2lP",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_ZNVxd",
+			"toNodeId":"n_AWH8Z",
 			"type":"next"
 		}
 	],
 	"id":"68b2b2f1e482c576c90aa9d9",
 	"lastModifiedBy":34,
 	"lcName":"automation_semrushdelete11756541625030",
-	"modifiedTime":1756541681053,
+	"modifiedTime":1756541690519,
 	"name":"Automation_SEMrushDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_NWp8b-1",
-			"id":"_NWp8b",
-			"index":0,
+			"id":"n_pU2lP",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"semrush",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_NWp8b-1",
-			"id":"_ZNVxd",
-			"index":0,
+			"id":"n_AWH8Z",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"SEMrush",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
