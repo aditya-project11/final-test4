@@ -1,21 +1,15 @@
 {
-	"appsUsed":["quora_ads_conversion","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756544430729,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_FEr4C",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_GtWMm",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bdaee482c576c90b31ee",
 	"lastModifiedBy":34,
 	"lcName":"automation_quora ads conversiondelete11756541641242",
-	"modifiedTime":1756544440364,
+	"modifiedTime":1756544446063,
 	"name":"Automation_Quora Ads ConversionDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_GC97T-1",
 			"id":"n_FEr4C",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"quora_ads_conversion",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_GC97T-1",
-			"id":"n_GtWMm",
-			"index":2,
-			"skip":false,
-			"subTitle":"Quora Ads Conversion",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
