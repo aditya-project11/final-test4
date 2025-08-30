@@ -1,21 +1,15 @@
 {
-	"appsUsed":["paypal","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756544282271,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_iGFi8",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_I7WRW",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bd1ae482c576c90b22e8",
 	"lastModifiedBy":34,
 	"lcName":"automation_paypaldelete11756541641242",
-	"modifiedTime":1756544291562,
+	"modifiedTime":1756544296568,
 	"name":"Automation_PayPalDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_LC8mq-1",
 			"id":"n_iGFi8",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"paypal",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_LC8mq-1",
-			"id":"n_I7WRW",
-			"index":2,
-			"skip":false,
-			"subTitle":"PayPal",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
