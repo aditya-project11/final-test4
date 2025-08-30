@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1752017642218,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_UVXc4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_rSGPU",
+			"type":"next"
+		}
+	],
+	"id":"686daaeaddaaeb39150b3ae8",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonamazon ec2_11752014248390",
+	"modifiedTime":1752017666109,
+	"name":"TestButtonAmazon EC2_11752014248390",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_UVXc4-1",
+			"id":"_UVXc4",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_UVXc4-1",
+			"id":"_rSGPU",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
