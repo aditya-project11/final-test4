@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750103656247,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_yTSyq",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_DuQhB",
+			"type":"next"
+		}
+	],
+	"id":"6850766859c57b6523d6486c",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonslack_11750102702236",
+	"modifiedTime":1750516848530,
+	"name":"TestButtonSlack_11750102702236",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_yTSyq-1",
+			"id":"_yTSyq",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_yTSyq-1",
+			"id":"_DuQhB",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
