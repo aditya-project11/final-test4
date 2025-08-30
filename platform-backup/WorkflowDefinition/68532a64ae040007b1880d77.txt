@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750280804543,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_fcEEq",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_j3Y3V",
+			"type":"next"
+		}
+	],
+	"id":"68532a64ae040007b1880d77",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonasana_11750275495283",
+	"modifiedTime":1750515172728,
+	"name":"TestButtonAsana_11750275495283",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_fcEEq-1",
+			"id":"_fcEEq",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_fcEEq-1",
+			"id":"_j3Y3V",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
