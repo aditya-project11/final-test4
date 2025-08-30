@@ -10,12 +10,19 @@
 			"skip":false,
 			"toNodeId":"n_UHpao",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_UHpao",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_CR8XD",
+			"type":"next"
 		}
 	],
 	"id":"68b2b5c3e482c576c90ac4da",
 	"lastModifiedBy":34,
 	"lcName":"javascript_codebyunifyapps_inputstringreturnboolean_117565416324330",
-	"modifiedTime":1756542427615,
+	"modifiedTime":1756542433518,
 	"name":"Javascript_CodeByUnifyApps_InputStringReturnBoolean_117565416324330",
 	"nodes":[
 		{
@@ -80,6 +87,19 @@
 			"id":"n_UHpao",
 			"index":2,
 			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"isTrue":{
+							"type":"boolean",
+							"title":"isTrue"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"isTrue"
+					]
+				},
 				"input":{
 					"type":"object",
 					"properties":{
@@ -93,12 +113,39 @@
 						"firstName"
 					]
 				},
-				"isAsync":false
+				"code":"isTrue = { isTrue: firstName.length > 10 }",
+				"isAsync":false,
+				"parameters":{
+					"firstName":"{{ n_65nEP.outputs.firstName }}"
+				}
 			},
 			"skip":false,
 			"subTitle":"Code by UnifyApps",
 			"title":"Execute Javascript",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_bl7H7-1",
+			"id":"n_CR8XD",
+			"index":3,
+			"inputs":{
+				"result":{
+					"isTrue":"{{ n_UHpao.outputs.result.isTrue }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
@@ -113,5 +160,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
