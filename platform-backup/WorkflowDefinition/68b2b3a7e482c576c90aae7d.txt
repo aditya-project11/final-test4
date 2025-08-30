@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","starrocks"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541863504,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_1NcDD",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_k9r9n",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b3a7e482c576c90aae7d",
 	"lastModifiedBy":34,
 	"lcName":"automation_starrocksdelete11756541625030",
-	"modifiedTime":1756541871536,
+	"modifiedTime":1756541876889,
 	"name":"Automation_StarRocksDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_R9Nmc-1",
 			"id":"n_1NcDD",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"starrocks",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_R9Nmc-1",
-			"id":"n_k9r9n",
-			"index":2,
-			"skip":false,
-			"subTitle":"StarRocks",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
