@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1752034023814,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686deae76638b10c0b605f47",
+	"lastModifiedBy":34,
+	"lcName":"automation_oracle healthdelete11752029273224",
+	"modifiedTime":1752034076302,
+	"name":"Automation_Oracle HealthDelete11752029273224",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_LFPXV-1",
+			"id":"n_NoSPD",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
