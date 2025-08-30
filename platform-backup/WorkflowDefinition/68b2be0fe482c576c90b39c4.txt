@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756544527217,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756544542093,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2be1ee482c576c90b3b5d",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68b2be0fe482c576c90b39c4",
 	"lastModifiedBy":34,
 	"lcName":"orfunctioncondition11756541632433",
-	"modifiedTime":1756544539161,
+	"modifiedTime":1756544560139,
 	"name":"OrFunctionCondition11756541632433",
 	"nodes":[
 		{
@@ -44,17 +52,41 @@
 						"output_String"
 					]
 				},
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"{{ n_cYTlO.outputs.input_String }}",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"Unifyapps"
+							}
+						},
+						{
+							"property":"{{ n_cYTlO.outputs.input_Integer }}",
+							"filter":{
+								"operator":"GTE",
+								"value":"0"
+							}
+						}
+					],
+					"operator":"OR"
+				},
 				"setup":{
 					"type":"object",
 					"properties":{
 						"input_String":{
 							"type":"string",
 							"title":"input_String"
+						},
+						"input_Integer":{
+							"type":"number",
+							"title":"input_Integer"
 						}
 					},
 					"additionalProperties":false,
 					"required":[
-						"input_String"
+						"input_String",
+						"input_Integer"
 					]
 				}
 			},
@@ -102,5 +134,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
