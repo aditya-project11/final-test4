@@ -5,46 +5,69 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_EVdOO",
+			"fromNodeId":"n_VNTo8",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_aWHx1",
+			"toNodeId":"n_OSiX2",
 			"type":"next"
 		}
 	],
 	"id":"68b2b952e482c576c90af1ea",
 	"lastModifiedBy":34,
 	"lcName":"converthtmlplaintextboldanditalictomarkdown_117565416324330",
-	"modifiedTime":1756543314410,
+	"modifiedTime":1756543325251,
 	"name":"ConvertHTMLPlainTextboldanditalictomarkdown_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_EVdOO-1",
-			"id":"_EVdOO",
-			"index":0,
+			"id":"n_VNTo8",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":624,
+				"resourceName":"utility_by_unifyapps_from_html_to_plain_text",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_EVdOO-1",
-			"id":"_aWHx1",
-			"index":0,
+			"id":"n_OSiX2",
+			"index":2,
+			"inputs":{
+				"conversionType":"markdown",
+				"htmlString":"<p>This is <strong>bold</strong> and <em>italic</em> text.</p>"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Utility by UnifyApps",
+			"title":"Convert HTML to text",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +78,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
