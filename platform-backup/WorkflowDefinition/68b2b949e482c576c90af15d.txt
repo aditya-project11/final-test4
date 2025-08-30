@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["elasticsearch","shopify"],
 	"createdTime":1756543305682,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_InHc4",
+			"fromNodeId":"n_GDAr7",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_c8qiq",
+			"toNodeId":"n_KnxRG",
 			"type":"next"
 		}
 	],
 	"id":"68b2b949e482c576c90af15d",
 	"lastModifiedBy":34,
 	"lcName":"automation_elasticsearchdelete11756541641242",
-	"modifiedTime":1756543305682,
+	"modifiedTime":1756543315491,
 	"name":"Automation_ElasticsearchDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_InHc4-1",
-			"id":"_InHc4",
-			"index":0,
+			"id":"n_GDAr7",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"elasticsearch",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_InHc4-1",
-			"id":"_c8qiq",
-			"index":0,
+			"id":"n_KnxRG",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Elasticsearch",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
