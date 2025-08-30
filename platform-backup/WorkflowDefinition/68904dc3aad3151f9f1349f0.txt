@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287555204,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_aUldE",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_0kDqi",
+			"type":"next"
+		}
+	],
+	"id":"68904dc3aad3151f9f1349f0",
+	"lastModifiedBy":34,
+	"lcName":"create list use saved snippet and check linking is happening correctly if any field is changed in the saved snippet, due to linking it also changes in the payload_117542842668050",
+	"modifiedTime":1754372413375,
+	"name":"Create list use saved snippet and check linking is happening correctly If any field is changed in the saved snippet, due to linking it also changes in the payload_117542842668050",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_aUldE-1",
+			"id":"_aUldE",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_aUldE-1",
+			"id":"_0kDqi",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
