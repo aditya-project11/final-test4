@@ -5,46 +5,108 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_we2z7",
+			"fromNodeId":"n_mXwgj",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_EOzdq",
+			"toNodeId":"n_U9OET",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_U9OET",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_IKNwZ",
 			"type":"next"
 		}
 	],
 	"id":"68b2b441e482c576c90ab71e",
 	"lastModifiedBy":34,
 	"lcName":"sqlquery_query_117565416324330",
-	"modifiedTime":1756542017058,
+	"modifiedTime":1756542033229,
 	"name":"SQLQUERY_query_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_we2z7-1",
-			"id":"_we2z7",
-			"index":0,
+			"id":"n_mXwgj",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"Output":{
+							"type":"string",
+							"title":"Output"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"Output"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":583,
+				"resourceName":"analytics_by_unifyapps_execute_query",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_we2z7-1",
-			"id":"_EOzdq",
-			"index":0,
+			"id":"n_U9OET",
+			"index":2,
+			"inputs":{
+				"group":"ENTITY_REPORTING"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Execute Analytics SQL Query",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_we2z7-1",
+			"id":"n_IKNwZ",
+			"index":3,
+			"inputs":{
+				"result":{
+					"Output":"{{ n_U9OET.outputs.objects }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +117,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
