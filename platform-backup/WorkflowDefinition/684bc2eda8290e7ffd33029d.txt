@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749795565134,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_4yING",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_roq81",
+			"type":"next"
+		}
+	],
+	"id":"684bc2eda8290e7ffd33029d",
+	"lastModifiedBy":34,
+	"lcName":"deselect_automation_117497955532350",
+	"modifiedTime":1754311342464,
+	"name":"deselect_automation_117497955532350",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4yING-1",
+			"id":"_4yING",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4yING-1",
+			"id":"_roq81",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
