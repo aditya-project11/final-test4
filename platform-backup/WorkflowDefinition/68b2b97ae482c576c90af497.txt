@@ -1,21 +1,15 @@
 {
-	"appsUsed":["ftp","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756543354913,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_rbmjq",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_9Vc2m",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b97ae482c576c90af497",
 	"lastModifiedBy":34,
 	"lcName":"automation_ftp/ftpsdelete11756541641242",
-	"modifiedTime":1756543367564,
+	"modifiedTime":1756543374576,
 	"name":"Automation_FTP/FTPSDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_KhBvv-1",
 			"id":"n_rbmjq",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"ftp",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_KhBvv-1",
-			"id":"n_9Vc2m",
-			"index":2,
-			"skip":false,
-			"subTitle":"FTP/FTPS",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
