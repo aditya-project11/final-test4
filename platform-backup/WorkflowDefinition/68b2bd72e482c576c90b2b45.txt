@@ -5,46 +5,105 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_oVFCY",
+			"fromNodeId":"n_8jzpX",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_BS8Tk",
+			"toNodeId":"n_0i0Ey",
 			"type":"next"
 		}
 	],
 	"id":"68b2bd72e482c576c90b2b45",
 	"lastModifiedBy":34,
 	"lcName":"condition box|string input - does not equal 11756541632433",
-	"modifiedTime":1756544370872,
+	"modifiedTime":1756544406277,
 	"name":"Condition Box|String Input - Does not equal 11756541632433",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_oVFCY-1",
-			"id":"_oVFCY",
-			"index":0,
+			"id":"n_8jzpX",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"output_String":{
+							"type":"string",
+							"title":"output_String"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"output_String"
+					]
+				},
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"{{ n_8jzpX.outputs.input_String }}",
+							"filter":{
+								"operator":"NOT_EQUAL",
+								"value":"cool"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"input_String":{
+							"type":"string",
+							"title":"input_String"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"input_String"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_oVFCY-1",
-			"id":"_BS8Tk",
-			"index":0,
+			"id":"n_0i0Ey",
+			"index":2,
+			"inputs":{
+				"result":{
+					"output_String":"{{ n_8jzpX.outputs.input_String }}"
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +114,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
