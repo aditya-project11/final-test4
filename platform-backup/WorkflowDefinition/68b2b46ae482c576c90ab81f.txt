@@ -4,18 +4,12 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_xm8cL",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_HUPui",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b46ae482c576c90ab81f",
 	"lastModifiedBy":34,
 	"lcName":"automation_video by unifyappsdelete11756541625030",
-	"modifiedTime":1756542067082,
+	"modifiedTime":1756542072576,
 	"name":"Automation_Video by UnifyAppsDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_uzoCi-1",
 			"id":"n_xm8cL",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"video_utility_by_unifyapps",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_uzoCi-1",
-			"id":"n_HUPui",
-			"index":2,
-			"skip":false,
-			"subTitle":"Video by UnifyApps",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
