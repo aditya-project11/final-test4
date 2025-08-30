@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","ups"],
+	"appsUsed":["shopify"],
 	"createdTime":1756542001724,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_MsE1W",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_94i44",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b431e482c576c90ab67c",
 	"lastModifiedBy":34,
 	"lcName":"automation_upsdelete11756541625030",
-	"modifiedTime":1756542010206,
+	"modifiedTime":1756542015127,
 	"name":"Automation_UPSDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_rR6h8-1",
 			"id":"n_MsE1W",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"ups",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_rR6h8-1",
-			"id":"n_94i44",
-			"index":2,
-			"skip":false,
-			"subTitle":"UPS",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
