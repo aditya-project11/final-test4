@@ -1,21 +1,15 @@
 {
-	"appsUsed":["rocketlane","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541630922,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_fpLgy",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_cstIG",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b2bee482c576c90aa7c2",
 	"lastModifiedBy":34,
 	"lcName":"automation_rocketlanedelete11756541625030",
-	"modifiedTime":1756541639289,
+	"modifiedTime":1756541644618,
 	"name":"Automation_RocketlaneDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_qzWWP-1",
 			"id":"n_fpLgy",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"rocketlane",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_qzWWP-1",
-			"id":"n_cstIG",
-			"index":2,
-			"skip":false,
-			"subTitle":"Rocketlane",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
