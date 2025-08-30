@@ -1,0 +1,53 @@
+{
+	"appsUsed":[],
+	"createdTime":1751268412879,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68623c3c08c1135abbd2c810",
+	"lastModifiedBy":34,
+	"lcName":"callable api -form url encoded -11751266305608",
+	"modifiedTime":1751268459493,
+	"name":"Callable API -FORM URL Encoded -11751266305608",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":690,
+				"resourceName":"callables_from_api"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_wzzmC-1",
+			"id":"n_JNixM",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/x-www-form-urlencoded"
+				},
+				"endpointType":"REST",
+				"streamingResponse":false
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Trigger via API",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
