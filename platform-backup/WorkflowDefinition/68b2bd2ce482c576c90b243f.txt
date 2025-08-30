@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["peoplesoft","shopify"],
 	"createdTime":1756544300664,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_PM1WE",
+			"fromNodeId":"n_qeXK8",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_wwEM1",
+			"toNodeId":"n_0Ny5x",
 			"type":"next"
 		}
 	],
 	"id":"68b2bd2ce482c576c90b243f",
 	"lastModifiedBy":34,
 	"lcName":"automation_peoplesoftdelete11756541641242",
-	"modifiedTime":1756544300664,
+	"modifiedTime":1756544320586,
 	"name":"Automation_PeopleSoftDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PM1WE-1",
-			"id":"_PM1WE",
-			"index":0,
+			"id":"n_qeXK8",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"peoplesoft",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PM1WE-1",
-			"id":"_wwEM1",
-			"index":0,
+			"id":"n_0Ny5x",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"PeopleSoft",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
