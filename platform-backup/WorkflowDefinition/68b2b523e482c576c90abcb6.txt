@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","zoho_desk"],
+	"appsUsed":["shopify"],
 	"createdTime":1756542243423,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_4yn97",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_QGja2",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b523e482c576c90abcb6",
 	"lastModifiedBy":34,
 	"lcName":"automation_zoho deskdelete11756541625030",
-	"modifiedTime":1756542254209,
+	"modifiedTime":1756542259099,
 	"name":"Automation_Zoho DeskDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_J3mYa-1",
 			"id":"n_4yn97",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"zoho_desk",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_J3mYa-1",
-			"id":"n_QGja2",
-			"index":2,
-			"skip":false,
-			"subTitle":"Zoho Desk",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
