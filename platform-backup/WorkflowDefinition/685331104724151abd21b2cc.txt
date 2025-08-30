@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750282512857,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_kb7E6",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_NCswr",
+			"type":"next"
+		}
+	],
+	"id":"685331104724151abd21b2cc",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle gemini_11750275495283",
+	"modifiedTime":1750515052984,
+	"name":"TestButtonGoogle Gemini_11750275495283",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kb7E6-1",
+			"id":"_kb7E6",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kb7E6-1",
+			"id":"_NCswr",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
