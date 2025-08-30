@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["front","shopify"],
 	"createdTime":1756543482693,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_pD8k2",
+			"fromNodeId":"n_waQut",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_pGjj0",
+			"toNodeId":"n_RtY2m",
 			"type":"next"
 		}
 	],
 	"id":"68b2b9fae482c576c90afaa6",
 	"lastModifiedBy":34,
 	"lcName":"automation_frontdelete11756541641242",
-	"modifiedTime":1756543482693,
+	"modifiedTime":1756543493381,
 	"name":"Automation_FrontDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_pD8k2-1",
-			"id":"_pD8k2",
-			"index":0,
+			"id":"n_waQut",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"front",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_pD8k2-1",
-			"id":"_pGjj0",
-			"index":0,
+			"id":"n_RtY2m",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Front",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
