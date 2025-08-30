@@ -10,12 +10,19 @@
 			"skip":false,
 			"toNodeId":"n_AGA4Q",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_AGA4Q",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_WWvcy",
+			"type":"next"
 		}
 	],
 	"id":"68b2b5cee482c576c90ac50d",
 	"lastModifiedBy":34,
 	"lcName":"javascript_codebyunifyapps_lowercasetouppercase_117565416324330",
-	"modifiedTime":1756542430850,
+	"modifiedTime":1756542437801,
 	"name":"Javascript_CodeByUnifyApps_LowercaseToUppercase_117565416324330",
 	"nodes":[
 		{
@@ -80,6 +87,19 @@
 			"id":"n_AGA4Q",
 			"index":2,
 			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"upper":{
+							"type":"string",
+							"title":"upper"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"upper"
+					]
+				},
 				"input":{
 					"type":"object",
 					"properties":{
@@ -93,12 +113,39 @@
 						"firstName"
 					]
 				},
-				"isAsync":false
+				"code":"let upper = firstName.toUpperCase()\r\nresult = {upper}",
+				"isAsync":false,
+				"parameters":{
+					"firstName":"{{ n_ehJWE.outputs.firstName }}"
+				}
 			},
 			"skip":false,
 			"subTitle":"Code by UnifyApps",
 			"title":"Execute Javascript",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_NJlef-1",
+			"id":"n_WWvcy",
+			"index":3,
+			"inputs":{
+				"result":{
+					"upper":"{{ n_AGA4Q.outputs.result.upper }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
@@ -113,5 +160,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
