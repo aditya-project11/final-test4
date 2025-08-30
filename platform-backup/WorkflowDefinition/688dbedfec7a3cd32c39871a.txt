@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1754119903395,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_XZpPP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_5baY2",
+			"type":"next"
+		}
+	],
+	"id":"688dbedfec7a3cd32c39871a",
+	"lastModifiedBy":34,
+	"lcName":"testbuttoncapsule crm_11754118380778",
+	"modifiedTime":1754119912943,
+	"name":"TestButtonCapsule CRM_11754118380778",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XZpPP-1",
+			"id":"_XZpPP",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_XZpPP-1",
+			"id":"_5baY2",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
