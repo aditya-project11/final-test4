@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756542369157,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756542393089,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2b5b9e482c576c90ac48b",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -22,7 +30,7 @@
 	"id":"68b2b5a1e482c576c90ac3ef",
 	"lastModifiedBy":34,
 	"lcName":"customhttptestheaders_117565416230620",
-	"modifiedTime":1756542390509,
+	"modifiedTime":1756542403378,
 	"name":"customHTTPTestHeaders_117565416230620",
 	"nodes":[
 		{
@@ -32,7 +40,7 @@
 				"resourceName":"callables_from_automation"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Ww7rb-1",
 			"id":"n_E98Oe",
@@ -97,10 +105,7 @@
 				"baseUrl":"https://api-security.qa.unifyapps.com",
 				"responseContentType":"application/json",
 				"headersList":[
-					{
-						"key":"input_key",
-						"value":"input_value"
-					}
+					
 				],
 				"authType":"CUSTOM",
 				"requestContentType":"application/json",
@@ -119,7 +124,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Ww7rb-1",
 			"id":"n_fuVFD",
@@ -147,5 +152,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
