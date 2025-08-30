@@ -1,14 +1,14 @@
 {
-	"appsUsed":[],
+	"appsUsed":["slack"],
 	"createdTime":1756544361051,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1756544378509,
+		"deployedAt":1756544388865,
 		"deployedBy":34,
-		"deployedDefinitionId":"68b2bd7ae482c576c90b2c06",
+		"deployedDefinitionId":"68b2bd84e482c576c90b2d35",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":1
+		"version":2,
+		"workflowVersion":2
 	},
 	"description":"description",
 	"edges":[
@@ -16,11 +16,11 @@
 			"fromNodeId":"n_9g7QG",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"n_xiowI",
+			"toNodeId":"n_pFksT",
 			"type":"next"
 		},
 		{
-			"fromNodeId":"n_xiowI",
+			"fromNodeId":"n_pFksT",
 			"priority":0,
 			"skip":false,
 			"toNodeId":"n_Z3RH9",
@@ -30,7 +30,7 @@
 	"id":"68b2bd69e482c576c90b2a0b",
 	"lastModifiedBy":34,
 	"lcName":"close_drawer_117565416363280",
-	"modifiedTime":1756544386491,
+	"modifiedTime":1756544398144,
 	"name":"Close_Drawer_117565416363280",
 	"nodes":[
 		{
@@ -65,11 +65,16 @@
 						"input_String":{
 							"type":"string",
 							"title":"input_String"
+						},
+						"name":{
+							"type":"string",
+							"title":"name"
 						}
 					},
 					"additionalProperties":false,
 					"required":[
-						"input_String"
+						"input_String",
+						"name"
 					]
 				}
 			},
@@ -83,59 +88,28 @@
 		},
 		{
 			"context":{
-				"appName":"variable_by_unifyapps",
-				"resourceVersion":642,
-				"resourceName":"variable_by_unifyapps_create_variables",
+				"appName":"slack",
+				"resourceVersion":27598,
+				"connectionId":"662f8ddb91d8ba4394d0cce6",
+				"resourceName":"slack_post_message_in_channel",
 				"type":"APPLICATION"
 			},
 			"debug":false,
 			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ujdSs-1",
-			"id":"n_xiowI",
+			"id":"n_pFksT",
 			"index":2,
-			"inputSchema":{
-				"type":"SCHEMA_AND_LAYOUT",
-				"dynamic":false,
-				"layout":{
-					
-				},
-				"schema":{
-					"additionalProperties":false,
-					"type":"object",
-					"properties":{
-						"Input":{
-							"type":"integer",
-							"title":"Input"
-						}
-					},
-					"required":[
-						"Input"
-					]
-				}
-			},
 			"inputs":{
-				
-			},
-			"outputSchema":{
-				"dynamic":false,
-				"schema":{
-					"additionalProperties":false,
-					"type":"object",
-					"properties":{
-						"Input":{
-							"type":"integer",
-							"title":"Input"
-						}
-					},
-					"required":[
-						"Input"
-					]
-				}
+				"link_names":true,
+				"messageType":"text",
+				"channel":"C07AKEPN1U3",
+				"text":"add new node",
+				"mrkdwn":true
 			},
 			"skip":false,
-			"subTitle":"Variable by UnifyApps",
-			"title":"Create variables",
+			"subTitle":"Slack",
+			"title":"Post message",
 			"type":"ACTION"
 		},
 		{
@@ -174,5 +148,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":2
+	"version":3
 }
