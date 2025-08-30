@@ -15,7 +15,7 @@
 	"id":"68b2bdd8e482c576c90b35a9",
 	"lastModifiedBy":34,
 	"lcName":"condition box|string input - ends with 11756541632433",
-	"modifiedTime":1756544487666,
+	"modifiedTime":1756544500680,
 	"name":"Condition Box|String Input - Ends with 11756541632433",
 	"nodes":[
 		{
@@ -114,5 +114,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
