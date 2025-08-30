@@ -1,50 +1,135 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756542195652,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_1WwNe",
+			"fromNodeId":"n_K2Ps3",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_FBGM6",
+			"toNodeId":"n_MhIKP",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_MhIKP",
+			"name":"yes",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_C4UTY",
+			"type":"if"
+		},
+		{
+			"fromNodeId":"n_MhIKP",
+			"name":"no",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_TsIwO",
 			"type":"next"
 		}
 	],
 	"id":"68b2b4f3e482c576c90abb75",
 	"lastModifiedBy":34,
 	"lcName":"duplicate condition 11756541641242",
-	"modifiedTime":1756542195652,
+	"modifiedTime":1756542227318,
 	"name":"duplicate condition 11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify",
+				"resourceVersion":26109,
+				"connectionId":"6798bc9b219ec7180823c4e5",
+				"resourceName":"shopify_on_order_create"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_1WwNe-1",
-			"id":"_1WwNe",
-			"index":0,
+			"id":"n_K2Ps3",
+			"index":1,
+			"inputs":{
+				
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Shopify",
+			"title":"Order created",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"if_else",
+				"resourceVersion":593,
+				"resourceName":"if_else_condition",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_1WwNe-1",
-			"id":"_FBGM6",
-			"index":0,
+			"id":"n_MhIKP",
+			"index":2,
+			"inputs":{
+				"filters":[
+					{
+						"property":"{{ n_K2Ps3.outputs.shipping_address.zip }}{{ n_K2Ps3.outputs.current_total_discounts_set.shop_money.amount }}{{ n_K2Ps3.outputs.landing_site }}{{ n_K2Ps3.outputs.discount_allocations }}",
+						"filter":{
+							"operator":"MISSING"
+						}
+					},
+					{
+						"property":"{{ n_K2Ps3.outputs.shipping_address.zip }}{{ n_K2Ps3.outputs.current_total_discounts_set.shop_money.amount }}{{ n_K2Ps3.outputs.landing_site }}{{ n_K2Ps3.outputs.discount_allocations }}",
+						"filter":{
+							"operator":"MISSING"
+						}
+					},
+					{
+						"filters":[
+							{
+								"property":"{{ n_K2Ps3.outputs.discount_codes[0].amount }}{{ n_K2Ps3.outputs.tags }}{{ n_K2Ps3.outputs.deleted_message }}",
+								"filter":{
+									"operator":"ENDS_WITH",
+									"value":"6"
+								}
+							}
+						],
+						"operator":"AND"
+					}
+				],
+				"operator":"AND"
+			},
+			"skip":false,
+			"subTitle":"Condition",
+			"title":"Condition",
+			"type":"IF_ELSE"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_MhIKP@_1WwNe-1@y",
+			"id":"n_C4UTY",
+			"index":3,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"n_MhIKP@_1WwNe-1@n",
+			"id":"n_TsIwO",
+			"index":4,
 			"skip":false,
 			"title":"Select an app and action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +140,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":3
 }
