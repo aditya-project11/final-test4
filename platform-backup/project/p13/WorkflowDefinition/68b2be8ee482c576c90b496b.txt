@@ -23,7 +23,7 @@
 	"id":"68b2be8ee482c576c90b496b",
 	"lastModifiedBy":34,
 	"lcName":"sample_workflow_trigger_117565416174620",
-	"modifiedTime":1756544699498,
+	"modifiedTime":1756544712387,
 	"name":"sample_workflow_trigger_117565416174620",
 	"nodes":[
 		{
@@ -174,5 +174,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":2
+	"version":3
 }
