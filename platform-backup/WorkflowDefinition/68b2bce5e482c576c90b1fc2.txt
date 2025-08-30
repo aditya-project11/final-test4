@@ -1,21 +1,15 @@
 {
-	"appsUsed":["outreach","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756544229114,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_GD8ck",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_ljKNW",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bce5e482c576c90b1fc2",
 	"lastModifiedBy":34,
 	"lcName":"automation_outreachdelete11756541641242",
-	"modifiedTime":1756544238167,
+	"modifiedTime":1756544243505,
 	"name":"Automation_OutreachDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_9Gs4W-1",
 			"id":"n_GD8ck",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"outreach",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_9Gs4W-1",
-			"id":"n_ljKNW",
-			"index":2,
-			"skip":false,
-			"subTitle":"Outreach",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
