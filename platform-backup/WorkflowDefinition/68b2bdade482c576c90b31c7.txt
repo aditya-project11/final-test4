@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["quickbase","shopify"],
 	"createdTime":1756544429586,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Jvi0J",
+			"fromNodeId":"n_edDP4",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_mURkz",
+			"toNodeId":"n_ZhgAF",
 			"type":"next"
 		}
 	],
 	"id":"68b2bdade482c576c90b31c7",
 	"lastModifiedBy":34,
 	"lcName":"automation_quickbasedelete11756541641242",
-	"modifiedTime":1756544429586,
+	"modifiedTime":1756544439480,
 	"name":"Automation_QuickbaseDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Jvi0J-1",
-			"id":"_Jvi0J",
-			"index":0,
+			"id":"n_edDP4",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"quickbase",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Jvi0J-1",
-			"id":"_mURkz",
-			"index":0,
+			"id":"n_ZhgAF",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Quickbase",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
