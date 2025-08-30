@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750313333441,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_HZEJt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_MbMQe",
+			"type":"next"
+		}
+	],
+	"id":"6853a975bdea0f621587fea8",
+	"lastModifiedBy":34,
+	"lcName":"testbuttoncoveo_11750312291768",
+	"modifiedTime":1750514767926,
+	"name":"TestButtonCoveo_11750312291768",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HZEJt-1",
+			"id":"_HZEJt",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HZEJt-1",
+			"id":"_MbMQe",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
