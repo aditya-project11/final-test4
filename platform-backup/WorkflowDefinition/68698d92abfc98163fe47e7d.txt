@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751747986163,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_ZiZIy",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_JOgmf",
+			"type":"next"
+		}
+	],
+	"id":"68698d92abfc98163fe47e7d",
+	"lastModifiedBy":34,
+	"lcName":"testbuttontelegram_11751744174820",
+	"modifiedTime":1751748002155,
+	"name":"TestButtonTelegram_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ZiZIy-1",
+			"id":"_ZiZIy",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ZiZIy-1",
+			"id":"_JOgmf",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
