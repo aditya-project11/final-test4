@@ -1,0 +1,59 @@
+{
+	"appsUsed":[],
+	"createdTime":1754118546047,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_xKmxQ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_gkbxY",
+			"type":"next"
+		}
+	],
+	"id":"688db992ec7a3cd32c393591",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonstorage by unifyapps_11754118359067",
+	"modifiedTime":1754309246816,
+	"name":"TestButtonStorage by UnifyApps_11754118359067",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_xKmxQ-1",
+			"id":"_xKmxQ",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_xKmxQ-1",
+			"id":"_gkbxY",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
