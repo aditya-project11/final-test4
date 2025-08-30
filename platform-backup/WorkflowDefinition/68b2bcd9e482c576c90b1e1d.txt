@@ -1,21 +1,15 @@
 {
-	"appsUsed":["oracle_health","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756544217682,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_BLYK3",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_AwJZw",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bcd9e482c576c90b1e1d",
 	"lastModifiedBy":34,
 	"lcName":"automation_oracle healthdelete11756541641242",
-	"modifiedTime":1756544225335,
+	"modifiedTime":1756544230480,
 	"name":"Automation_Oracle HealthDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_Fx7O0-1",
 			"id":"n_BLYK3",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"oracle_health",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_Fx7O0-1",
-			"id":"n_AwJZw",
-			"index":2,
-			"skip":false,
-			"subTitle":"Oracle Health",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
