@@ -5,46 +5,69 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_6TqAd",
+			"fromNodeId":"n_IRSDy",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_dptt4",
+			"toNodeId":"n_WPp3i",
 			"type":"next"
 		}
 	],
 	"id":"68b2b926e482c576c90aeefe",
 	"lastModifiedBy":34,
 	"lcName":"converthtmlplaintextanchorlinksmarkdownlistunordered_117565416324330",
-	"modifiedTime":1756543270717,
+	"modifiedTime":1756543281178,
 	"name":"ConvertHTMLPlainTextanchorlinksmarkdownlistunordered_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_6TqAd-1",
-			"id":"_6TqAd",
-			"index":0,
+			"id":"n_IRSDy",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"utility_by_unifyapps",
+				"resourceVersion":624,
+				"resourceName":"utility_by_unifyapps_from_html_to_plain_text",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_6TqAd-1",
-			"id":"_dptt4",
-			"index":0,
+			"id":"n_WPp3i",
+			"index":2,
+			"inputs":{
+				"conversionType":"markdown",
+				"htmlString":"<ul><li>Item 1</li><li>Item 2</li></ul>"
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Utility by UnifyApps",
+			"title":"Convert HTML to text",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +78,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
