@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","webex_teams"],
 	"createdTime":1756542122766,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_PmMJG",
+			"fromNodeId":"n_awQnq",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_qMMFI",
+			"toNodeId":"n_DfSPS",
 			"type":"next"
 		}
 	],
 	"id":"68b2b4aae482c576c90ab9b1",
 	"lastModifiedBy":34,
 	"lcName":"automation_webex teamsdelete11756541625030",
-	"modifiedTime":1756542122766,
+	"modifiedTime":1756542131603,
 	"name":"Automation_Webex TeamsDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PmMJG-1",
-			"id":"_PmMJG",
-			"index":0,
+			"id":"n_awQnq",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"webex_teams",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PmMJG-1",
-			"id":"_qMMFI",
-			"index":0,
+			"id":"n_DfSPS",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Webex Teams",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
