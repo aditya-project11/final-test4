@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","v_connect"],
 	"createdTime":1756542044284,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_eZVNL",
+			"fromNodeId":"n_lhEgQ",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_HyzMo",
+			"toNodeId":"n_Mhbwn",
 			"type":"next"
 		}
 	],
 	"id":"68b2b45ce482c576c90ab7c7",
 	"lastModifiedBy":34,
 	"lcName":"automation_v-connectdelete11756541625030",
-	"modifiedTime":1756542044284,
+	"modifiedTime":1756542052531,
 	"name":"Automation_V-ConnectDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_eZVNL-1",
-			"id":"_eZVNL",
-			"index":0,
+			"id":"n_lhEgQ",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"v_connect",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_eZVNL-1",
-			"id":"_HyzMo",
-			"index":0,
+			"id":"n_Mhbwn",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"V-Connect",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
