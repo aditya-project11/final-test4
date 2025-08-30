@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756544566578,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756544581311,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2be45e482c576c90b3f8e",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68b2be36e482c576c90b3e0b",
 	"lastModifiedBy":34,
 	"lcName":"callable via automation-trigger condition with group and deleted condition 11756541632433",
-	"modifiedTime":1756544578598,
+	"modifiedTime":1756544598407,
 	"name":"Callable via Automation-trigger condition with group and deleted condition 11756541632433",
 	"nodes":[
 		{
@@ -43,6 +51,23 @@
 					"required":[
 						"output_String"
 					]
+				},
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"filters":[
+								{
+									"property":"{{ n_NefOH.outputs.input_String }}",
+									"filter":{
+										"operator":"EQUAL",
+										"value":"Unifyapps"
+									}
+								}
+							],
+							"operator":"AND"
+						}
+					],
+					"operator":"AND"
 				},
 				"setup":{
 					"type":"object",
@@ -102,5 +127,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
