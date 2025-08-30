@@ -15,7 +15,7 @@
 	"id":"68b2bfafe482c576c90b524a",
 	"lastModifiedBy":34,
 	"lcName":"groovycodeinputparams_117565416324330",
-	"modifiedTime":1756544951984,
+	"modifiedTime":1756544959458,
 	"name":"groovyCodeInputParams_117565416324330",
 	"nodes":[
 		{
@@ -23,7 +23,7 @@
 				"appName":"callables"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_XPM5H-1",
 			"id":"n_32xpz",
@@ -50,7 +50,7 @@
 			"id":"n_ejKPv",
 			"index":2,
 			"inputs":{
-				"compile_static":false
+				"compile_static":true
 			},
 			"skip":false,
 			"subTitle":"Code by UnifyApps",
@@ -70,5 +70,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
