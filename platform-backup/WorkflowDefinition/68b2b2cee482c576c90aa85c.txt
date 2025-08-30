@@ -2,14 +2,29 @@
 	"appsUsed":[],
 	"createdTime":1756541646472,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756541658632,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2b2dae482c576c90aa8c8",
+		"deploymentTag":"Check_test",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
-		
+		{
+			"fromNodeId":"n_fe7rO",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_iAPaw",
+			"type":"next"
+		}
 	],
 	"id":"68b2b2cee482c576c90aa85c",
 	"lastModifiedBy":34,
 	"lcName":"tag_version_tag_in_preview_and_versions_tab_117565416412420",
-	"modifiedTime":1756541655287,
+	"modifiedTime":1756541676588,
 	"name":"Tag_version_tag_in_preview_and_versions_tab_117565416412420",
 	"nodes":[
 		{
@@ -19,7 +34,7 @@
 				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_6O8f9-1",
 			"id":"n_fe7rO",
@@ -36,6 +51,63 @@
 				"type":"WEBHOOK"
 			},
 			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":642,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_6O8f9-1",
+			"id":"n_iAPaw",
+			"index":2,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					
+				},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"sum":{
+							"type":"number",
+							"title":"sum"
+						}
+					},
+					"required":[
+						"sum"
+					]
+				}
+			},
+			"inputs":{
+				
+			},
+			"outputSchema":{
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"sum":{
+							"type":"number",
+							"title":"sum"
+						}
+					},
+					"required":[
+						"sum"
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -50,5 +122,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
