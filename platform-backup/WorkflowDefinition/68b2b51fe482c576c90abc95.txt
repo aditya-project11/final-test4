@@ -31,7 +31,7 @@
 	"id":"68b2b51fe482c576c90abc95",
 	"lastModifiedBy":34,
 	"lcName":"turn into condition group 11756541641242",
-	"modifiedTime":1756542258616,
+	"modifiedTime":1756542262500,
 	"name":"turn into condition group 11756541641242",
 	"nodes":[
 		{
@@ -78,6 +78,17 @@
 						"filter":{
 							"operator":"MISSING"
 						}
+					},
+					{
+						"filters":[
+							{
+								"property":"{{ n_T7x4M.outputs.shipping_address.zip }}{{ n_T7x4M.outputs.current_total_discounts_set.shop_money.amount }}{{ n_T7x4M.outputs.landing_site }}{{ n_T7x4M.outputs.discount_allocations }}",
+								"filter":{
+									"operator":"MISSING"
+								}
+							}
+						],
+						"operator":"AND"
 					},
 					{
 						"filters":[
@@ -134,5 +145,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":3
 }
