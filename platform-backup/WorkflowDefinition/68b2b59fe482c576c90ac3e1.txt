@@ -1,50 +1,74 @@
 {
-	"appsUsed":[],
+	"appsUsed":["storage_by_unifyapps"],
 	"createdTime":1756542367352,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_KWxDt",
+			"fromNodeId":"n_9PJg8",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_YiHZr",
+			"toNodeId":"n_cc6zR",
 			"type":"next"
 		}
 	],
 	"id":"68b2b59fe482c576c90ac3e1",
 	"lastModifiedBy":34,
 	"lcName":"build-2 11756541625030",
-	"modifiedTime":1756542367352,
+	"modifiedTime":1756542371165,
 	"name":"build-2 11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":693,
+				"resourceName":"callables_from_api"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_KWxDt-1",
-			"id":"_KWxDt",
-			"index":0,
+			"id":"n_9PJg8",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				},
+				"endpointType":"REST",
+				"streamingResponse":false
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via API",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":20716,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_KWxDt-1",
-			"id":"_YiHZr",
-			"index":0,
+			"id":"n_cc6zR",
+			"index":2,
+			"inputs":{
+				"writeThroughSessionVariables":false
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create record",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +79,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
