@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749786602081,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_a6ruK",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_jCXup",
+			"type":"next"
+		}
+	],
+	"id":"684b9feabd68593c6f5aab80",
+	"lastModifiedBy":34,
+	"lcName":"hook-callable visible11749784738698",
+	"modifiedTime":1754311389803,
+	"name":"Hook-Callable Visible11749784738698",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_a6ruK-1",
+			"id":"_a6ruK",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_a6ruK-1",
+			"id":"_jCXup",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
