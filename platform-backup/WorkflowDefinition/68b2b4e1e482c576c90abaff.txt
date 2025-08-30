@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","worksuite"],
 	"createdTime":1756542177294,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_vcrCZ",
+			"fromNodeId":"n_ToP80",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_INCxZ",
+			"toNodeId":"n_2FHcg",
 			"type":"next"
 		}
 	],
 	"id":"68b2b4e1e482c576c90abaff",
 	"lastModifiedBy":34,
 	"lcName":"automation_worksuitedelete11756541625030",
-	"modifiedTime":1756542177294,
+	"modifiedTime":1756542186258,
 	"name":"Automation_WorksuiteDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_vcrCZ-1",
-			"id":"_vcrCZ",
-			"index":0,
+			"id":"n_ToP80",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"worksuite",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_vcrCZ-1",
-			"id":"_INCxZ",
-			"index":0,
+			"id":"n_2FHcg",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Worksuite",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
