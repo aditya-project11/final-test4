@@ -3,47 +3,42 @@
 	"createdTime":1756551020056,
 	"deleted":false,
 	"edges":[
-		{
-			"fromNodeId":"_ggXkY",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_gSmKi",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2d76ce482c576c90c08f0",
 	"lastModifiedBy":34,
 	"lcName":"webhook-runs",
-	"modifiedTime":1756551020056,
+	"modifiedTime":1756551024802,
 	"name":"webhook-runs",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ggXkY-1",
-			"id":"_ggXkY",
-			"index":0,
+			"id":"n_vcuxF",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_ggXkY-1",
-			"id":"_gSmKi",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -54,5 +49,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
