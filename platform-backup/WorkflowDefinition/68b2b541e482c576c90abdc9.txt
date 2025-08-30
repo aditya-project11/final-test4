@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["ebay","shopify"],
 	"createdTime":1756542273402,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_0RNmB",
+			"fromNodeId":"n_sL3n4",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_oBqqC",
+			"toNodeId":"n_dncpN",
 			"type":"next"
 		}
 	],
 	"id":"68b2b541e482c576c90abdc9",
 	"lastModifiedBy":34,
 	"lcName":"automation_ebaydelete11756541625030",
-	"modifiedTime":1756542273402,
+	"modifiedTime":1756542284566,
 	"name":"Automation_eBayDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_0RNmB-1",
-			"id":"_0RNmB",
-			"index":0,
+			"id":"n_sL3n4",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"ebay",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_0RNmB-1",
-			"id":"_oBqqC",
-			"index":0,
+			"id":"n_dncpN",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"eBay",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
