@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","vimeo"],
 	"createdTime":1756542046413,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_DMoy1",
+			"fromNodeId":"n_nOL72",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_OXumx",
+			"toNodeId":"n_81s5D",
 			"type":"next"
 		}
 	],
 	"id":"68b2b45ee482c576c90ab7da",
 	"lastModifiedBy":34,
 	"lcName":"automation_vimeodelete11756541625030",
-	"modifiedTime":1756542046413,
+	"modifiedTime":1756542053680,
 	"name":"Automation_VimeoDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_DMoy1-1",
-			"id":"_DMoy1",
-			"index":0,
+			"id":"n_nOL72",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"vimeo",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_DMoy1-1",
-			"id":"_OXumx",
-			"index":0,
+			"id":"n_81s5D",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Vimeo",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
