@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1756542314338,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68b2b56ae482c576c90ac053",
+	"lastModifiedBy":34,
+	"lcName":"checkingclonebehaviour_117565416363280",
+	"modifiedTime":1756542319902,
+	"name":"checkingCloneBehaviour_117565416363280",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_zA08D-1",
+			"id":"n_5Guac",
+			"index":1,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
