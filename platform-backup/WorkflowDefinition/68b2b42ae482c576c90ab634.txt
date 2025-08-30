@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","ukg_pro"],
 	"createdTime":1756541994065,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_skvkx",
+			"fromNodeId":"n_0p75R",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_t0PNu",
+			"toNodeId":"n_mXl7i",
 			"type":"next"
 		}
 	],
 	"id":"68b2b42ae482c576c90ab634",
 	"lastModifiedBy":34,
 	"lcName":"automation_ukg prodelete11756541625030",
-	"modifiedTime":1756541994065,
+	"modifiedTime":1756542002321,
 	"name":"Automation_UKG ProDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_skvkx-1",
-			"id":"_skvkx",
-			"index":0,
+			"id":"n_0p75R",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"ukg_pro",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_skvkx-1",
-			"id":"_t0PNu",
-			"index":0,
+			"id":"n_mXl7i",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"UKG Pro",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
