@@ -1,21 +1,15 @@
 {
-	"appsUsed":["ramp","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756544442293,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_j2pv1",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_pqCIY",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bdbae482c576c90b330e",
 	"lastModifiedBy":34,
 	"lcName":"automation_rampdelete11756541641242",
-	"modifiedTime":1756544452403,
+	"modifiedTime":1756544458278,
 	"name":"Automation_RampDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_TBY7z-1",
 			"id":"n_j2pv1",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"ramp",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_TBY7z-1",
-			"id":"n_pqCIY",
-			"index":2,
-			"skip":false,
-			"subTitle":"Ramp",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
