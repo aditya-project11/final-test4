@@ -15,7 +15,7 @@
 	"id":"68b2bdb7e482c576c90b32d2",
 	"lastModifiedBy":34,
 	"lcName":"condition box|string input - does not contain 11756541632433",
-	"modifiedTime":1756544461966,
+	"modifiedTime":1756544474664,
 	"name":"Condition Box|String Input - Does not contain 11756541632433",
 	"nodes":[
 		{
@@ -114,5 +114,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
