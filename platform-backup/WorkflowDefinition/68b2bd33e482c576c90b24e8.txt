@@ -15,7 +15,7 @@
 	"id":"68b2bd33e482c576c90b24e8",
 	"lastModifiedBy":34,
 	"lcName":"condition box|number input - equals to 11756541632433",
-	"modifiedTime":1756544332043,
+	"modifiedTime":1756544344283,
 	"name":"Condition Box|Number Input - Equals to 11756541632433",
 	"nodes":[
 		{
@@ -114,5 +114,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
