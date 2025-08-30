@@ -5,46 +5,156 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_5eqro",
+			"fromNodeId":"n_XhRrB",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_lnb2r",
+			"toNodeId":"n_3cLS2",
 			"type":"next"
 		}
 	],
 	"id":"68b2be29e482c576c90b3ca5",
 	"lastModifiedBy":34,
 	"lcName":"webhookeditschema_117565416174620",
-	"modifiedTime":1756544553760,
+	"modifiedTime":1756544565097,
 	"name":"webhookEditSchema_117565416174620",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_5eqro-1",
-			"id":"_5eqro",
-			"index":0,
+			"id":"n_XhRrB",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"queryParams":{
+						"type":"object",
+						"properties":{
+							"query_string":{
+								"type":"string",
+								"title":"query_string"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					},
+					"headers":{
+						"type":"object",
+						"properties":{
+							"header_string":{
+								"type":"string",
+								"title":"header_string"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					},
+					"pathParams":{
+						"type":"object",
+						"properties":{
+							"path_params":{
+								"type":"string",
+								"title":"path_params"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					},
+					"body":{
+						"type":"object",
+						"properties":{
+							"input_string":{
+								"type":"string",
+								"title":"input_string"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							"input_string"
+						]
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":642,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_5eqro-1",
-			"id":"_lnb2r",
-			"index":0,
+			"id":"n_3cLS2",
+			"index":2,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					
+				},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"Output":{
+							"type":"integer",
+							"title":"Output"
+						}
+					},
+					"required":[
+						"Output"
+					]
+				}
+			},
+			"inputs":{
+				
+			},
+			"outputSchema":{
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"Output":{
+							"type":"integer",
+							"title":"Output"
+						}
+					},
+					"required":[
+						"Output"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +165,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
