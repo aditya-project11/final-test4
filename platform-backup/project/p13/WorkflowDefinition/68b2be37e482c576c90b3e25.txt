@@ -2,6 +2,14 @@
 	"appsUsed":[],
 	"createdTime":1756544567426,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756544591161,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2be4ee482c576c90b408d",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
@@ -15,7 +23,7 @@
 	"id":"68b2be37e482c576c90b3e25",
 	"lastModifiedBy":34,
 	"lcName":"redeploy_inside_project_117565416174620",
-	"modifiedTime":1756544588198,
+	"modifiedTime":1756544607677,
 	"name":"reDeploy_inside_project_117565416174620",
 	"nodes":[
 		{
@@ -36,9 +44,9 @@
 					"queryParams":{
 						"type":"object",
 						"properties":{
-							"query_string":{
-								"type":"string",
-								"title":"query_string"
+							"editQuery":{
+								"type":"integer",
+								"title":"editQuery"
 							}
 						},
 						"additionalProperties":false,
@@ -49,9 +57,12 @@
 					"headers":{
 						"type":"object",
 						"properties":{
-							"header_string":{
-								"type":"string",
-								"title":"header_string"
+							"editHeader":{
+								"type":"array",
+								"items":{
+									"type":"string"
+								},
+								"title":"editHeader"
 							}
 						},
 						"additionalProperties":false,
@@ -62,9 +73,9 @@
 					"pathParams":{
 						"type":"object",
 						"properties":{
-							"path_params":{
-								"type":"string",
-								"title":"path_params"
+							"editPath":{
+								"type":"number",
+								"title":"editPath"
 							}
 						},
 						"additionalProperties":false,
@@ -75,14 +86,14 @@
 					"body":{
 						"type":"object",
 						"properties":{
-							"input_string":{
-								"type":"string",
-								"title":"input_string"
+							"editSchema":{
+								"type":"number",
+								"title":"editSchema"
 							}
 						},
 						"additionalProperties":false,
 						"required":[
-							"input_string"
+							"editSchema"
 						]
 					}
 				}
@@ -166,5 +177,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
