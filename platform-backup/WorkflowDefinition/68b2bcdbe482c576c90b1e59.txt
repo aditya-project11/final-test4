@@ -5,46 +5,172 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_9tjlb",
+			"fromNodeId":"n_XwSOT",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_ngoLp",
+			"toNodeId":"n_ClIx4",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_ClIx4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_QhKWh",
 			"type":"next"
 		}
 	],
 	"id":"68b2bcdbe482c576c90b1e59",
 	"lastModifiedBy":34,
 	"lcName":"callable_emptydatapill117565416324330",
-	"modifiedTime":1756544219041,
+	"modifiedTime":1756544240661,
 	"name":"callable_emptyDatapill117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":693,
+				"resourceName":"callables_from_api"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_9tjlb-1",
-			"id":"_9tjlb",
-			"index":0,
+			"id":"n_XwSOT",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"body":{
+						"type":"object",
+						"properties":{
+							"input":{
+								"type":"string",
+								"title":"input"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							"input"
+						]
+					}
+				},
+				"endpointType":"SOAP",
+				"response":[
+					{
+						"status":200,
+						"name":"success",
+						"body":{
+							"type":"object",
+							"properties":{
+								"output":{
+									"type":"string",
+									"title":"output"
+								}
+							},
+							"additionalProperties":false,
+							"required":[
+								"output"
+							]
+						}
+					}
+				],
+				"soapVersion":"v1.2",
+				"streamingResponse":false
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via API",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":642,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_9tjlb-1",
-			"id":"_ngoLp",
-			"index":0,
+			"id":"n_ClIx4",
+			"index":2,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					
+				},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"name"
+						}
+					},
+					"required":[
+						"name"
+					]
+				}
+			},
+			"inputs":{
+				
+			},
+			"outputSchema":{
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"name"
+						}
+					},
+					"required":[
+						"name"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":684,
+				"resourceName":"callables_return_response_to_api",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_9tjlb-1",
+			"id":"n_QhKWh",
+			"index":3,
+			"inputs":{
+				"streamingCompleted":true,
+				"responseName":"200_success",
+				"body":{
+					"output":"{{ n_ClIx4.outputs.name }}"
+				},
+				"status":200
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to API request",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +181,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
