@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749710166381,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_NPOJ5",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_3GhVm",
+			"type":"next"
+		}
+	],
+	"id":"684a7556a68b35141de29262",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonoracle fusion cloud_11749710160287",
+	"modifiedTime":1754312438613,
+	"name":"TestButtonOracle Fusion Cloud_11749710160287",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NPOJ5-1",
+			"id":"_NPOJ5",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NPOJ5-1",
+			"id":"_3GhVm",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
