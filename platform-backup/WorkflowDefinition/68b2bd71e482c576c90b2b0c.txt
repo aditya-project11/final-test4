@@ -1,21 +1,15 @@
 {
-	"appsUsed":["power_bi","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756544369043,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_jYLx0",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_y07mF",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bd71e482c576c90b2b0c",
 	"lastModifiedBy":34,
 	"lcName":"automation_power bidelete11756541641242",
-	"modifiedTime":1756544379687,
+	"modifiedTime":1756544385478,
 	"name":"Automation_Power BIDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_IlyLT-1",
 			"id":"n_jYLx0",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"power_bi",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_IlyLT-1",
-			"id":"n_y07mF",
-			"index":2,
-			"skip":false,
-			"subTitle":"Power BI",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
