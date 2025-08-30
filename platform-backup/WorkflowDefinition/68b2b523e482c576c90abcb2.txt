@@ -1,0 +1,69 @@
+{
+	"appsUsed":["shopify","zoho"],
+	"createdTime":1756542243132,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_XF3MM",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_9U0ZQ",
+			"type":"next"
+		}
+	],
+	"id":"68b2b523e482c576c90abcb2",
+	"lastModifiedBy":34,
+	"lcName":"automation_zoho crmdelete11756541625030",
+	"modifiedTime":1756542252913,
+	"name":"Automation_Zoho CRMDelete11756541625030",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_nFNap-1",
+			"id":"n_XF3MM",
+			"index":1,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"zoho",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_nFNap-1",
+			"id":"n_9U0ZQ",
+			"index":2,
+			"skip":false,
+			"subTitle":"Zoho CRM",
+			"title":"Select an action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
