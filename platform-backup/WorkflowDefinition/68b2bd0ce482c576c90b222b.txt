@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["pandadoc","shopify"],
 	"createdTime":1756544268270,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_PoD4q",
+			"fromNodeId":"n_iMGvN",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_CwAVC",
+			"toNodeId":"n_1TOAz",
 			"type":"next"
 		}
 	],
 	"id":"68b2bd0ce482c576c90b222b",
 	"lastModifiedBy":34,
 	"lcName":"automation_pandadocdelete11756541641242",
-	"modifiedTime":1756544268270,
+	"modifiedTime":1756544277602,
 	"name":"Automation_PandadocDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PoD4q-1",
-			"id":"_PoD4q",
-			"index":0,
+			"id":"n_iMGvN",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"pandadoc",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PoD4q-1",
-			"id":"_CwAVC",
-			"index":0,
+			"id":"n_1TOAz",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Pandadoc",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
