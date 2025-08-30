@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["ftp","shopify"],
 	"createdTime":1756543354913,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_KhBvv",
+			"fromNodeId":"n_rbmjq",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_YpLZl",
+			"toNodeId":"n_9Vc2m",
 			"type":"next"
 		}
 	],
 	"id":"68b2b97ae482c576c90af497",
 	"lastModifiedBy":34,
 	"lcName":"automation_ftp/ftpsdelete11756541641242",
-	"modifiedTime":1756543354913,
+	"modifiedTime":1756543367564,
 	"name":"Automation_FTP/FTPSDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_KhBvv-1",
-			"id":"_KhBvv",
-			"index":0,
+			"id":"n_rbmjq",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"ftp",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_KhBvv-1",
-			"id":"_YpLZl",
-			"index":0,
+			"id":"n_9Vc2m",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"FTP/FTPS",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
