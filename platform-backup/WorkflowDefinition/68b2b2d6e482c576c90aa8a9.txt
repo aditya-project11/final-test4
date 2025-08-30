@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["sap_business_one","shopify"],
 	"createdTime":1756541654584,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Vb81t",
+			"fromNodeId":"n_lrZhy",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_mSjhI",
+			"toNodeId":"n_XNlLl",
 			"type":"next"
 		}
 	],
 	"id":"68b2b2d6e482c576c90aa8a9",
 	"lastModifiedBy":34,
 	"lcName":"automation_sap business onedelete11756541625030",
-	"modifiedTime":1756541654584,
+	"modifiedTime":1756541663588,
 	"name":"Automation_SAP Business OneDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Vb81t-1",
-			"id":"_Vb81t",
-			"index":0,
+			"id":"n_lrZhy",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"sap_business_one",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Vb81t-1",
-			"id":"_mSjhI",
-			"index":0,
+			"id":"n_XNlLl",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"SAP Business One",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
