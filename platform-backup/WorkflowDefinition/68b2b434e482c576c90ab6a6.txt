@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","unicommerce"],
 	"createdTime":1756542004591,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Oh9pX",
+			"fromNodeId":"n_UYU0x",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_0ymHA",
+			"toNodeId":"n_2fwEN",
 			"type":"next"
 		}
 	],
 	"id":"68b2b434e482c576c90ab6a6",
 	"lastModifiedBy":34,
 	"lcName":"automation_unicommercedelete11756541625030",
-	"modifiedTime":1756542004591,
+	"modifiedTime":1756542014200,
 	"name":"Automation_UnicommerceDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Oh9pX-1",
-			"id":"_Oh9pX",
-			"index":0,
+			"id":"n_UYU0x",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"unicommerce",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Oh9pX-1",
-			"id":"_0ymHA",
-			"index":0,
+			"id":"n_2fwEN",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Unicommerce",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
