@@ -1,0 +1,47 @@
+{
+	"appsUsed":[],
+	"createdTime":1752020857711,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"686db779ddaaeb39150b5317",
+	"lastModifiedBy":34,
+	"lcName":"filter -- last modified by, positive scenario - 11752014266078",
+	"modifiedTime":1752020871397,
+	"name":"Filter -- Last Modified By, positive scenario - 11752014266078",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HmixV-1",
+			"id":"n_34d7l",
+			"index":0,
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
