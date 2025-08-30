@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["power_bi","shopify"],
 	"createdTime":1756544369043,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_IlyLT",
+			"fromNodeId":"n_jYLx0",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_RqjGA",
+			"toNodeId":"n_y07mF",
 			"type":"next"
 		}
 	],
 	"id":"68b2bd71e482c576c90b2b0c",
 	"lastModifiedBy":34,
 	"lcName":"automation_power bidelete11756541641242",
-	"modifiedTime":1756544369043,
+	"modifiedTime":1756544379687,
 	"name":"Automation_Power BIDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IlyLT-1",
-			"id":"_IlyLT",
-			"index":0,
+			"id":"n_jYLx0",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"power_bi",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_IlyLT-1",
-			"id":"_RqjGA",
-			"index":0,
+			"id":"n_y07mF",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Power BI",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
