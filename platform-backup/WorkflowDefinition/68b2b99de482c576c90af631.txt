@@ -4,18 +4,12 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_AC1Vo",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_269Dh",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b99de482c576c90af631",
 	"lastModifiedBy":34,
 	"lcName":"automation_files by unifyappsdelete11756541641242",
-	"modifiedTime":1756543397566,
+	"modifiedTime":1756543403602,
 	"name":"Automation_Files by UnifyAppsDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_GAh6b-1",
 			"id":"n_AC1Vo",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"files_by_unifyapps",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_GAh6b-1",
-			"id":"n_269Dh",
-			"index":2,
-			"skip":false,
-			"subTitle":"Files by UnifyApps",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
