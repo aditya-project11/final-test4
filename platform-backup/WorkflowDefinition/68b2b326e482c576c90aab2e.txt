@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756541734675,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_eVvAb",
+			"fromNodeId":"n_VbgVF",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_PBRP6",
+			"toNodeId":"n_lNttl",
 			"type":"next"
 		}
 	],
 	"id":"68b2b326e482c576c90aab2e",
 	"lastModifiedBy":34,
 	"lcName":"automation_screen by unifyappsdelete11756541625030",
-	"modifiedTime":1756541734675,
+	"modifiedTime":1756541743882,
 	"name":"Automation_Screen by UnifyAppsDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_eVvAb-1",
-			"id":"_eVvAb",
-			"index":0,
+			"id":"n_VbgVF",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"screen_by_unifyapps",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_eVvAb-1",
-			"id":"_PBRP6",
-			"index":0,
+			"id":"n_lNttl",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Screen by UnifyApps",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
