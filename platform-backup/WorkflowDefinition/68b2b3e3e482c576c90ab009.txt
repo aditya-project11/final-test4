@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756541923448,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Em337",
+			"fromNodeId":"n_3Knde",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_zNRzj",
+			"toNodeId":"n_4S9IH",
 			"type":"next"
 		}
 	],
 	"id":"68b2b3e3e482c576c90ab009",
 	"lastModifiedBy":34,
 	"lcName":"automation_test http apidelete11756541625030",
-	"modifiedTime":1756541923448,
+	"modifiedTime":1756541931283,
 	"name":"Automation_Test HTTP APIDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Em337-1",
-			"id":"_Em337",
-			"index":0,
+			"id":"n_3Knde",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"test_http",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Em337-1",
-			"id":"_zNRzj",
-			"index":0,
+			"id":"n_4S9IH",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Test HTTP API",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
