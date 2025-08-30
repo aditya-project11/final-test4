@@ -1,0 +1,27 @@
+{
+	"appsUsed":[],
+	"createdTime":1752312936827,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"68722c68e5848941bd0e8a4b",
+	"lastModifiedBy":34,
+	"lcName":"backend_automationgeuconrcxkwk",
+	"modifiedTime":1752312973006,
+	"name":"Backend_AutomationGEucOnRcxKWK",
+	"nodes":[
+		
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":1
+}
