@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","twilio"],
 	"createdTime":1756541976172,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_aVkgK",
+			"fromNodeId":"n_gOYoi",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_ybcGs",
+			"toNodeId":"n_8p2tg",
 			"type":"next"
 		}
 	],
 	"id":"68b2b418e482c576c90ab524",
 	"lastModifiedBy":34,
 	"lcName":"automation_twiliodelete11756541625030",
-	"modifiedTime":1756541976172,
+	"modifiedTime":1756541985098,
 	"name":"Automation_TwilioDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_aVkgK-1",
-			"id":"_aVkgK",
-			"index":0,
+			"id":"n_gOYoi",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"twilio",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_aVkgK-1",
-			"id":"_ybcGs",
-			"index":0,
+			"id":"n_8p2tg",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Twilio",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
