@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751745178177,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_VMkts",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_5xxjp",
+			"type":"next"
+		}
+	],
+	"id":"6869829a06ed9a32ab94e798",
+	"lastModifiedBy":34,
+	"lcName":"hook-saved visible11751744174820",
+	"modifiedTime":1751745210172,
+	"name":"Hook-Saved Visible11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_VMkts-1",
+			"id":"_VMkts",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_VMkts-1",
+			"id":"_5xxjp",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
