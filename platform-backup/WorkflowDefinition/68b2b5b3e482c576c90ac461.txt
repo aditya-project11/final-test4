@@ -15,6 +15,13 @@
 			"fromNodeId":"n_131yU",
 			"priority":0,
 			"skip":false,
+			"toNodeId":"n_epCmg",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_epCmg",
+			"priority":0,
+			"skip":false,
 			"toNodeId":"n_5s5mf",
 			"type":"next"
 		}
@@ -22,7 +29,7 @@
 	"id":"68b2b5b3e482c576c90ac461",
 	"lastModifiedBy":34,
 	"lcName":"updatecaches_117565416363280",
-	"modifiedTime":1756542405328,
+	"modifiedTime":1756542412382,
 	"name":"updateCaches_117565416363280",
 	"nodes":[
 		{
@@ -149,6 +156,30 @@
 		},
 		{
 			"context":{
+				"appName":"caches_by_unifyapps",
+				"resourceVersion":597,
+				"resourceName":"caches_by_unifyapps_update_node_cache",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_1Catm-1",
+			"id":"n_epCmg",
+			"index":3,
+			"inputs":{
+				"automation_id":"68b2b5b3e482c576c90ac461",
+				"cache_key":"{{ n_y5PiI.outputs.input_String }}",
+				"cache_ttl":500,
+				"node_id":"n_131yU"
+			},
+			"skip":false,
+			"subTitle":"Caches by UnifyApps",
+			"title":"Update node cache",
+			"type":"ACTION"
+		},
+		{
+			"context":{
 				"appName":"callables",
 				"resourceVersion":663,
 				"resourceName":"callables_return_to_automation",
@@ -159,10 +190,10 @@
 			"fallbackMode":"STOP",
 			"groupId":"_1Catm-1",
 			"id":"n_5s5mf",
-			"index":3,
+			"index":4,
 			"inputs":{
 				"result":{
-					"output_String":"{{ n_y5PiI.outputs.input_String }}"
+					"output_String":"{{ n_y5PiI.outputs.input_String }}{{ n_epCmg.outputs.success }}"
 				}
 			},
 			"skip":false,
@@ -183,5 +214,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
