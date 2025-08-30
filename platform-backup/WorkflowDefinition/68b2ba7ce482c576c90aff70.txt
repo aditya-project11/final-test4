@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["gcalendar","shopify"],
 	"createdTime":1756543612081,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_RlZt8",
+			"fromNodeId":"n_hFLyG",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_PzNV2",
+			"toNodeId":"n_DWKiR",
 			"type":"next"
 		}
 	],
 	"id":"68b2ba7ce482c576c90aff70",
 	"lastModifiedBy":34,
 	"lcName":"automation_google calendardelete11756541641242",
-	"modifiedTime":1756543612081,
+	"modifiedTime":1756543622293,
 	"name":"Automation_Google CalendarDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_RlZt8-1",
-			"id":"_RlZt8",
-			"index":0,
+			"id":"n_hFLyG",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"gcalendar",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_RlZt8-1",
-			"id":"_PzNV2",
-			"index":0,
+			"id":"n_DWKiR",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Google Calendar",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
