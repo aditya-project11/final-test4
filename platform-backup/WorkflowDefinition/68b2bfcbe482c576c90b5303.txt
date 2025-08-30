@@ -5,46 +5,63 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_D3BGe",
+			"fromNodeId":"n_RmrWf",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_qOwTo",
+			"toNodeId":"n_B0BDQ",
 			"type":"next"
 		}
 	],
 	"id":"68b2bfcbe482c576c90b5303",
 	"lastModifiedBy":34,
 	"lcName":"groovycodearguments_117565416324330",
-	"modifiedTime":1756544971456,
+	"modifiedTime":1756544979977,
 	"name":"groovyCodeArguments_117565416324330",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_D3BGe-1",
-			"id":"_D3BGe",
-			"index":0,
+			"id":"n_RmrWf",
+			"index":1,
 			"skip":false,
+			"subTitle":"Callable",
 			"title":"Select a trigger event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"code_by_unifyapps",
+				"resourceVersion":662,
+				"resourceName":"code_by_unifyapps_third_party_library",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_D3BGe-1",
-			"id":"_qOwTo",
-			"index":0,
+			"id":"n_B0BDQ",
+			"index":2,
+			"inputs":{
+				"init_parameters":[
+					"testArgument"
+				]
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Code by UnifyApps",
+			"title":"Execute method from classpath",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +72,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
