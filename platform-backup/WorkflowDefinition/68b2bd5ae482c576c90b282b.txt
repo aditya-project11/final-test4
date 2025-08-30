@@ -15,7 +15,7 @@
 	"id":"68b2bd5ae482c576c90b282b",
 	"lastModifiedBy":34,
 	"lcName":"condition box|string input - equals to 11756541632433",
-	"modifiedTime":1756544359077,
+	"modifiedTime":1756544371178,
 	"name":"Condition Box|String Input - Equals to 11756541632433",
 	"nodes":[
 		{
@@ -114,5 +114,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
