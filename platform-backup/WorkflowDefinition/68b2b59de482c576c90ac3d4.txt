@@ -1,50 +1,110 @@
 {
-	"appsUsed":[],
+	"appsUsed":["storage_by_unifyapps"],
 	"createdTime":1756542365337,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_PCeiC",
+			"fromNodeId":"n_0o93T",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_AEaRt",
+			"toNodeId":"n_7Yhsr",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_7Yhsr",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_bXMh8",
 			"type":"next"
 		}
 	],
 	"id":"68b2b59de482c576c90ac3d4",
 	"lastModifiedBy":34,
 	"lcName":"storage_by_primarykey_exist_117565416174620",
-	"modifiedTime":1756542365337,
+	"modifiedTime":1756542378104,
 	"name":"Storage_by_PrimaryKey_Exist_117565416174620",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PCeiC-1",
-			"id":"_PCeiC",
-			"index":0,
+			"id":"n_0o93T",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":20716,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_PCeiC-1",
-			"id":"_AEaRt",
-			"index":0,
+			"id":"n_7Yhsr",
+			"index":2,
+			"inputs":{
+				"writeThroughSessionVariables":false,
+				"object_type":"a5e48pp",
+				"record":{
+					"string_field":"first",
+					"number_field":1
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create record",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":20716,
+				"resourceName":"storage_by_unifyapps_create_record",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_PCeiC-1",
+			"id":"n_bXMh8",
+			"index":3,
+			"inputs":{
+				"writeThroughSessionVariables":false,
+				"object_type":"a5e48pp",
+				"record":{
+					"string_field":"second",
+					"number_field":1
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Create record",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +115,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
