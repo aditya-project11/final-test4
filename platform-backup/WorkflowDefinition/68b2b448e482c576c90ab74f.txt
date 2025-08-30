@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756542024098,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_7o8Az",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_wm4Wr",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b448e482c576c90ab74f",
 	"lastModifiedBy":34,
 	"lcName":"loop inside condition_1 automation 11756541641242",
-	"modifiedTime":1756542024098,
+	"modifiedTime":1756542030403,
 	"name":"Loop inside Condition_1 Automation 11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_7o8Az-1",
-			"id":"_7o8Az",
-			"index":0,
+			"id":"n_8GVev",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_7o8Az-1",
-			"id":"_wm4Wr",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
