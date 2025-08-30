@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287553268,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_jdNbT",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_PhNd1",
+			"type":"next"
+		}
+	],
+	"id":"68904dc1aad3151f9f1349de",
+	"lastModifiedBy":34,
+	"lcName":"create list in use code snippet for xsd, definition and field should always be editable_117542842668050",
+	"modifiedTime":1754372413952,
+	"name":"Create list In Use Code Snippet for XSD, definition and field should always be editable_117542842668050",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_jdNbT-1",
+			"id":"_jdNbT",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_jdNbT-1",
+			"id":"_PhNd1",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
