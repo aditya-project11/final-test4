@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749847983437,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_ggaaZ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_D0uKH",
+			"type":"next"
+		}
+	],
+	"id":"684c8faf926b5f75dea8826b",
+	"lastModifiedBy":34,
+	"lcName":"formulainconditioninputoutput11749843495081",
+	"modifiedTime":1754310992822,
+	"name":"formulaInConditionInputOutput11749843495081",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ggaaZ-1",
+			"id":"_ggaaZ",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ggaaZ-1",
+			"id":"_D0uKH",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
