@@ -1,21 +1,15 @@
 {
-	"appsUsed":["deepgram","shopify"],
+	"appsUsed":["shopify"],
 	"createdTime":1756543205404,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_Y9Bwk",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_J8qw9",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b8e5e482c576c90aeaa5",
 	"lastModifiedBy":34,
 	"lcName":"automation_deepgramdelete11756541641242",
-	"modifiedTime":1756543215407,
+	"modifiedTime":1756543221079,
 	"name":"Automation_DeepgramDelete11756541641242",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_0Ifk2-1",
 			"id":"n_Y9Bwk",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"deepgram",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_0Ifk2-1",
-			"id":"n_J8qw9",
-			"index":2,
-			"skip":false,
-			"subTitle":"Deepgram",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
