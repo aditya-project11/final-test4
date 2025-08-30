@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749713188647,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_OEy1X",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_sVbY6",
+			"type":"next"
+		}
+	],
+	"id":"684a812438b36333e3052b98",
+	"lastModifiedBy":34,
+	"lcName":"create variablesadd schema using xsd validate the fields clear all the schema and reuse the same schema and validate again and delete the field_117497101602870",
+	"modifiedTime":1754312322389,
+	"name":"Create variablesAdd Schema using XSD validate the fields clear all the schema and reuse the same schema and validate again and delete the field_117497101602870",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OEy1X-1",
+			"id":"_OEy1X",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OEy1X-1",
+			"id":"_sVbY6",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
