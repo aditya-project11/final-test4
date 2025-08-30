@@ -10,12 +10,19 @@
 			"skip":false,
 			"toNodeId":"n_c5VQX",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_c5VQX",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_qEI7L",
+			"type":"next"
 		}
 	],
 	"id":"68b2b5a1e482c576c90ac3f5",
 	"lastModifiedBy":34,
 	"lcName":"python_codebyunifyapps_typeconversion_testcase_117565416324330",
-	"modifiedTime":1756542384016,
+	"modifiedTime":1756542389586,
 	"name":"Python_CodeByUnifyApps_TypeConversion_Testcase_117565416324330",
 	"nodes":[
 		{
@@ -80,6 +87,19 @@
 			"id":"n_c5VQX",
 			"index":2,
 			"inputs":{
+				"output":{
+					"type":"object",
+					"properties":{
+						"answer":{
+							"type":"string",
+							"title":"answer"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"answer"
+					]
+				},
 				"configurationMode":"DEFAULT",
 				"input":{
 					"type":"object",
@@ -94,13 +114,40 @@
 						"number"
 					]
 				},
+				"code":"# TypeCoversion IntergerToString\r\nresult={}\r\nresult['answer'] = str(number)",
 				"isAsync":false,
-				"python_version":"3.12"
+				"python_version":"3.12",
+				"parameters":{
+					"number":"{{ n_gpikK.outputs.number }}"
+				}
 			},
 			"skip":false,
 			"subTitle":"Code by UnifyApps",
 			"title":"Execute Python script",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_qNOLO-1",
+			"id":"n_qEI7L",
+			"index":3,
+			"inputs":{
+				"result":{
+					"Result":"{{ n_c5VQX.outputs.result.answer }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
@@ -115,5 +162,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
