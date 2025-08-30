@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["recruitee","shopify"],
 	"createdTime":1756544459271,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_CYgkg",
+			"fromNodeId":"n_MBPGl",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_ltfaf",
+			"toNodeId":"n_mACsb",
 			"type":"next"
 		}
 	],
 	"id":"68b2bdcbe482c576c90b3474",
 	"lastModifiedBy":34,
 	"lcName":"automation_recruiteedelete11756541641242",
-	"modifiedTime":1756544459271,
+	"modifiedTime":1756544469396,
 	"name":"Automation_RecruiteeDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_CYgkg-1",
-			"id":"_CYgkg",
-			"index":0,
+			"id":"n_MBPGl",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"recruitee",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_CYgkg-1",
-			"id":"_ltfaf",
-			"index":0,
+			"id":"n_mACsb",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Recruitee",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
