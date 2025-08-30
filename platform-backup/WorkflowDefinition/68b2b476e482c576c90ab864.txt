@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","vonage_sms"],
+	"appsUsed":["shopify"],
 	"createdTime":1756542070043,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_OJA4M",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_TTxBg",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b476e482c576c90ab864",
 	"lastModifiedBy":34,
 	"lcName":"automation_vonage smsdelete11756541625030",
-	"modifiedTime":1756542078587,
+	"modifiedTime":1756542085013,
 	"name":"Automation_Vonage SMSDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_DY2HI-1",
 			"id":"n_OJA4M",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"vonage_sms",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_DY2HI-1",
-			"id":"n_TTxBg",
-			"index":2,
-			"skip":false,
-			"subTitle":"Vonage SMS",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
