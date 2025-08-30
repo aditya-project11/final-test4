@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751748036354,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_ahZtK",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Wjtso",
+			"type":"next"
+		}
+	],
+	"id":"68698dc4abfc98163fe47f33",
+	"lastModifiedBy":34,
+	"lcName":"testbuttontwilio_11751744174820",
+	"modifiedTime":1751748049276,
+	"name":"TestButtonTwilio_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ahZtK-1",
+			"id":"_ahZtK",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ahZtK-1",
+			"id":"_Wjtso",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
