@@ -2,10 +2,25 @@
 	"appsUsed":[],
 	"createdTime":1756544361051,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756544378509,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b2bd7ae482c576c90b2c06",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"description":"description",
 	"edges":[
 		{
 			"fromNodeId":"n_9g7QG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_xiowI",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_xiowI",
 			"priority":0,
 			"skip":false,
 			"toNodeId":"n_Z3RH9",
@@ -15,7 +30,7 @@
 	"id":"68b2bd69e482c576c90b2a0b",
 	"lastModifiedBy":34,
 	"lcName":"close_drawer_117565416363280",
-	"modifiedTime":1756544375980,
+	"modifiedTime":1756544386491,
 	"name":"Close_Drawer_117565416363280",
 	"nodes":[
 		{
@@ -68,6 +83,63 @@
 		},
 		{
 			"context":{
+				"appName":"variable_by_unifyapps",
+				"resourceVersion":642,
+				"resourceName":"variable_by_unifyapps_create_variables",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_ujdSs-1",
+			"id":"n_xiowI",
+			"index":2,
+			"inputSchema":{
+				"type":"SCHEMA_AND_LAYOUT",
+				"dynamic":false,
+				"layout":{
+					
+				},
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"Input":{
+							"type":"integer",
+							"title":"Input"
+						}
+					},
+					"required":[
+						"Input"
+					]
+				}
+			},
+			"inputs":{
+				
+			},
+			"outputSchema":{
+				"dynamic":false,
+				"schema":{
+					"additionalProperties":false,
+					"type":"object",
+					"properties":{
+						"Input":{
+							"type":"integer",
+							"title":"Input"
+						}
+					},
+					"required":[
+						"Input"
+					]
+				}
+			},
+			"skip":false,
+			"subTitle":"Variable by UnifyApps",
+			"title":"Create variables",
+			"type":"ACTION"
+		},
+		{
+			"context":{
 				"appName":"callables",
 				"resourceVersion":663,
 				"resourceName":"callables_return_to_automation",
@@ -78,7 +150,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"_ujdSs-1",
 			"id":"n_Z3RH9",
-			"index":2,
+			"index":3,
 			"inputs":{
 				"result":{
 					"output_String":"{{ n_9g7QG.outputs.input_String }}"
@@ -102,5 +174,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
