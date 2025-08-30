@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["sap_hana","shopify"],
 	"createdTime":1756541658399,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_9aZ5N",
+			"fromNodeId":"n_SpVOF",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_iSTrm",
+			"toNodeId":"n_jKimL",
 			"type":"next"
 		}
 	],
 	"id":"68b2b2dae482c576c90aa8cd",
 	"lastModifiedBy":34,
 	"lcName":"automation_sap hanadelete11756541625030",
-	"modifiedTime":1756541658399,
+	"modifiedTime":1756541666619,
 	"name":"Automation_SAP HANADelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_9aZ5N-1",
-			"id":"_9aZ5N",
-			"index":0,
+			"id":"n_SpVOF",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"sap_hana",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_9aZ5N-1",
-			"id":"_iSTrm",
-			"index":0,
+			"id":"n_jKimL",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"SAP HANA",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
