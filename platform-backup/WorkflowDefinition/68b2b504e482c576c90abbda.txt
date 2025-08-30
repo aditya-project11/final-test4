@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify","youtube"],
 	"createdTime":1756542212964,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_KNa32",
+			"fromNodeId":"n_LXRTw",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_ee1GI",
+			"toNodeId":"n_q3eGt",
 			"type":"next"
 		}
 	],
 	"id":"68b2b504e482c576c90abbda",
 	"lastModifiedBy":34,
 	"lcName":"automation_youtubedelete11756541625030",
-	"modifiedTime":1756542212964,
+	"modifiedTime":1756542223305,
 	"name":"Automation_YouTubeDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_KNa32-1",
-			"id":"_KNa32",
-			"index":0,
+			"id":"n_LXRTw",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"youtube",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_KNa32-1",
-			"id":"_ee1GI",
-			"index":0,
+			"id":"n_q3eGt",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"YouTube",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
