@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750107185461,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_rAbgI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_xpics",
+			"type":"next"
+		}
+	],
+	"id":"68508431a420b7160b86559f",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongmail_11750102703606",
+	"modifiedTime":1750516556453,
+	"name":"TestButtonGmail_11750102703606",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rAbgI-1",
+			"id":"_rAbgI",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rAbgI-1",
+			"id":"_xpics",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
