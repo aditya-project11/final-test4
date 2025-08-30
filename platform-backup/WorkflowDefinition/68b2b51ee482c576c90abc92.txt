@@ -31,7 +31,7 @@
 	"id":"68b2b51ee482c576c90abc92",
 	"lastModifiedBy":34,
 	"lcName":"delete condition 11756541641242",
-	"modifiedTime":1756542268581,
+	"modifiedTime":1756542272662,
 	"name":"delete condition 11756541641242",
 	"nodes":[
 		{
@@ -73,12 +73,6 @@
 			"index":2,
 			"inputs":{
 				"filters":[
-					{
-						"property":"{{ n_oVPYW.outputs.shipping_address.zip }}{{ n_oVPYW.outputs.current_total_discounts_set.shop_money.amount }}{{ n_oVPYW.outputs.landing_site }}{{ n_oVPYW.outputs.discount_allocations }}",
-						"filter":{
-							"operator":"MISSING"
-						}
-					},
 					{
 						"filters":[
 							{
@@ -134,5 +128,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":3
 }
