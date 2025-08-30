@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751267531389,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_qK4j7",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_qrEjl",
+			"type":"next"
+		}
+	],
+	"id":"686238cb7768e1695480bb32",
+	"lastModifiedBy":34,
+	"lcName":"servicenow get attachment contents - 117512662969180",
+	"modifiedTime":1751267584497,
+	"name":"ServiceNow Get attachment contents - 117512662969180",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qK4j7-1",
+			"id":"_qK4j7",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qK4j7-1",
+			"id":"_qrEjl",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
