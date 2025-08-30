@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749786610467,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_y3gzr",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_RI0bY",
+			"type":"next"
+		}
+	],
+	"id":"684b9ff2bd68593c6f5aab8f",
+	"lastModifiedBy":34,
+	"lcName":"error_toast_msg_117497847386980",
+	"modifiedTime":1754311389459,
+	"name":"Error_Toast_MSG_117497847386980",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_y3gzr-1",
+			"id":"_y3gzr",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_y3gzr-1",
+			"id":"_RI0bY",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
