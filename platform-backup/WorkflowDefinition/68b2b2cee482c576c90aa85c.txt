@@ -1,15 +1,15 @@
 {
-	"appsUsed":[],
+	"appsUsed":["slack"],
 	"createdTime":1756541646472,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1756541658632,
+		"deployedAt":1756541679399,
 		"deployedBy":34,
-		"deployedDefinitionId":"68b2b2dae482c576c90aa8c8",
-		"deploymentTag":"Check_test",
+		"deployedDefinitionId":"68b2b2efe482c576c90aa9c8",
+		"deploymentTag":"helloWorld",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":1
+		"version":2,
+		"workflowVersion":2
 	},
 	"description":"description",
 	"edges":[
@@ -19,12 +19,19 @@
 			"skip":false,
 			"toNodeId":"n_iAPaw",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_iAPaw",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_UFBNm",
+			"type":"next"
 		}
 	],
 	"id":"68b2b2cee482c576c90aa85c",
 	"lastModifiedBy":34,
 	"lcName":"tag_version_tag_in_preview_and_versions_tab_117565416412420",
-	"modifiedTime":1756541676588,
+	"modifiedTime":1756541696937,
 	"name":"Tag_version_tag_in_preview_and_versions_tab_117565416412420",
 	"nodes":[
 		{
@@ -108,6 +115,32 @@
 			"subTitle":"Variable by UnifyApps",
 			"title":"Create variables",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"slack",
+				"resourceVersion":27598,
+				"connectionId":"662f8ddb91d8ba4394d0cce6",
+				"resourceName":"slack_post_message_in_channel",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_6O8f9-1",
+			"id":"n_UFBNm",
+			"index":3,
+			"inputs":{
+				"link_names":true,
+				"messageType":"text",
+				"channel":"C07AKEPN1U3",
+				"text":"{{ n_fe7rO.outputs }}",
+				"mrkdwn":true
+			},
+			"skip":false,
+			"subTitle":"Slack",
+			"title":"Post message",
+			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -122,5 +155,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":2
+	"version":3
 }
