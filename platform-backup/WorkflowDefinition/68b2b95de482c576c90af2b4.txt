@@ -1,0 +1,69 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1756543325337,
+	"deleted":false,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_qBObv",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_cDmSL",
+			"type":"next"
+		}
+	],
+	"id":"68b2b95de482c576c90af2b4",
+	"lastModifiedBy":34,
+	"lcName":"automation_excel by unifyappsdelete11756541641242",
+	"modifiedTime":1756543335320,
+	"name":"Automation_Excel by UnifyAppsDelete11756541641242",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_bomni-1",
+			"id":"n_qBObv",
+			"index":1,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"excel_by_unifyapps",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_bomni-1",
+			"id":"n_cDmSL",
+			"index":2,
+			"skip":false,
+			"subTitle":"Excel by UnifyApps",
+			"title":"Select an action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
