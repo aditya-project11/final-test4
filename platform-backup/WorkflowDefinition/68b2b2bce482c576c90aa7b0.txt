@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["routific","shopify"],
 	"createdTime":1756541628754,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_f3Y9A",
+			"fromNodeId":"n_FbeMi",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_6eHjE",
+			"toNodeId":"n_CFciF",
 			"type":"next"
 		}
 	],
 	"id":"68b2b2bce482c576c90aa7b0",
 	"lastModifiedBy":34,
 	"lcName":"automation_routificdelete11756541625030",
-	"modifiedTime":1756541628754,
+	"modifiedTime":1756541636481,
 	"name":"Automation_RoutificDelete11756541625030",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_f3Y9A-1",
-			"id":"_f3Y9A",
-			"index":0,
+			"id":"n_FbeMi",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"routific",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_f3Y9A-1",
-			"id":"_6eHjE",
-			"index":0,
+			"id":"n_CFciF",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Routific",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
