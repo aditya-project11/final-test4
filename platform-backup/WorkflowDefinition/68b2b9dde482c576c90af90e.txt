@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["freshchat","shopify"],
 	"createdTime":1756543453473,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_iScoS",
+			"fromNodeId":"n_U2HzU",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_xz631",
+			"toNodeId":"n_Z8bhm",
 			"type":"next"
 		}
 	],
 	"id":"68b2b9dde482c576c90af90e",
 	"lastModifiedBy":34,
 	"lcName":"automation_freshchatdelete11756541641242",
-	"modifiedTime":1756543453473,
+	"modifiedTime":1756543461972,
 	"name":"Automation_FreshchatDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_iScoS-1",
-			"id":"_iScoS",
-			"index":0,
+			"id":"n_U2HzU",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"freshchat",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_iScoS-1",
-			"id":"_xz631",
-			"index":0,
+			"id":"n_Z8bhm",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Freshchat",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
