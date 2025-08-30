@@ -1,0 +1,47 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1754120964181,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"688dc3040df226f86fab3ad4",
+	"lastModifiedBy":34,
+	"lcName":"automation_amazon bedrockdelete11754118381153",
+	"modifiedTime":1754120975292,
+	"name":"Automation_Amazon BedrockDelete11754118381153",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_L1jKA-1",
+			"id":"n_G0QJL",
+			"index":1,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
