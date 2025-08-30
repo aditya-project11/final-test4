@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","workable"],
+	"appsUsed":["shopify"],
 	"createdTime":1756542158330,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_0sZSt",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_ckyNR",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b4cee482c576c90aba9d",
 	"lastModifiedBy":34,
 	"lcName":"automation_workabledelete11756541625030",
-	"modifiedTime":1756542165487,
+	"modifiedTime":1756542170835,
 	"name":"Automation_WorkableDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_vlnn0-1",
 			"id":"n_0sZSt",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"workable",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_vlnn0-1",
-			"id":"n_ckyNR",
-			"index":2,
-			"skip":false,
-			"subTitle":"Workable",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
