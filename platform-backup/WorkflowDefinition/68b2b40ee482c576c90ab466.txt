@@ -1,21 +1,15 @@
 {
-	"appsUsed":["shopify","total_expert"],
+	"appsUsed":["shopify"],
 	"createdTime":1756541966823,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"n_x5hbE",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_nvzan",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b40ee482c576c90ab466",
 	"lastModifiedBy":34,
 	"lcName":"automation_total expertdelete11756541625030",
-	"modifiedTime":1756541975608,
+	"modifiedTime":1756541980825,
 	"name":"Automation_Total ExpertDelete11756541625030",
 	"nodes":[
 		{
@@ -23,7 +17,7 @@
 				"appName":"shopify"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_9eQVV-1",
 			"id":"n_x5hbE",
@@ -35,22 +29,6 @@
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"context":{
-				"appName":"total_expert",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":true,
-			"fallbackMode":"STOP",
-			"groupId":"_9eQVV-1",
-			"id":"n_nvzan",
-			"index":2,
-			"skip":false,
-			"subTitle":"Total Expert",
-			"title":"Select an action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
@@ -65,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
