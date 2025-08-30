@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287553551,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_VzFeb",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_pNYhU",
+			"type":"next"
+		}
+	],
+	"id":"68904dc1aad3151f9f1349e3",
+	"lastModifiedBy":34,
+	"lcName":"automation_zoho invoicedelete11754284269014",
+	"modifiedTime":1754372413673,
+	"name":"Automation_Zoho InvoiceDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_VzFeb-1",
+			"id":"_VzFeb",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_VzFeb-1",
+			"id":"_pNYhU",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
