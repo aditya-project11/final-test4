@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756544339899,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_qef8w",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_63oUs",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2bd53e482c576c90b2782",
 	"lastModifiedBy":34,
 	"lcName":"automation_podiodelete11756541641242",
-	"modifiedTime":1756544339899,
+	"modifiedTime":1756544354964,
 	"name":"Automation_PodioDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_qef8w-1",
-			"id":"_qef8w",
-			"index":0,
+			"id":"n_3GdWm",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_qef8w-1",
-			"id":"_63oUs",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
