@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["pinecone","shopify"],
 	"createdTime":1756544309884,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_QkAAl",
+			"fromNodeId":"n_bKF12",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_Htdun",
+			"toNodeId":"n_gEd37",
 			"type":"next"
 		}
 	],
 	"id":"68b2bd35e482c576c90b2514",
 	"lastModifiedBy":34,
 	"lcName":"automation_pineconedelete11756541641242",
-	"modifiedTime":1756544309884,
+	"modifiedTime":1756544320168,
 	"name":"Automation_PineconeDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_QkAAl-1",
-			"id":"_QkAAl",
-			"index":0,
+			"id":"n_bKF12",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"pinecone",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_QkAAl-1",
-			"id":"_Htdun",
-			"index":0,
+			"id":"n_gEd37",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Pinecone",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
