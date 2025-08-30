@@ -1,50 +1,38 @@
 {
-	"appsUsed":[],
+	"appsUsed":["shopify"],
 	"createdTime":1756543235772,
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_EaymK",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_t3WR7",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b2b903e482c576c90aecaf",
 	"lastModifiedBy":34,
 	"lcName":"automation_dialpaddelete11756541641242",
-	"modifiedTime":1756543235772,
+	"modifiedTime":1756543250737,
 	"name":"Automation_DialpadDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
 			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_EaymK-1",
-			"id":"_EaymK",
-			"index":0,
+			"id":"n_wy0A8",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_EaymK-1",
-			"id":"_t3WR7",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +43,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":2
 }
