@@ -1,31 +1,35 @@
 {
-	"appsUsed":[],
+	"appsUsed":["pim","shopify"],
 	"createdTime":1756544306966,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_Ai5PG",
+			"fromNodeId":"n_vTy3k",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_xQjlG",
+			"toNodeId":"n_27zlN",
 			"type":"next"
 		}
 	],
 	"id":"68b2bd32e482c576c90b24dc",
 	"lastModifiedBy":34,
 	"lcName":"automation_pimdelete11756541641242",
-	"modifiedTime":1756544306966,
+	"modifiedTime":1756544317266,
 	"name":"Automation_PimDelete11756541641242",
 	"nodes":[
 		{
+			"context":{
+				"appName":"shopify"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Ai5PG-1",
-			"id":"_Ai5PG",
-			"index":0,
+			"id":"n_vTy3k",
+			"index":1,
 			"skip":false,
+			"subTitle":"Shopify",
 			"title":"Select a trigger event",
 			"trigger":{
 				"type":"EVENT"
@@ -33,18 +37,24 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"pim",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_Ai5PG-1",
-			"id":"_xQjlG",
-			"index":0,
+			"id":"n_27zlN",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Pim",
+			"title":"Select an action",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +65,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
