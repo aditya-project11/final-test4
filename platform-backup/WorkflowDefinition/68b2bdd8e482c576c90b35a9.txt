@@ -5,46 +5,105 @@
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_dpHmz",
+			"fromNodeId":"n_WdJk8",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_iip41",
+			"toNodeId":"n_XGSZF",
 			"type":"next"
 		}
 	],
 	"id":"68b2bdd8e482c576c90b35a9",
 	"lastModifiedBy":34,
 	"lcName":"condition box|string input - ends with 11756541632433",
-	"modifiedTime":1756544472501,
+	"modifiedTime":1756544487666,
 	"name":"Condition Box|String Input - Ends with 11756541632433",
 	"nodes":[
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":620,
+				"resourceName":"callables_from_automation"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_dpHmz-1",
-			"id":"_dpHmz",
-			"index":0,
+			"id":"n_WdJk8",
+			"index":1,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"output_String":{
+							"type":"string",
+							"title":"output_String"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"output_String"
+					]
+				},
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"{{ n_WdJk8.outputs.input_String }}",
+							"filter":{
+								"operator":"ENDS_WITH",
+								"value":"cool"
+							}
+						}
+					],
+					"operator":"AND"
+				},
+				"setup":{
+					"type":"object",
+					"properties":{
+						"input_String":{
+							"type":"string",
+							"title":"input_String"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"input_String"
+					]
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Callable",
+			"title":"Trigger via automation",
 			"trigger":{
-				"type":"EVENT"
+				"type":"CALLABLE"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":663,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_dpHmz-1",
-			"id":"_iip41",
-			"index":0,
+			"id":"n_XGSZF",
+			"index":2,
+			"inputs":{
+				"result":{
+					"output_String":"{{ n_WdJk8.outputs.input_String }}"
+				}
+			},
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Callable",
+			"title":"Respond to automation",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +114,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
