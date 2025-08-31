@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749746360906,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_KLIAt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_w2Fqx",
+			"type":"next"
+		}
+	],
+	"id":"684b02b8bc14c361d08c0e71",
+	"lastModifiedBy":34,
+	"lcName":"mainautomationnodechangecheck117497442778180",
+	"modifiedTime":1754311733460,
+	"name":"mainAutomationNodeChangeCheck117497442778180",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KLIAt-1",
+			"id":"_KLIAt",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KLIAt-1",
+			"id":"_w2Fqx",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
