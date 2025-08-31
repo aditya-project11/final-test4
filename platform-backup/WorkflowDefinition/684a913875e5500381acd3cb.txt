@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749717304525,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_HFzID",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_BOVFO",
+			"type":"next"
+		}
+	],
+	"id":"684a913875e5500381acd3cb",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmicrosoft sharepoint_11749717299036",
+	"modifiedTime":1754312185974,
+	"name":"TestButtonMicrosoft SharePoint_11749717299036",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HFzID-1",
+			"id":"_HFzID",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_HFzID-1",
+			"id":"_BOVFO",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
