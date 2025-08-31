@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750222106247,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_mtV5e",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_38iyP",
+			"type":"next"
+		}
+	],
+	"id":"6852451a75c5bd216fefc0b0",
+	"lastModifiedBy":34,
+	"lcName":"upload_files_117502191759140",
+	"modifiedTime":1750515899151,
+	"name":"Upload_Files_117502191759140",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_mtV5e-1",
+			"id":"_mtV5e",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_mtV5e-1",
+			"id":"_38iyP",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
