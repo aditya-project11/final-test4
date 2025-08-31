@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749760562039,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_qnRFs",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_bNXYN",
+			"type":"next"
+		}
+	],
+	"id":"684b3a324953a069fc176eb8",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonazure document intelligence_11749757108583",
+	"modifiedTime":1754311531547,
+	"name":"TestButtonAzure Document Intelligence_11749757108583",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qnRFs-1",
+			"id":"_qnRFs",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_qnRFs-1",
+			"id":"_bNXYN",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
