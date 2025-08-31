@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287723035,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_st5wU",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_LQajs",
+			"type":"next"
+		}
+	],
+	"id":"68904e6baad3151f9f135465",
+	"lastModifiedBy":34,
+	"lcName":"save&validate call - update input - 11754284269014",
+	"modifiedTime":1754372394231,
+	"name":"save&validate call - update input - 11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_st5wU-1",
+			"id":"_st5wU",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_st5wU-1",
+			"id":"_LQajs",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
