@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751975185596,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Y3Orf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_7pLIO",
+			"type":"next"
+		}
+	],
+	"id":"686d0511809b210f5890cce2",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmicrosoft azure ai_11751966969264",
+	"modifiedTime":1751975213196,
+	"name":"TestButtonMicrosoft Azure AI_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Y3Orf-1",
+			"id":"_Y3Orf",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Y3Orf-1",
+			"id":"_7pLIO",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
