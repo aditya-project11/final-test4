@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750327486237,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_yAUFu",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_t0ENb",
+			"type":"next"
+		}
+	],
+	"id":"6853e0bea7f95956433457b7",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmicrosoft calendar_11750325896547",
+	"modifiedTime":1750514483008,
+	"name":"TestButtonMicrosoft Calendar_11750325896547",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_yAUFu-1",
+			"id":"_yAUFu",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_yAUFu-1",
+			"id":"_t0ENb",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
