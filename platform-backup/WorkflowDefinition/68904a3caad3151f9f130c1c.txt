@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754286652579,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_9YRGT",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_w1ZEA",
+			"type":"next"
+		}
+	],
+	"id":"68904a3caad3151f9f130c1c",
+	"lastModifiedBy":34,
+	"lcName":"automation_microsoft exceldelete11754284269014",
+	"modifiedTime":1754372524170,
+	"name":"Automation_Microsoft ExcelDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_9YRGT-1",
+			"id":"_9YRGT",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_9YRGT-1",
+			"id":"_w1ZEA",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
