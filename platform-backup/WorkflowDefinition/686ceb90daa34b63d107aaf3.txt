@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751968656096,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_iGoZe",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_RXQ1O",
+			"type":"next"
+		}
+	],
+	"id":"686ceb90daa34b63d107aaf3",
+	"lastModifiedBy":34,
+	"lcName":"deletebranchwithmultiplebranching_117519669558680",
+	"modifiedTime":1751968767996,
+	"name":"deleteBranchWithMultipleBranching_117519669558680",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_iGoZe-1",
+			"id":"_iGoZe",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_iGoZe-1",
+			"id":"_RXQ1O",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
