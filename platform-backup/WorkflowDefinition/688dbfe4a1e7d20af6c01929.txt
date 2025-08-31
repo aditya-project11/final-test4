@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754120164253,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_zJBPb",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_lBV3y",
+			"type":"next"
+		}
+	],
+	"id":"688dbfe4a1e7d20af6c01929",
+	"lastModifiedBy":34,
+	"lcName":"testbuttong2 crowd_11754118380778",
+	"modifiedTime":1754120182026,
+	"name":"TestButtonG2 Crowd_11754118380778",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_zJBPb-1",
+			"id":"_zJBPb",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_zJBPb-1",
+			"id":"_lBV3y",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
