@@ -233,6 +233,7 @@
 		"enableRunLogging":true,
 		"enableVariableLogging":true,
 		"route":{
+			"default":false,
 			"tierName":"global"
 		}
 	},
