@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754119212309,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_KYNMG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_mt79j",
+			"type":"next"
+		}
+	],
+	"id":"688dbc2cec7a3cd32c396612",
+	"lastModifiedBy":34,
+	"lcName":"create listadd schema using xsd validate the fields clear all the schema and reuse the same schema and validate again and delete the field_117541183590670",
+	"modifiedTime":1754119228849,
+	"name":"Create listAdd Schema using XSD validate the fields clear all the schema and reuse the same schema and validate again and delete the field_117541183590670",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KYNMG-1",
+			"id":"_KYNMG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KYNMG-1",
+			"id":"_mt79j",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
