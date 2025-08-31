@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1751998215514,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_tIT50",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_JtD88",
+			"type":"next"
+		}
+	],
+	"id":"686d5f070f89ca2df5e592dc",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle task_11751992714623",
+	"modifiedTime":1751998250904,
+	"name":"TestButtonGoogle Task_11751992714623",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tIT50-1",
+			"id":"_tIT50",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_tIT50-1",
+			"id":"_JtD88",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
