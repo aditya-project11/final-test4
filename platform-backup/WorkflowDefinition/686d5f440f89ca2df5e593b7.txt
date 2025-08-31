@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1751998276313,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_nvUVP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_WC8To",
+			"type":"next"
+		}
+	],
+	"id":"686d5f440f89ca2df5e593b7",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle workspace_11751992714623",
+	"modifiedTime":1751998313514,
+	"name":"TestButtonGoogle Workspace_11751992714623",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_nvUVP-1",
+			"id":"_nvUVP",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_nvUVP-1",
+			"id":"_WC8To",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
