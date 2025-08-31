@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751747643071,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_OvoLf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_JYn7z",
+			"type":"next"
+		}
+	],
+	"id":"68698c3babfc98163fe47982",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonquora ads conversion_11751744174820",
+	"modifiedTime":1751747661561,
+	"name":"TestButtonQuora Ads Conversion_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OvoLf-1",
+			"id":"_OvoLf",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OvoLf-1",
+			"id":"_JYn7z",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
