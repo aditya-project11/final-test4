@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751190688606,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_3zqwE",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_LtnsD",
+			"type":"next"
+		}
+	],
+	"id":"68610ca03f552357acde9ef7",
+	"lastModifiedBy":34,
+	"lcName":"addmultipleschemaslogsworkflow_11751190683792",
+	"modifiedTime":1751192425526,
+	"name":"AddMultipleSchemasLogsWorkflow_11751190683792",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_3zqwE-1",
+			"id":"_3zqwE",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_3zqwE-1",
+			"id":"_LtnsD",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
