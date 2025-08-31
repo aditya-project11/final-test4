@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750016875841,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_4MpSD",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_iMQEk",
+			"type":"next"
+		}
+	],
+	"id":"684f236b0573ad4d2f07e631",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonscrapeapi_11750016280458",
+	"modifiedTime":1750517507021,
+	"name":"TestButtonScrapeAPI_11750016280458",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4MpSD-1",
+			"id":"_4MpSD",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4MpSD-1",
+			"id":"_iMQEk",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
