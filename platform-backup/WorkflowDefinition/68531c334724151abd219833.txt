@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750277171142,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_B4YKR",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_mXado",
+			"type":"next"
+		}
+	],
+	"id":"68531c334724151abd219833",
+	"lastModifiedBy":34,
+	"lcName":"testbuttontrello_11750275533104",
+	"modifiedTime":1750515354000,
+	"name":"TestButtonTrello_11750275533104",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_B4YKR-1",
+			"id":"_B4YKR",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_B4YKR-1",
+			"id":"_mXado",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
