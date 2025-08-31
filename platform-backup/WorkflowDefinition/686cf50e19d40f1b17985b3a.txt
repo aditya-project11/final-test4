@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751971086496,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_1AmEz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_6Mwrd",
+			"type":"next"
+		}
+	],
+	"id":"686cf50e19d40f1b17985b3a",
+	"lastModifiedBy":34,
+	"lcName":"hook-continue on failure enabled11751966969264",
+	"modifiedTime":1751971132113,
+	"name":"Hook-continue on failure enabled11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1AmEz-1",
+			"id":"_1AmEz",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_1AmEz-1",
+			"id":"_6Mwrd",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
