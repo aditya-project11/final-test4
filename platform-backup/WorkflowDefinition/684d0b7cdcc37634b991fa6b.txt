@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749879676039,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_IC53I",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_BnTqi",
+			"type":"next"
+		}
+	],
+	"id":"684d0b7cdcc37634b991fa6b",
+	"lastModifiedBy":34,
+	"lcName":"condition box|number input - less than or equal to 11749878904828",
+	"modifiedTime":1754310934467,
+	"name":"Condition Box|Number Input - Less than or equal to 11749878904828",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IC53I-1",
+			"id":"_IC53I",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IC53I-1",
+			"id":"_BnTqi",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
