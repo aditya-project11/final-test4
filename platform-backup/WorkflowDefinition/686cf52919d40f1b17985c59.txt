@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751971113196,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_OQhjh",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_pFH1k",
+			"type":"next"
+		}
+	],
+	"id":"686cf52919d40f1b17985c59",
+	"lastModifiedBy":34,
+	"lcName":"hook-post mapping output11751966969264",
+	"modifiedTime":1751971162315,
+	"name":"Hook-post mapping output11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OQhjh-1",
+			"id":"_OQhjh",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OQhjh-1",
+			"id":"_pFH1k",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
