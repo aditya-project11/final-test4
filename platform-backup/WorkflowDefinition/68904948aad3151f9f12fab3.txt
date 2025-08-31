@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754286408080,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_J1wjO",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ElR4p",
+			"type":"next"
+		}
+	],
+	"id":"68904948aad3151f9f12fab3",
+	"lastModifiedBy":34,
+	"lcName":"automation_hdfc custom integrationsdelete11754284269014",
+	"modifiedTime":1754372556484,
+	"name":"Automation_HDFC Custom IntegrationsDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_J1wjO-1",
+			"id":"_J1wjO",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_J1wjO-1",
+			"id":"_ElR4p",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
