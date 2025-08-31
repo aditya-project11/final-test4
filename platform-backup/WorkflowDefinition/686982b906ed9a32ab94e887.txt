@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751745209064,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_OSqhf",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_K3mqg",
+			"type":"next"
+		}
+	],
+	"id":"686982b906ed9a32ab94e887",
+	"lastModifiedBy":34,
+	"lcName":"hook-edit or delete11751744174820",
+	"modifiedTime":1751745239392,
+	"name":"Hook-edit or delete11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OSqhf-1",
+			"id":"_OSqhf",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OSqhf-1",
+			"id":"_K3mqg",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
