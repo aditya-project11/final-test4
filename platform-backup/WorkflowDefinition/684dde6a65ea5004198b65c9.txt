@@ -1,0 +1,44 @@
+{
+	"appsUsed":[],
+	"createdTime":1749933674337,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"684dde6a65ea5004198b65c9",
+	"lastModifiedBy":34,
+	"lcName":"after rename - 11749929884982",
+	"modifiedTime":1750517667512,
+	"name":"after rename - 11749929884982",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_spvqI-1",
+			"id":"n_htVQe",
+			"index":0,
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
