@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751967272196,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_vusMr",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_fbVjO",
+			"type":"next"
+		}
+	],
+	"id":"686ce628daa34b63d107676f",
+	"lastModifiedBy":34,
+	"lcName":"automation_codadelete11751966949458",
+	"modifiedTime":1754310057056,
+	"name":"Automation_CodaDelete11751966949458",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vusMr-1",
+			"id":"_vusMr",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vusMr-1",
+			"id":"_fbVjO",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
