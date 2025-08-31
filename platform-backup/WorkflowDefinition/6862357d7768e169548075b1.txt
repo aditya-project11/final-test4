@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1751266685579,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"6862357d7768e169548075b1",
+	"lastModifiedBy":34,
+	"lcName":"automation_netsuitedelete11751266297429",
+	"modifiedTime":1751266759997,
+	"name":"Automation_NetsuiteDelete11751266297429",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_AUy2R-1",
+			"id":"n_qxa2B",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
