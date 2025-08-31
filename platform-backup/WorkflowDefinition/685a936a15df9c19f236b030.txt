@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750766442439,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_O8Mio",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_MoiCL",
+			"type":"next"
+		}
+	],
+	"id":"685a936a15df9c19f236b030",
+	"lastModifiedBy":34,
+	"lcName":"microsoft outlook-new emailverifytimeisnotautoupdating117507642131630",
+	"modifiedTime":1750766485544,
+	"name":"Microsoft Outlook-New emailverifyTimeIsNotAutoUpdating117507642131630",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_O8Mio-1",
+			"id":"_O8Mio",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_O8Mio-1",
+			"id":"_MoiCL",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
