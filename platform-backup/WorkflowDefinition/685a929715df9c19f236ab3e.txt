@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750766231247,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_c8o4z",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_CGh7B",
+			"type":"next"
+		}
+	],
+	"id":"685a929715df9c19f236ab3e",
+	"lastModifiedBy":34,
+	"lcName":"automation_scrapeapidelete11750764212677",
+	"modifiedTime":1754310633998,
+	"name":"Automation_ScrapeAPIDelete11750764212677",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_c8o4z-1",
+			"id":"_c8o4z",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_c8o4z-1",
+			"id":"_CGh7B",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
