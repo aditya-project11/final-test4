@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751025874600,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Tglv7",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_DTCAD",
+			"type":"next"
+		}
+	],
+	"id":"685e88d26cd5c35163bb5280",
+	"lastModifiedBy":34,
+	"lcName":"result_log_workflow_117510258713490",
+	"modifiedTime":1754310581569,
+	"name":"result_log_workflow_117510258713490",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Tglv7-1",
+			"id":"_Tglv7",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Tglv7-1",
+			"id":"_DTCAD",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
