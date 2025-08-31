@@ -105,6 +105,7 @@
 		"enableRunLogging":false,
 		"enableVariableLogging":false,
 		"route":{
+			"default":false,
 			"headerKey":"HeaderKey",
 			"headerValueTierMap":{
 				"mapField":"global"
