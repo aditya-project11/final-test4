@@ -1,0 +1,50 @@
+{
+	"appsUsed":[],
+	"createdTime":1754120200069,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"688dc008a1e7d20af6c01a9d",
+	"lastModifiedBy":34,
+	"lcName":"filter -- before modified time - 11754118390218",
+	"modifiedTime":1754120219197,
+	"name":"Filter -- Before Modified Time - 11754118390218",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":616,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_f1HQh-1",
+			"id":"n_YotDD",
+			"index":1,
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
