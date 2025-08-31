@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750765603138,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_mA3NA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_iWXNq",
+			"type":"next"
+		}
+	],
+	"id":"685a9023b01b2a78aa2734b1",
+	"lastModifiedBy":34,
+	"lcName":"servicenow upload attachment - 117507642131630",
+	"modifiedTime":1750765644338,
+	"name":"ServiceNow Upload attachment - 117507642131630",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_mA3NA-1",
+			"id":"_mA3NA",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_mA3NA-1",
+			"id":"_iWXNq",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
