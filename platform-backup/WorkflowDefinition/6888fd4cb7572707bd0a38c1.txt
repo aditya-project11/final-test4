@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1753808204255,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_2pY7I",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ZmOOr",
+			"type":"next"
+		}
+	],
+	"id":"6888fd4cb7572707bd0a38c1",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonflowise ai_11753805605523",
+	"modifiedTime":1753808222918,
+	"name":"TestButtonFlowise AI_11753805605523",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2pY7I-1",
+			"id":"_2pY7I",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2pY7I-1",
+			"id":"_ZmOOr",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
