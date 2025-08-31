@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751266691282,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_GpgsS",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_EcpYY",
+			"type":"next"
+		}
+	],
+	"id":"686235837768e169548075f4",
+	"lastModifiedBy":34,
+	"lcName":"auditchangetype_117512663056080",
+	"modifiedTime":1751266748976,
+	"name":"auditChangeType_117512663056080",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GpgsS-1",
+			"id":"_GpgsS",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GpgsS-1",
+			"id":"_EcpYY",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
