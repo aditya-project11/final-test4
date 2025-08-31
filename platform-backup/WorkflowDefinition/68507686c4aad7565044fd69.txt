@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750103686040,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_CmJoN",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_raUol",
+			"type":"next"
+		}
+	],
+	"id":"68507686c4aad7565044fd69",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonsmartsheet_11750102702236",
+	"modifiedTime":1750516844622,
+	"name":"TestButtonSmartsheet_11750102702236",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_CmJoN-1",
+			"id":"_CmJoN",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_CmJoN-1",
+			"id":"_raUol",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
