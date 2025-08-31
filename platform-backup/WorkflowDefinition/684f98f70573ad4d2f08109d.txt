@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750046967163,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Xf1da",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_lsbBA",
+			"type":"next"
+		}
+	],
+	"id":"684f98f70573ad4d2f08109d",
+	"lastModifiedBy":34,
+	"lcName":"http_workflow_envvariablechange117500450489820",
+	"modifiedTime":1750516993942,
+	"name":"http_workflow_EnvVariableChange117500450489820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Xf1da-1",
+			"id":"_Xf1da",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Xf1da-1",
+			"id":"_lsbBA",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
