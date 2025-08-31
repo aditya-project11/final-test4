@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749760888348,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_8X6JA",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_B1llM",
+			"type":"next"
+		}
+	],
+	"id":"684b3b784953a069fc177085",
+	"lastModifiedBy":34,
+	"lcName":"testbuttoncopper_11749757108583",
+	"modifiedTime":1754311520447,
+	"name":"TestButtonCopper_11749757108583",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_8X6JA-1",
+			"id":"_8X6JA",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_8X6JA-1",
+			"id":"_B1llM",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
