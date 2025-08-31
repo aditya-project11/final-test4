@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1751998283404,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_LEvJd",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_7CWHX",
+			"type":"next"
+		}
+	],
+	"id":"686d5f4b0f89ca2df5e593dc",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle vertex ai_11751992714623",
+	"modifiedTime":1751998317696,
+	"name":"TestButtonGoogle vertex AI_11751992714623",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_LEvJd-1",
+			"id":"_LEvJd",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_LEvJd-1",
+			"id":"_7CWHX",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
