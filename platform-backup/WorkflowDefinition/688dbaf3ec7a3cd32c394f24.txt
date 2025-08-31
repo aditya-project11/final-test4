@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754118899574,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_UKTrQ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_bXQVP",
+			"type":"next"
+		}
+	],
+	"id":"688dbaf3ec7a3cd32c394f24",
+	"lastModifiedBy":34,
+	"lcName":"automation_maven by glaucusdelete11754118390218",
+	"modifiedTime":1754309141374,
+	"name":"Automation_Maven by GlaucusDelete11754118390218",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_UKTrQ-1",
+			"id":"_UKTrQ",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_UKTrQ-1",
+			"id":"_bXQVP",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
