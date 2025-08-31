@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751972764495,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Ib71w",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_isH5C",
+			"type":"next"
+		}
+	],
+	"id":"686cfb9c1c9c8204156a1b2c",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonamazon textract_11751966969264",
+	"modifiedTime":1751972789597,
+	"name":"TestButtonAmazon textract_11751966969264",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ib71w-1",
+			"id":"_Ib71w",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ib71w-1",
+			"id":"_isH5C",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
