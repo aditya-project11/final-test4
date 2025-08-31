@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751746527866,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_VquVu",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_UXvbx",
+			"type":"next"
+		}
+	],
+	"id":"686987df06ed9a32ab9508ef",
+	"lastModifiedBy":34,
+	"lcName":"testbuttondropbox_11751744174820",
+	"modifiedTime":1751746541265,
+	"name":"TestButtonDropbox_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_VquVu-1",
+			"id":"_VquVu",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_VquVu-1",
+			"id":"_UXvbx",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
