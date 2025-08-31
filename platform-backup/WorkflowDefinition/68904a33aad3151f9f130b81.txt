@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754286643560,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_TGQeg",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_dWBsq",
+			"type":"next"
+		}
+	],
+	"id":"68904a33aad3151f9f130b81",
+	"lastModifiedBy":34,
+	"lcName":"automation_microsoft dynamics 365 crmdelete11754284269014",
+	"modifiedTime":1754372525052,
+	"name":"Automation_Microsoft Dynamics 365 CRMDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_TGQeg-1",
+			"id":"_TGQeg",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_TGQeg-1",
+			"id":"_dWBsq",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
