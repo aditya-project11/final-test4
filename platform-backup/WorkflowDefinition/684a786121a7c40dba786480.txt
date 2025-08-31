@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1749710945353,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"684a786121a7c40dba786480",
+	"lastModifiedBy":34,
+	"lcName":"automation_flowise aidelete11749710176150",
+	"modifiedTime":1754312413977,
+	"name":"Automation_Flowise AIDelete11749710176150",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_z4Opg-1",
+			"id":"n_kCaUD",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
