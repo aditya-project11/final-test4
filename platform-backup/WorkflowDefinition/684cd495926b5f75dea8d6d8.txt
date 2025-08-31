@@ -1,0 +1,55 @@
+{
+	"appsUsed":[],
+	"createdTime":1749865621758,
+	"deleted":true,
+	"edges":[
+		{
+			"fromNodeId":"_Rblbl",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_N09Jy",
+			"type":"next"
+		}
+	],
+	"id":"684cd495926b5f75dea8d6d8",
+	"lastModifiedBy":34,
+	"lcName":"send-message-copilot-automation-117498650635400",
+	"modifiedTime":1754310965818,
+	"name":"send-message-copilot-automation-117498650635400",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Rblbl-1",
+			"id":"_Rblbl",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Rblbl-1",
+			"id":"_N09Jy",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
