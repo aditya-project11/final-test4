@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751747183165,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_7vgvk",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_R6vEd",
+			"type":"next"
+		}
+	],
+	"id":"68698a6fabfc98163fe4715d",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmavi_11751744174820",
+	"modifiedTime":1751747199373,
+	"name":"TestButtonMavi_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7vgvk-1",
+			"id":"_7vgvk",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_7vgvk-1",
+			"id":"_R6vEd",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
