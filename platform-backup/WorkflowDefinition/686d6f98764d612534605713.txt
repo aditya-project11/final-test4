@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1752002456114,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_DD35S",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_3maDE",
+			"type":"next"
+		}
+	],
+	"id":"686d6f98764d612534605713",
+	"lastModifiedBy":34,
+	"lcName":"servicenow create record - 117519927093810",
+	"modifiedTime":1752002490096,
+	"name":"ServiceNow Create record - 117519927093810",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DD35S-1",
+			"id":"_DD35S",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DD35S-1",
+			"id":"_3maDE",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
