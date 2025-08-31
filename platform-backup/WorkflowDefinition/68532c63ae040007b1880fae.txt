@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750281315952,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_ywSWi",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_D37CD",
+			"type":"next"
+		}
+	],
+	"id":"68532c63ae040007b1880fae",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonconfluence_11750275495283",
+	"modifiedTime":1750515123942,
+	"name":"TestButtonConfluence_11750275495283",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ywSWi-1",
+			"id":"_ywSWi",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_ywSWi-1",
+			"id":"_D37CD",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
