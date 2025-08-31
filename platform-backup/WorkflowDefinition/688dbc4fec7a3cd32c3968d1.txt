@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754119247956,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_h1A9k",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_zmASU",
+			"type":"next"
+		}
+	],
+	"id":"688dbc4fec7a3cd32c3968d1",
+	"lastModifiedBy":34,
+	"lcName":"create list in using code snippet created schema should be editable once it is unlinked but not when it is linked._117541183590670",
+	"modifiedTime":1754119257485,
+	"name":"Create list In Using Code Snippet created schema should be editable once it is unlinked but not when it is linked._117541183590670",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_h1A9k-1",
+			"id":"_h1A9k",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_h1A9k-1",
+			"id":"_zmASU",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
