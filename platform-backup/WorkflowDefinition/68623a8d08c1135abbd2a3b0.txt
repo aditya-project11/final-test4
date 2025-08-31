@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1751267981279,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68623a8d08c1135abbd2a3b0",
+	"lastModifiedBy":34,
+	"lcName":"automation_rowsharedelete11751266297429",
+	"modifiedTime":1751268047289,
+	"name":"Automation_RowShareDelete11751266297429",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_a6VJO-1",
+			"id":"n_29ZtG",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
