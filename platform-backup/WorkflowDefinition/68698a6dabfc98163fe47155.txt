@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751747181927,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_11U0s",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_Soif8",
+			"type":"next"
+		}
+	],
+	"id":"68698a6dabfc98163fe47155",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmaven by glaucus_11751744174820",
+	"modifiedTime":1751747198666,
+	"name":"TestButtonMaven by Glaucus_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_11U0s-1",
+			"id":"_11U0s",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_11U0s-1",
+			"id":"_Soif8",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
