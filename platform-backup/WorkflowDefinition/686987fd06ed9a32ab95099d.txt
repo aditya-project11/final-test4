@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751746557759,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_hiWCV",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_iP6zJ",
+			"type":"next"
+		}
+	],
+	"id":"686987fd06ed9a32ab95099d",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonftp/ftps_11751744174820",
+	"modifiedTime":1751746571955,
+	"name":"TestButtonFTP/FTPS_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hiWCV-1",
+			"id":"_hiWCV",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hiWCV-1",
+			"id":"_iP6zJ",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
