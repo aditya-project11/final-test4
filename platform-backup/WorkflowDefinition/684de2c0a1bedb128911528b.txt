@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749934784581,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_DLFWo",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_BnHV0",
+			"type":"next"
+		}
+	],
+	"id":"684de2c0a1bedb128911528b",
+	"lastModifiedBy":34,
+	"lcName":"automation_csv writer by unifyappsdelete11749929863066",
+	"modifiedTime":1750517612351,
+	"name":"Automation_CSV Writer by UnifyAppsDelete11749929863066",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DLFWo-1",
+			"id":"_DLFWo",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DLFWo-1",
+			"id":"_BnHV0",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
