@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750315463340,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_BxDrT",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_c7R3V",
+			"type":"next"
+		}
+	],
+	"id":"6853b1c7bdea0f6215881627",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonmicrosoft teams_11750312291768",
+	"modifiedTime":1750514672653,
+	"name":"TestButtonMicrosoft Teams_11750312291768",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_BxDrT-1",
+			"id":"_BxDrT",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_BxDrT-1",
+			"id":"_c7R3V",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
