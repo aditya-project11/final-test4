@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750765598550,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"685a901e15df9c19f2369bf3",
+	"lastModifiedBy":34,
+	"lcName":"automation_productboarddelete11750764212677",
+	"modifiedTime":1750765659744,
+	"name":"Automation_ProductboardDelete11750764212677",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_2C06M-1",
+			"id":"n_U79AT",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
