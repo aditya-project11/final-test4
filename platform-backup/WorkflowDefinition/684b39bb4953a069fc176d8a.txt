@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1749760443339,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Hr0Qc",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_rIa5u",
+			"type":"next"
+		}
+	],
+	"id":"684b39bb4953a069fc176d8a",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonamazon secrets manager_11749757108583",
+	"modifiedTime":1754311535535,
+	"name":"TestButtonAmazon Secrets Manager_11749757108583",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Hr0Qc-1",
+			"id":"_Hr0Qc",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Hr0Qc-1",
+			"id":"_rIa5u",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
