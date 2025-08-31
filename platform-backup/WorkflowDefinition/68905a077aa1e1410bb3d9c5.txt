@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754290695941,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_vMlol",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_N2zS6",
+			"type":"next"
+		}
+	],
+	"id":"68905a077aa1e1410bb3d9c5",
+	"lastModifiedBy":34,
+	"lcName":"child automation with test http api_11754284269014",
+	"modifiedTime":1754372139306,
+	"name":"Child automation with test http api_11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vMlol-1",
+			"id":"_vMlol",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_vMlol-1",
+			"id":"_N2zS6",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
