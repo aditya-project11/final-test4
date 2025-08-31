@@ -1,0 +1,24 @@
+{
+	"appsUsed":[],
+	"createdTime":1751306639561,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"6862d18f7ba1fa44e5b19c95",
+	"lastModifiedBy":34,
+	"lcName":"cs_auto_webhook_eight_changesetlocal8974993",
+	"modifiedTime":1751306744042,
+	"name":"CS_AUTO_WEBHOOK_EIGHT_changeSetLocal8974993",
+	"nodes":[
+		
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}
