@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754119261615,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_cjwdi",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_3VDrb",
+			"type":"next"
+		}
+	],
+	"id":"688dbc5dec7a3cd32c3969b9",
+	"lastModifiedBy":34,
+	"lcName":"hook-pills and nodes above11754118380778",
+	"modifiedTime":1754119293007,
+	"name":"Hook-pills and nodes above11754118380778",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cjwdi-1",
+			"id":"_cjwdi",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_cjwdi-1",
+			"id":"_3VDrb",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
