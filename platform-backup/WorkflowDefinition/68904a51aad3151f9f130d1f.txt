@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754286673640,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_KD315",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_BWslB",
+			"type":"next"
+		}
+	],
+	"id":"68904a51aad3151f9f130d1f",
+	"lastModifiedBy":34,
+	"lcName":"automation_microsoft sql serverdelete11754284269014",
+	"modifiedTime":1754372521551,
+	"name":"Automation_Microsoft SQL ServerDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KD315-1",
+			"id":"_KD315",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_KD315-1",
+			"id":"_BWslB",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
