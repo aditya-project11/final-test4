@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754120286442,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_NA0zc",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_VYfZi",
+			"type":"next"
+		}
+	],
+	"id":"688dc05ea1e7d20af6c01df8",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle meet_11754118380778",
+	"modifiedTime":1754120294231,
+	"name":"TestButtonGoogle Meet_11754118380778",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NA0zc-1",
+			"id":"_NA0zc",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_NA0zc-1",
+			"id":"_VYfZi",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
