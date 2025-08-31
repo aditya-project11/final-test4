@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1752038338614,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_iZUG1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_w8FlA",
+			"type":"next"
+		}
+	],
+	"id":"686dfbc263c48565a5dd4e6d",
+	"lastModifiedBy":34,
+	"lcName":"servicenow create record - 117520292732240",
+	"modifiedTime":1752038371896,
+	"name":"ServiceNow Create record - 117520292732240",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_iZUG1-1",
+			"id":"_iZUG1",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_iZUG1-1",
+			"id":"_w8FlA",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
