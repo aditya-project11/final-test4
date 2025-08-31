@@ -1,0 +1,44 @@
+{
+	"appsUsed":[],
+	"createdTime":1749715391937,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"684a89bfd028381216b505ca",
+	"lastModifiedBy":34,
+	"lcName":"filter -- after modified time - 11749710176150",
+	"modifiedTime":1754312206376,
+	"name":"Filter -- After Modified Time - 11749710176150",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_rieht-1",
+			"id":"n_ml0r4",
+			"index":0,
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
