@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754288061834,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_fiD94",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_8xIJX",
+			"type":"next"
+		}
+	],
+	"id":"68904fbdaad3151f9f136a93",
+	"lastModifiedBy":34,
+	"lcName":"callable_workflow_noruns - 11754284269014",
+	"modifiedTime":1754372359765,
+	"name":"callable_workflow_NoRuns - 11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_fiD94-1",
+			"id":"_fiD94",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_fiD94-1",
+			"id":"_8xIJX",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
