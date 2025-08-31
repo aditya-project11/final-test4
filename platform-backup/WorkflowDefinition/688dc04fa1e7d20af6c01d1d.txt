@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754120271587,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_DuIKI",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_iENyf",
+			"type":"next"
+		}
+	],
+	"id":"688dc04fa1e7d20af6c01d1d",
+	"lastModifiedBy":34,
+	"lcName":"add_sort_condition 117541183902189",
+	"modifiedTime":1754120305278,
+	"name":"add_sort_condition 117541183902189",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DuIKI-1",
+			"id":"_DuIKI",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_DuIKI-1",
+			"id":"_iENyf",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
