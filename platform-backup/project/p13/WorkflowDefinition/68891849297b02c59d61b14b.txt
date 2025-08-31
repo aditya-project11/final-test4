@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1753815113283,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68891849297b02c59d61b14b",
+	"lastModifiedBy":34,
+	"lcName":"rbac-ui-pldeleteapimanager-ulvpldrle-117538056055230",
+	"modifiedTime":1754309299339,
+	"name":"rbac-ui-PLDeleteApiManager-ULvPLdRLe-117538056055230",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":628,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_4cImW-1",
+			"id":"n_jhrEi",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"projectId":13,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
