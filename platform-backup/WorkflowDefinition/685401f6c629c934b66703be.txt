@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750335990937,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_N7vrt",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_GrK6H",
+			"type":"next"
+		}
+	],
+	"id":"685401f6c629c934b66703be",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonbamboohr_11750333147660",
+	"modifiedTime":1750514332873,
+	"name":"TestButtonBambooHR_11750333147660",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_N7vrt-1",
+			"id":"_N7vrt",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_N7vrt-1",
+			"id":"_GrK6H",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
