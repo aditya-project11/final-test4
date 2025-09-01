@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754120842363,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_TGnME",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_2hZoX",
+			"type":"next"
+		}
+	],
+	"id":"688dc28a0df226f86fab3161",
+	"lastModifiedBy":34,
+	"lcName":"microsoft calendar-list all instances of an eventverifytimeisnotautoupdating117541183902180",
+	"modifiedTime":1754120854085,
+	"name":"Microsoft Calendar-List all instances of an eventverifyTimeIsNotAutoUpdating117541183902180",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_TGnME-1",
+			"id":"_TGnME",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_TGnME-1",
+			"id":"_2hZoX",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
