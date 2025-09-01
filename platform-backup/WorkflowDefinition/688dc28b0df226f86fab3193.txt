@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754120843405,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Ajkcg",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_dSYBe",
+			"type":"next"
+		}
+	],
+	"id":"688dc28b0df226f86fab3193",
+	"lastModifiedBy":34,
+	"lcName":"microsoft calendar-get free/busy eventsverifytimeisnotautoupdating117541183902180",
+	"modifiedTime":1754120861415,
+	"name":"Microsoft Calendar-Get Free/Busy EventsverifyTimeIsNotAutoUpdating117541183902180",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ajkcg-1",
+			"id":"_Ajkcg",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ajkcg-1",
+			"id":"_dSYBe",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
