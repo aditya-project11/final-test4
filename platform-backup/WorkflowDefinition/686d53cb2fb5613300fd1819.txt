@@ -208,6 +208,7 @@
 		"enableVariableLogging":true,
 		"nodeLogLevel":"TRACE",
 		"route":{
+			"default":false,
 			"headerValueTierMap":{
 				
 			},
