@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1753808064300,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_saN1s",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_6yuY0",
+			"type":"next"
+		}
+	],
+	"id":"6888fcc0b7572707bd0a3105",
+	"lastModifiedBy":34,
+	"lcName":"automation_google vertex aidelete11753805614653",
+	"modifiedTime":1754309461705,
+	"name":"Automation_Google vertex AIDelete11753805614653",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_saN1s-1",
+			"id":"_saN1s",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_saN1s-1",
+			"id":"_6yuY0",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
