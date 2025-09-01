@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750766747047,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"685a949bb01b2a78aa2750af",
+	"lastModifiedBy":34,
+	"lcName":"automation_tadabasedelete11750764212677",
+	"modifiedTime":1750766813252,
+	"name":"Automation_TadabaseDelete11750764212677",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_gFfXY-1",
+			"id":"n_8UUpL",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
