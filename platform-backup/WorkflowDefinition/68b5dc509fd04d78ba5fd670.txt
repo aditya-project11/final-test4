@@ -1,0 +1,28 @@
+{
+	"appsUsed":[],
+	"createdTime":1756748880069,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"id":"68b5dc509fd04d78ba5fd670",
+	"lastModifiedBy":34,
+	"lcName":"backend_automation1756748879736",
+	"modifiedTime":1756748880069,
+	"name":"Backend_Automation1756748879736",
+	"nodes":[
+		
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"version":0
+}
