@@ -1,0 +1,87 @@
+{
+	"createdTime":1719079034901,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1755433236414,
+		"deployedBy":-1,
+		"entityVersion":634,
+		"version":560
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":["A","C","S","VI","D","E","V","M_L"],
+				"principalIds":["669ebd7e92328c21d2cf50e7"],
+				"principalType":"USER_GROUPS"
+			},
+			{
+				"permissions":["A","C","S","VI","D","E","V","M_L"],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"__ETL_LOGS_INTERFACE__",
+	"lastModifiedBy":-1,
+	"modifiedTime":1755435493268,
+	"ownerUserId":0,
+	"properties":{
+		"standard":true,
+		"componentType":"INTERFACE",
+		"deviceDetails":{
+			"base":"desktop"
+		},
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+				"large":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+				"favicon":"/favicon.png"
+			},
+			"_counter":{
+				"_pageCount":4,
+				"_moduleCount":1
+			}
+		},
+		"navigation":{
+			"secondary":[
+				
+			],
+			"defaultPageId":"__ETL_LOGS_INTERFACE_MAIN_PAGE__",
+			"primary":[
+				{
+					"name":"Nav Item 1",
+					"icon":"Zap",
+					"id":"nav_LEGxe",
+					"type":"PAGE",
+					"pageId":"__ETL_LOGS_INTERFACE_MAIN_PAGE__",
+					"slug":"__etl_logs_interface_main_page__"
+				}
+			]
+		},
+		"interfacePageIdVsSlugMap":{
+			"__ETL_LOGS_INTERFACE_MAIN_PAGE__":"__etl_logs_interface_main_page__",
+			"__ETL_LOGS_INTERFACE_FAILED_LOG_DETAILS_PAGE__":"__ETL_LOGS_INTERFACE_FAILED_LOG_DETAILS_PAGE__",
+			"__ETL_LOGS_INTERFACE_FAILED_LOGS_PAGE__":"__ETL_LOGS_INTERFACE_FAILED_LOGS_PAGE__"
+		},
+		"pagePermissions":{
+			"__ETL_LOGS_INTERFACE_MAIN_PAGE__":{
+				
+			},
+			"__ETL_LOGS_INTERFACE_FAILED_LOG_DETAILS_PAGE__":{
+				
+			},
+			"__ETL_LOGS_INTERFACE_FAILED_LOGS_PAGE__":{
+				
+			}
+		},
+		"name":"ETL Logs",
+		"locale":{
+			"defaultLocale":"en-US"
+		},
+		"interfacePageIdVsSluMap":{
+			"__ETL_LOGS_INTERFACE_FAILED_LOG_DETAILS_PAGE__":"__ETL_LOGS_INTERFACE_FAILED_LOG_DETAILS_PAGE__"
+		}
+	},
+	"standard":true,
+	"version":635
+}
