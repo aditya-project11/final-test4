@@ -1,0 +1,65 @@
+{
+	"createdTime":1732855385465,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1732855387199,
+		"deployedBy":-1,
+		"entityVersion":1,
+		"version":2
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":["A","C","S","VI","D","E","V","M_L"],
+				"principalIds":["669ebd7e92328c21d2cf50e7"],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"e_674946597f1f030cde00d7c7",
+	"lastModifiedBy":-1,
+	"modifiedTime":1755435580913,
+	"ownerUserId":-1,
+	"properties":{
+		"standard":true,
+		"deviceDetails":{
+			"base":"desktop"
+		},
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/user-uploads/theme/unify.svg",
+				"large":"https://assets.unifyapps.com/user-uploads/theme/unify-logo.svg",
+				"favicon":"/favicon.ico"
+			},
+			"_counter":{
+				"_pageCount":1,
+				"_moduleCount":0
+			}
+		},
+		"navigation":{
+			"secondary":[
+				
+			],
+			"defaultPageId":"ua_copilot_platform",
+			"primary":[
+				
+			]
+		},
+		"interfacePageIdVsSlugMap":{
+			"ua_copilot_platform":"ua-copilot-platform"
+		},
+		"pagePermissions":{
+			"ua_copilot_platform":{
+				
+			}
+		},
+		"name":"UnifyApps Copilot",
+		"customCode":{
+			
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":7
+}
