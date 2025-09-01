@@ -4,47 +4,55 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_YTSax",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_BsebX",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b52a213e57b853a34d437e",
 	"lastModifiedBy":34,
 	"lcName":"should_be_highlighted_117567032624150",
-	"modifiedTime":1756703265477,
+	"modifiedTime":1756703273083,
 	"name":"Should_be_highlighted_117567032624150",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_YTSax-1",
-			"id":"_YTSax",
-			"index":0,
+			"id":"n_HJYNh",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json",
+					"queryParams":{
+						"type":"object",
+						"properties":{
+							"value_117567032624150":{
+								"type":"string",
+								"title":"value_117567032624150"
+							}
+						},
+						"additionalProperties":false,
+						"required":[
+							
+						]
+					}
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"step_117567032624150",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_YTSax-1",
-			"id":"_BsebX",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +64,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
