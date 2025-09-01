@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751266393389,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_t59Fj",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_OOjTd",
+			"type":"next"
+		}
+	],
+	"id":"68623459b79bc855d6a1467b",
+	"lastModifiedBy":34,
+	"lcName":"new_automation_trigger_with_callable_117512662969180",
+	"modifiedTime":1751266433176,
+	"name":"New_Automation_trigger_with_Callable_117512662969180",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_t59Fj-1",
+			"id":"_t59Fj",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_t59Fj-1",
+			"id":"_OOjTd",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
