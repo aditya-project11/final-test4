@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751746174754,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_mAGfm",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_rjW7G",
+			"type":"next"
+		}
+	],
+	"id":"6869867e06ed9a32ab9501ee",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonbing search_11751744174820",
+	"modifiedTime":1751746194077,
+	"name":"TestButtonBing Search_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_mAGfm-1",
+			"id":"_mAGfm",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_mAGfm-1",
+			"id":"_rjW7G",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
