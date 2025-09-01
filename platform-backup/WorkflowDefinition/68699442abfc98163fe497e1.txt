@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751749698954,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_CrOgn",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_BgUVK",
+			"type":"next"
+		}
+	],
+	"id":"68699442abfc98163fe497e1",
+	"lastModifiedBy":34,
+	"lcName":"create variablesadd schema using xml validate the fields clear all the schema and reuse the same schema and validate again and delete the field_117517441748200",
+	"modifiedTime":1751749727266,
+	"name":"Create variablesAdd Schema using XML validate the fields clear all the schema and reuse the same schema and validate again and delete the field_117517441748200",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_CrOgn-1",
+			"id":"_CrOgn",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_CrOgn-1",
+			"id":"_BgUVK",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
