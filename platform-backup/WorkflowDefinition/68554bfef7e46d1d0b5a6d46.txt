@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750420478539,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"68554bfef7e46d1d0b5a6d46",
+	"lastModifiedBy":34,
+	"lcName":"automation_grafanadelete11750416513723",
+	"modifiedTime":1750513647257,
+	"name":"Automation_GrafanaDelete11750416513723",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_fy6OU-1",
+			"id":"n_F7JRG",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
