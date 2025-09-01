@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751746852559,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_dHT6t",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_FVa3t",
+			"type":"next"
+		}
+	],
+	"id":"68698924abfc98163fe46ab0",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle sheets_11751744174820",
+	"modifiedTime":1751746870455,
+	"name":"TestButtonGoogle Sheets_11751744174820",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_dHT6t-1",
+			"id":"_dHT6t",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_dHT6t-1",
+			"id":"_FVa3t",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
