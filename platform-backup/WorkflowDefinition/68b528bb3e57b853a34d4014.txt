@@ -4,47 +4,42 @@
 	"deleted":false,
 	"description":"description",
 	"edges":[
-		{
-			"fromNodeId":"_zRIwW",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_pxOHg",
-			"type":"next"
-		}
+		
 	],
 	"id":"68b528bb3e57b853a34d4014",
 	"lastModifiedBy":34,
 	"lcName":"steps&fields_117567029042160",
-	"modifiedTime":1756702907127,
+	"modifiedTime":1756702921176,
 	"name":"Steps&Fields_117567029042160",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_zRIwW-1",
-			"id":"_zRIwW",
-			"index":0,
+			"id":"n_bhYBF",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"step_117567029042160",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_zRIwW-1",
-			"id":"_pxOHg",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +51,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
