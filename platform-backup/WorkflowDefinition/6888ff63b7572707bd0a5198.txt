@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1753808739454,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_R6gXo",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_C8hKP",
+			"type":"next"
+		}
+	],
+	"id":"6888ff63b7572707bd0a5198",
+	"lastModifiedBy":34,
+	"lcName":"testbuttonoracle health_11753805605523",
+	"modifiedTime":1753808747115,
+	"name":"TestButtonOracle Health_11753805605523",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_R6gXo-1",
+			"id":"_R6gXo",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_R6gXo-1",
+			"id":"_C8hKP",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
