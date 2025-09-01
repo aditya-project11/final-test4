@@ -1,5 +1,5 @@
 {
-	"appsUsed":[],
+	"appsUsed":["67c8ba066cd1763a860935ac","ftp"],
 	"createdTime":1756749981119,
 	"deleted":false,
 	"description":"test",
@@ -10,12 +10,26 @@
 			"skip":false,
 			"toNodeId":"_QNzB9",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"_QNzB9",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_eoc9T",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_eoc9T",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_9xvnM",
+			"type":"next"
 		}
 	],
 	"id":"68b5e09d41139115b9a2ea72",
 	"lastModifiedBy":887,
 	"lcName":"slack test",
-	"modifiedTime":1756749981119,
+	"modifiedTime":1756750067551,
 	"name":"slack test",
 	"nodes":[
 		{
@@ -24,7 +38,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"_kco0W-1",
 			"id":"_kco0W",
-			"index":0,
+			"index":1,
 			"skip":false,
 			"title":"Select a trigger event",
 			"trigger":{
@@ -38,14 +52,55 @@
 			"fallbackMode":"STOP",
 			"groupId":"_kco0W-1",
 			"id":"_QNzB9",
-			"index":0,
+			"index":2,
 			"skip":false,
 			"title":"Select an app and action",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"ftp",
+				"resourceVersion":7604,
+				"resourceName":"ftp_create_folder",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_kco0W-1",
+			"id":"n_eoc9T",
+			"index":3,
+			"skip":false,
+			"subTitle":"FTP/FTPS",
+			"title":"Create folder",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"67c8ba066cd1763a860935ac",
+				"resourceVersion":2271,
+				"connectionId":"68b00f00e02ad919574a9c22",
+				"resourceName":"67c8ba066cd1763a860935ac:67c8ba116cd1763a860935b3",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_kco0W-1",
+			"id":"n_9xvnM",
+			"index":4,
+			"inputs":{
+				"text":"test"
+			},
+			"skip":false,
+			"subTitle":"Automation custom slack 117412034966090",
+			"title":"Post message",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":887,
 	"projectId":80,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -57,5 +112,5 @@
 	},
 	"standard":false,
 	"tags":["hello"],
-	"version":0
+	"version":1
 }
