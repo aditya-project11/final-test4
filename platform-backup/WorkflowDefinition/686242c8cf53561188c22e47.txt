@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751270088778,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_38Y2m",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_bcr4O",
+			"type":"next"
+		}
+	],
+	"id":"686242c8cf53561188c22e47",
+	"lastModifiedBy":34,
+	"lcName":"stay on back button when flow is unsaved 11751266297429",
+	"modifiedTime":1751270109687,
+	"name":"Stay on back button when flow is unsaved 11751266297429",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_38Y2m-1",
+			"id":"_38Y2m",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_38Y2m-1",
+			"id":"_bcr4O",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
