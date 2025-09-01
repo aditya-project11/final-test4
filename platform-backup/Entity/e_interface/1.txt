@@ -1,0 +1,912 @@
+{
+	"createdTime":1740482417840,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1743757647637,
+		"deployedBy":0,
+		"entityVersion":9,
+		"version":1
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":["A","C","S","VI","D","E","V","M_L"],
+				"principalIds":["669ebd7e92328c21d2cf50e7"],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"1",
+	"lastModifiedBy":-1,
+	"modifiedTime":1755435485079,
+	"ownerUserId":34,
+	"properties":{
+		"standard":false,
+		"deviceDetails":{
+			"base":"desktop"
+		},
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/theme/jubilant/jubiliant.png",
+				"large":"https://assets.unifyapps.com/theme/jubilant/jubiliant.png",
+				"favicon":"https://assets.unifyapps.com/theme/jubilant/jubiliant.png"
+			},
+			"_counter":{
+				"_pageCount":25,
+				"_moduleCount":1
+			}
+		},
+		"navigation":{
+			"secondary":[
+				{
+					"icon":"SvgNotification",
+					"name":"Notifications",
+					"action":"showNotifications",
+					"id":"notifications",
+					"type":"ACTION",
+					"items":[
+						
+					]
+				},
+				{
+					"name":"Profile",
+					"id":"userMenu",
+					"type":"USER_MENU",
+					"items":[
+						
+					]
+				}
+			],
+			"defaultPageId":"e_67503ef340477505884bc389",
+			"breakpoints":{
+				"XL":{
+					"secondary":[
+						{
+							"icon":"SvgNotification",
+							"name":"Notifications",
+							"action":"showNotifications",
+							"id":"notifications",
+							"type":"ACTION",
+							"items":[
+								
+							]
+						},
+						{
+							"name":"Profile",
+							"id":"userMenu",
+							"type":"USER_MENU",
+							"items":[
+								
+							]
+						}
+					],
+					"appearance":{
+						"navigationItem":{
+							"selectionVariant":"stroke",
+							"labelVariant":"expandable"
+						},
+						"theme":"inherit",
+						"position":"start",
+						"type":"fixed"
+					},
+					"primary":[
+						{
+							"isDraggable":true,
+							"name":"View Logbooks",
+							"icon":"SvgFileCheck02",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_v2K7O",
+							"type":"PAGE",
+							"pageId":"e_67503ef340477505884bc389",
+							"items":[
+								
+							],
+							"slug":"logbook-user-page",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Check Logbooks",
+							"icon":"SvgCheck",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_c4l7u",
+							"type":"PAGE",
+							"pageId":"e_67557b1d3af74901f297001d",
+							"items":[
+								
+							],
+							"slug":"logbook-checker-page",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Verify Logbooks",
+							"icon":"CheckCircleBroken",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_uUTAx",
+							"type":"PAGE",
+							"pageId":"e_67557b6a83ac6c38065c62c9",
+							"items":[
+								
+							],
+							"slug":"logbook-verifier-page",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Access Master",
+							"icon":"BracketsSquare",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_LkGe5",
+							"type":"PAGE",
+							"pageId":"e_672c442a96e9f373efc8f66a",
+							"items":[
+								
+							],
+							"slug":"page-8",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Entry Form",
+							"icon":"NoCodeModal",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_bGE6T",
+							"type":"PAGE",
+							"pageId":"e_672c4adb96e9f373efc8f678",
+							"items":[
+								
+							],
+							"slug":"entryform",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Field Master",
+							"icon":"CheckCircleBroken",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_5D3r6",
+							"type":"PAGE",
+							"pageId":"e_67245bf6f19ef516fd003ed5",
+							"items":[
+								
+							],
+							"slug":"fieldmaster",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Group Master",
+							"icon":"ArrowDown",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_9YFfT",
+							"type":"PAGE",
+							"pageId":"e_672b526e96e9f373efc8f36b",
+							"items":[
+								
+							],
+							"slug":"page-7",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Logbook Master",
+							"icon":"BarChart10",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_jvebA",
+							"type":"PAGE",
+							"pageId":"e_67245bc8f19ef516fd003ed4",
+							"items":[
+								
+							],
+							"slug":"page-5",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Log Section",
+							"icon":"SvgMessageHeartSquare",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_vvE5q",
+							"type":"PAGE",
+							"pageId":"e_67245b92f19ef516fd003ed3",
+							"items":[
+								
+							],
+							"slug":"page-4",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"SSC Master",
+							"icon":"NoCodeDivider",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_p30Ve",
+							"type":"PAGE",
+							"pageId":"e_6724560af19ef516fd003ed1",
+							"items":[
+								
+							],
+							"slug":"page-1",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Subgroups",
+							"icon":"ArrowCircleBrokenUpRight",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_yBs12",
+							"type":"PAGE",
+							"pageId":"e_67245ae9a9712a1fe29e4c70",
+							"items":[
+								
+							],
+							"slug":"page-3",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Workstation Master",
+							"icon":"SvgStore",
+							"isDroppable":true,
+							"pageInputs":{
+								
+							},
+							"id":"nav_5mKzk",
+							"type":"PAGE",
+							"pageId":"e_67245638f19ef516fd003ed2",
+							"items":[
+								
+							],
+							"slug":"workstationmaster",
+							"url":""
+						},
+						{
+							"isDraggable":true,
+							"name":"Logbook Admin Page",
+							"icon":"Zap",
+							"isDroppable":true,
+							"id":"nav_3KFBM",
+							"type":"PAGE",
+							"pageId":"e_6755d77f83ac6c38065cc30d",
+							"items":[
+								
+							],
+							"slug":"logbook-admin-page"
+						},
+						{
+							"name":"Change Order Sequencing",
+							"icon":"NoCodeContainer112",
+							"id":"nav_i7IvY",
+							"type":"PAGE",
+							"pageId":"e_6791413af76bf01a499fb3a4",
+							"items":[
+								
+							],
+							"slug":"logbook-change-order",
+							"url":""
+						}
+					]
+				}
+			},
+			"primary":[
+				{
+					"isDraggable":true,
+					"name":"View Logbooks",
+					"icon":"SvgFileCheck02",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_v2K7O",
+					"type":"PAGE",
+					"pageId":"e_67503ef340477505884bc389",
+					"items":[
+						
+					],
+					"slug":"logbook-user-page",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Check Logbooks",
+					"icon":"SvgCheck",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_c4l7u",
+					"type":"PAGE",
+					"pageId":"e_67557b1d3af74901f297001d",
+					"items":[
+						
+					],
+					"slug":"logbook-checker-page",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Verify Logbooks",
+					"icon":"CheckCircleBroken",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_uUTAx",
+					"type":"PAGE",
+					"pageId":"e_67557b6a83ac6c38065c62c9",
+					"items":[
+						
+					],
+					"slug":"logbook-verifier-page",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Access Master",
+					"icon":"BracketsSquare",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_LkGe5",
+					"type":"PAGE",
+					"pageId":"e_672c442a96e9f373efc8f66a",
+					"items":[
+						
+					],
+					"slug":"page-8",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Entry Form",
+					"icon":"NoCodeModal",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_bGE6T",
+					"type":"PAGE",
+					"pageId":"e_672c4adb96e9f373efc8f678",
+					"items":[
+						
+					],
+					"slug":"entryform",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Field Master",
+					"icon":"CheckCircleBroken",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_5D3r6",
+					"type":"PAGE",
+					"pageId":"e_67245bf6f19ef516fd003ed5",
+					"items":[
+						
+					],
+					"slug":"fieldmaster",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Group Master",
+					"icon":"ArrowDown",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_9YFfT",
+					"type":"PAGE",
+					"pageId":"e_672b526e96e9f373efc8f36b",
+					"items":[
+						
+					],
+					"slug":"page-7",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Logbook Master",
+					"icon":"BarChart10",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_jvebA",
+					"type":"PAGE",
+					"pageId":"e_67245bc8f19ef516fd003ed4",
+					"items":[
+						
+					],
+					"slug":"page-5",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Log Section",
+					"icon":"SvgMessageHeartSquare",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_vvE5q",
+					"type":"PAGE",
+					"pageId":"e_67245b92f19ef516fd003ed3",
+					"items":[
+						
+					],
+					"slug":"page-4",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"SSC Master",
+					"icon":"NoCodeDivider",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_p30Ve",
+					"type":"PAGE",
+					"pageId":"e_6724560af19ef516fd003ed1",
+					"items":[
+						
+					],
+					"slug":"page-1",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Subgroups",
+					"icon":"ArrowCircleBrokenUpRight",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_yBs12",
+					"type":"PAGE",
+					"pageId":"e_67245ae9a9712a1fe29e4c70",
+					"items":[
+						
+					],
+					"slug":"page-3",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Workstation Master",
+					"icon":"SvgStore",
+					"isDroppable":true,
+					"pageInputs":{
+						
+					},
+					"id":"nav_5mKzk",
+					"type":"PAGE",
+					"pageId":"e_67245638f19ef516fd003ed2",
+					"items":[
+						
+					],
+					"slug":"workstationmaster",
+					"url":""
+				},
+				{
+					"isDraggable":true,
+					"name":"Logbook Admin Page",
+					"icon":"Zap",
+					"isDroppable":true,
+					"id":"nav_3KFBM",
+					"type":"PAGE",
+					"pageId":"e_6755d77f83ac6c38065cc30d",
+					"items":[
+						
+					],
+					"slug":"logbook-admin-page"
+				},
+				{
+					"name":"Logbook Page - User - Clone - Clone",
+					"icon":"Zap",
+					"id":"nav_Q3Lsk",
+					"type":"PAGE",
+					"pageId":"e_679fc2061af05d3e4e8febf9",
+					"slug":"logbook-page-verifier"
+				}
+			]
+		},
+		"interfacePageIdVsSlugMap":{
+			"e_6745b10cebb8f3761e444f30":"edit-modal",
+			"e_67245bf6f19ef516fd003ed5":"fieldmaster",
+			"e_678a24cfa472204443c3ccbf":"logbookprintpage",
+			"e_6755dcb43af74901f297b218":"logbook-page-admin",
+			"e_6724560af19ef516fd003ed1":"page-1",
+			"e_67245bc8f19ef516fd003ed4":"page-5",
+			"e_672c4adb96e9f373efc8f678":"entryform",
+			"e_6791413af76bf01a499fb3a4":"logbook-change-order",
+			"e_6755d77f83ac6c38065cc30d":"logbook-admin-page",
+			"e_67486da2fe590f19401ab815":"edit-modal-_0ALxK",
+			"e_679fc2061af05d3e4e8febf9":"logbook-page-verifier",
+			"e_67245638f19ef516fd003ed2":"workstationmaster",
+			"e_672ca67d96e9f373efc923fb":"page-10",
+			"e_67557b1d3af74901f297001d":"logbook-checker-page",
+			"e_67557b6a83ac6c38065c62c9":"logbook-verifier-page",
+			"e_67245b92f19ef516fd003ed3":"page-4",
+			"e_67457fc2ebb8f3761e44376c":"logbook-page-user",
+			"e_679b6b4a1af05d3e4e8fddbf":"logbook-page-checker",
+			"e_672b526e96e9f373efc8f36b":"page-7",
+			"e_67245ae9a9712a1fe29e4c70":"page-3",
+			"e_67503ef340477505884bc389":"logbook-user-page",
+			"e_672c442a96e9f373efc8f66a":"page-8"
+		},
+		"pagePermissions":{
+			"e_6745b10cebb8f3761e444f30":{
+				
+			},
+			"e_67245bf6f19ef516fd003ed5":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			},
+			"e_678a24cfa472204443c3ccbf":{
+				
+			},
+			"e_6755dcb43af74901f297b218":{
+				
+			},
+			"e_6724560af19ef516fd003ed1":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			},
+			"e_67245bc8f19ef516fd003ed4":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			},
+			"e_672c4adb96e9f373efc8f678":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			},
+			"e_6791413af76bf01a499fb3a4":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			},
+			"e_6755d77f83ac6c38065cc30d":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					"DQAWo9OhJM6LWlhOVoW-x",
+					"myHDoo8VqmZdPGIUFejhj",
+					"18Uh7BBCgaY_mNgUphAZh",
+					"ewG6PCGuIsCkEcTNQag6e"
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					
+				]
+			},
+			"e_679fc2061af05d3e4e8febf9":{
+				
+			},
+			"e_67245638f19ef516fd003ed2":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			},
+			"e_672ca67d96e9f373efc923fb":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					
+				]
+			},
+			"e_67557b1d3af74901f297001d":{
+				"6755e18b2cb4b43459d0abff":[
+					"DMc3UWUVfteCFsK-YUmeq",
+					"biX4RfZPsBNkas3Wbqcrz",
+					"EO0m8IBUlliCtoG4GjmWc",
+					"fjQWjDKtUgezAmKdQYXeS"
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					
+				]
+			},
+			"e_67557b6a83ac6c38065c62c9":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					"sOMgsj8SKMO0VlIe-Ti38",
+					"NH_TNHYdYigvS7fE7rLDg",
+					"oDcv0c6T0A7EKzbpukQu4",
+					"Fg1HyMvjrpXLS-MCT-uqo"
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					
+				]
+			},
+			"e_67457fc2ebb8f3761e44376c":{
+				
+			},
+			"e_67245b92f19ef516fd003ed3":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			},
+			"e_679b6b4a1af05d3e4e8fddbf":{
+				
+			},
+			"e_672b526e96e9f373efc8f36b":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			},
+			"e_67503ef340477505884bc389":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					"3jWO7ma6YQCkDu1U9v9E9",
+					"DnWosHOvsmtGqq_3D1Yct",
+					"Y519D1KNTV0uS40NRGVu8",
+					"BOK8CGNfZnnw2jZQUWZHU"
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					
+				]
+			},
+			"e_67245ae9a9712a1fe29e4c70":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			},
+			"e_672c442a96e9f373efc8f66a":{
+				"6755e18b2cb4b43459d0abff":[
+					
+				],
+				"6755e18b2cb4b43459d0ac00":[
+					
+				],
+				"6755e18b2cb4b43459d0abfe":[
+					
+				],
+				"6755e18b2cb4b43459d0ac01":[
+					
+				],
+				"6755e18b2cb4b43459d0ac02":[
+					"RoJOzB0DscUug2mSxbsti",
+					"YWf75JQdgNnN01P2FG3p_",
+					"DezmZdLdX6NUr-FyZHGGU",
+					"pRKr99VqVjblwVuqxv1L0"
+				]
+			}
+		},
+		"name":"LogBook",
+		"theme":{
+			"output":"\n  .interface-theme,\n  .interface-theme [data-color-scheme='light'] {\n    --fontSize-text-xxxs: 0.375rem; --border-primary: #000000;\n  }\n",
+			"cssVars":{
+				"--border-primary":"#000000",
+				"--fontSize-text-xxxs":"0.375rem"
+			}
+		},
+		"locale":{
+			"defaultLocale":"en-US"
+		},
+		"customCode":{
+			
+		}
+	},
+	"standard":false,
+	"version":14
+}
