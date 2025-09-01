@@ -1,0 +1,101 @@
+{
+	"createdTime":1725424776460,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756218676354,
+		"deployedBy":-1,
+		"entityVersion":523,
+		"version":362
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":["A","C","S","VI","D","E","V","M_L"],
+				"principalIds":["669ebd7e92328c21d2cf50e7"],
+				"principalType":"USER_GROUPS"
+			},
+			{
+				"permissions":["A","C","S","VI","D","E","V","M_L"],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"ua-governance",
+	"lastModifiedBy":-1,
+	"modifiedTime":1756218676357,
+	"ownerUserId":34,
+	"properties":{
+		"standard":true,
+		"deviceDetails":{
+			"base":"desktop"
+		},
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+				"large":"https://assets.unifyapps.com/theme/unifyapps/unify-logo.svg",
+				"favicon":"/favicon.png"
+			},
+			"_counter":{
+				"_pageCount":8,
+				"_moduleCount":0
+			}
+		},
+		"navigation":{
+			"secondary":[
+				
+			],
+			"defaultPageId":"login",
+			"primary":[
+				
+			]
+		},
+		"security":{
+			"cspDetails":{
+				"cspHeaders":{
+					"frame-ancestors":[
+						"'self'"
+					]
+				}
+			}
+		},
+		"interfacePageIdVsSlugMap":{
+			"ua_governance_forgot_password":"forgot-password",
+			"public_login":"public-login",
+			"mfa_verification":"mfa-verification",
+			"ua_governance_reset_password":"reset-password",
+			"update_password":"update-password",
+			"login":"login"
+		},
+		"skipAutoSyncOnModification":false,
+		"pagePermissions":{
+			"ua_governance_forgot_password":{
+				
+			},
+			"public_login":{
+				
+			},
+			"mfa_verification":{
+				
+			},
+			"ua_governance_reset_password":{
+				
+			},
+			"update_password":{
+				
+			},
+			"login":{
+				
+			}
+		},
+		"name":"Governance",
+		"theme":{
+			"output":""
+		},
+		"customCode":{
+			
+		}
+	},
+	"standard":true,
+	"version":523
+}
