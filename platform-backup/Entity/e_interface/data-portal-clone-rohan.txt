@@ -1,0 +1,89 @@
+{
+	"createdTime":1743414066141,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1743758397595,
+		"deployedBy":0,
+		"entityVersion":2,
+		"version":1
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":["A","C","S","VI","D","E","V","M_L"],
+				"principalIds":["669ebd7e92328c21d2cf50e7"],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"data-portal-clone-rohan",
+	"lastModifiedBy":-1,
+	"modifiedTime":1755435563084,
+	"ownerUserId":34,
+	"properties":{
+		"standard":false,
+		"deviceDetails":{
+			"base":"desktop"
+		},
+		"metadata":{
+			"logo":{
+				"small":"https://i.ibb.co/ydfdXZK/image-1-removebg-preview-2.png",
+				"large":"https://s3-alpha-sig.figma.com/img/f126/4a8b/f9037ef74147804319ea7e36d47324fe?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ebG-icSwp-Ga3eggHeTbchGW4CIfFg8DtT7Mjihjs9WOOfVcyxVrrA~ikXEJtVDiUh3sHgaaeZn38Zfw0YBmf95V46oLqqCWOdLNR8Q01yz61h8pClUyx7Lr5Mg1yX8xeqrcsR57LGiheff8kvi9R8SQ5eNDRZ7VTLomm27LZQLznkORnMWPMwaCOajjjdt0lb-GRmwW5AkOSYBD2VS-lndm37VyKhEiiKVYHqAWeULhs3Zv2mD3ujheR3NpEBi4z6QRpsDB7N7cm4qcmxFkr3SR70GvAvnjWdS0NUdIVeBH2p61oN5wH7jgr~pv8uY53S44KMTd59uoGByix2lrGw__",
+				"favicon":""
+			},
+			"_counter":{
+				"_pageCount":5,
+				"_moduleCount":0
+			}
+		},
+		"navigation":{
+			"secondary":[
+				
+			],
+			"defaultPageId":"e_6790f262e8eff07b21968cf8",
+			"primary":[
+				
+			]
+		},
+		"interfacePageIdVsSlugMap":{
+			"e_6790f262e8eff07b21968cf4":"connection-successful",
+			"e_6790f262e8eff07b21968cf5":"admin-view",
+			"e_6790f262e8eff07b21968cf6":"migration-details",
+			"e_6790f262e8eff07b21968cf7":"migration-data",
+			"e_6790f262e8eff07b21968cf8":"homepage"
+		},
+		"manifest":{
+			"type":"WEB"
+		},
+		"pagePermissions":{
+			"e_6790f262e8eff07b21968cf4":{
+				
+			},
+			"e_6790f262e8eff07b21968cf5":{
+				
+			},
+			"e_6790f262e8eff07b21968cf6":{
+				
+			},
+			"e_6790f262e8eff07b21968cf7":{
+				
+			}
+		},
+		"name":"Data Portal Rohan QA",
+		"theme":{
+			"output":""
+		},
+		"locale":{
+			"defaultLocale":"en-US",
+			"supportedLocales":[
+				"fr-FR"
+			]
+		},
+		"customCode":{
+			
+		}
+	},
+	"standard":false,
+	"version":6
+}
