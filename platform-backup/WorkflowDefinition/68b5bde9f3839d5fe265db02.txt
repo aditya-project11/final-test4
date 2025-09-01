@@ -2,6 +2,14 @@
 	"appsUsed":["storage_by_unifyapps"],
 	"createdTime":1756741097223,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1756741097953,
+		"deployedBy":34,
+		"deployedDefinitionId":"68b5bde9f3839d5fe265db07",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":1
+	},
 	"edges":[
 		{
 			"fromNodeId":"fssED",
@@ -176,7 +184,7 @@
 	"id":"68b5bde9f3839d5fe265db02",
 	"lastModifiedBy":34,
 	"lcName":"backend_automation1756741096968",
-	"modifiedTime":1756741097625,
+	"modifiedTime":1756741098420,
 	"name":"Backend_Automation1756741096968",
 	"nodes":[
 		{
@@ -912,5 +920,5 @@
 		"enableVariableLogging":true
 	},
 	"standard":false,
-	"version":1
+	"version":2
 }
