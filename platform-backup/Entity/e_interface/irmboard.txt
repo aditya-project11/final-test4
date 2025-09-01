@@ -1,0 +1,168 @@
+{
+	"createdTime":1737201433824,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1737353724464,
+		"deployedBy":34,
+		"entityVersion":150,
+		"version":2
+	},
+	"entityType":"e_interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":["A","C","S","VI","D","E","V","M_L"],
+				"principalIds":["669ebd7e92328c21d2cf50e7"],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"irmboard",
+	"lastModifiedBy":-1,
+	"modifiedTime":1755435583881,
+	"ownerUserId":34,
+	"properties":{
+		"standard":false,
+		"deviceDetails":{
+			"base":"desktop"
+		},
+		"metadata":{
+			"logo":{
+				"small":"https://assets.unifyapps.com/theme/unifyapps/unify.svg",
+				"large":"https://assets.unifyapps.com/theme/unifyapps/unify-logo.svg",
+				"favicon":"/favicon.png"
+			},
+			"_counter":{
+				"_pageCount":9,
+				"_moduleCount":0
+			}
+		},
+		"navigation":{
+			"secondary":[
+				
+			],
+			"defaultPageId":"e_66c835513a061e219f3c0fe7",
+			"primary":[
+				{
+					"name":"Page 1",
+					"icon":"Zap",
+					"id":"nav_wrTi8",
+					"type":"PAGE",
+					"pageId":"e_66c835513a061e219f3c0fe7",
+					"items":[
+						
+					],
+					"slug":"home-page1"
+				},
+				{
+					"name":"Page 2",
+					"icon":"Zap",
+					"id":"nav_SThfI",
+					"type":"PAGE",
+					"pageId":"e_66cdde566a5ced4f540a398f",
+					"items":[
+						
+					],
+					"slug":"my-story"
+				},
+				{
+					"name":"Page 3",
+					"icon":"Zap",
+					"id":"nav_JxbGM",
+					"type":"PAGE",
+					"pageId":"e_66ce307f3a061e219f3c1052",
+					"items":[
+						
+					],
+					"slug":"sales-support-button"
+				},
+				{
+					"name":"Page 4",
+					"icon":"Zap",
+					"id":"nav_b0Jpy",
+					"type":"PAGE",
+					"pageId":"e_66cf096f6a5ced4f540a39b0",
+					"slug":"banner"
+				},
+				{
+					"name":"Page 5",
+					"icon":"Zap",
+					"id":"nav_imx1u",
+					"type":"PAGE",
+					"pageId":"e_66cf0eb16a5ced4f540a39b2",
+					"slug":"support-cases"
+				},
+				{
+					"name":"Page 6",
+					"icon":"Zap",
+					"id":"nav_0Jz3A",
+					"type":"PAGE",
+					"pageId":"e_66d6c2e7f1c4e41e2c742e96",
+					"slug":"demo-irm"
+				},
+				{
+					"name":"Page 7",
+					"icon":"Zap",
+					"id":"nav_3wi2K",
+					"type":"PAGE",
+					"pageId":"e_66daa715f1c4e41e2c742f6b",
+					"slug":"support-recommendation"
+				},
+				{
+					"name":"Page 9",
+					"icon":"Zap",
+					"id":"nav_htSQ8",
+					"type":"PAGE",
+					"pageId":"e_671f4217d82a7800897bead6",
+					"slug":"page-9"
+				}
+			]
+		},
+		"interfacePageIdVsSlugMap":{
+			"e_671f4217d82a7800897bead6":"page-9",
+			"e_66d6c2e7f1c4e41e2c742e96":"demo-irm",
+			"e_66cdde566a5ced4f540a398f":"my-story",
+			"e_66cf096f6a5ced4f540a39b0":"banner",
+			"e_66daa715f1c4e41e2c742f6b":"support-recommendation",
+			"e_66ce307f3a061e219f3c1052":"sales-support-button",
+			"e_66c835513a061e219f3c0fe7":"home-page1",
+			"e_66cf0eb16a5ced4f540a39b2":"support-cases"
+		},
+		"pagePermissions":{
+			"e_66d6c2e7f1c4e41e2c742e96":{
+				
+			},
+			"e_66cdde566a5ced4f540a398f":{
+				
+			},
+			"e_66cf096f6a5ced4f540a39b0":{
+				
+			},
+			"e_66daa715f1c4e41e2c742f6b":{
+				
+			},
+			"e_66ce307f3a061e219f3c1052":{
+				
+			},
+			"e_66c835513a061e219f3c0fe7":{
+				
+			},
+			"e_66cf0eb16a5ced4f540a39b2":{
+				
+			}
+		},
+		"name":"DNT Sales Connect Dashboard",
+		"theme":{
+			"output":"@font-face {\n  font-family: 'Source Sans 3';\n  font-style: normal;\n  font-weight: 200 900;\n  font-display: swap;\n  src: url('https://assets.unifyapps.com/theme/irm/source-sans-3-font.woff2') format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,\n    U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF,\n    U+FFFD;\n}\n\n.interface-theme,\n.interface-theme [data-color-scheme='light'] {\n  --palette-alpha-brand-05: #2b3d810d;\n  --palette-alpha-brand-10: #2b3d811a;\n  --palette-alpha-brand-20: #2b3d8133;\n  --palette-alpha-brand-30: #2b3d814d;\n  --palette-alpha-brand-40: #2b3d8166;\n  --palette-alpha-brand-50: #2b3d8180;\n  --palette-alpha-brand-60: #2b3d8199;\n  --palette-alpha-brand-70: #2b3d81b3;\n  --palette-alpha-brand-80: #2b3d81cc;\n  --palette-alpha-brand-90: #2b3d81e6;\n  --palette-alpha-brand-100: #2b3d81;\n\n  --palette-brand-25: #f3f5ff;\n  --palette-brand-50: #eff1fc;\n  --palette-brand-100: #d6dcf3;\n  --palette-brand-200: #b7bfdc;\n  --palette-brand-300: #808ab3;\n  --palette-brand-400: #55649a;\n  --palette-brand-500: #2b3d81;\n  --palette-brand-600: #001668;\n  --palette-brand-700: #001257;\n  --palette-brand-800: #000f45;\n  --palette-brand-900: #000723;\n  --palette-brand-950: #000415;\n  \n  --palette-brand-secondary-25: #f0fbff;\n  --palette-brand-secondary-50: #e5f9ff;\n  --palette-brand-secondary-100: #ccf1ff;\n  --palette-brand-secondary-200: #b2e8ff;\n  --palette-brand-secondary-300: #85d6ff;\n  --palette-brand-secondary-400: #3eb3f7;\n  --palette-brand-secondary-500: #1d94de;\n  --palette-brand-secondary-600: #1b75bc;\n  --palette-brand-secondary-700: #1d5b8f;\n  --palette-brand-secondary-800: #265075;\n  --palette-brand-secondary-900: #1d3d5c;\n  --palette-brand-secondary-950: #13273b;\n\n  --text-error-secondary: var(--palette-error-400);\n\n  --fontFamily-body: 'Source Sans 3', var(--fontFamily-fallback);\n  --fontFamily-display: 'Source Sans 3', var(--fontFamily-fallback);\n  --fontFamily-text: 'Source Sans 3', var(--fontFamily-fallback);\n}\n .bg-workspace {\n        background-color: transparent !important;\n    }"
+		},
+		"locale":{
+			"defaultLocale":"en-US"
+		},
+		"customCode":{
+			
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":156
+}
