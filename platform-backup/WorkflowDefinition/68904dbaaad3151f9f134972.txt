@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287546381,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_kqF22",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_qHDS1",
+			"type":"next"
+		}
+	],
+	"id":"68904dbaaad3151f9f134972",
+	"lastModifiedBy":34,
+	"lcName":"create listadd schema using xsd validate the fields clear all the schema and reuse the same schema and validate again and delete the field_117542842668050",
+	"modifiedTime":1754372415098,
+	"name":"Create listAdd Schema using XSD validate the fields clear all the schema and reuse the same schema and validate again and delete the field_117542842668050",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kqF22-1",
+			"id":"_kqF22",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_kqF22-1",
+			"id":"_qHDS1",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
