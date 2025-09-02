@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754285963732,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_RXRhP",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_w0qa1",
+			"type":"next"
+		}
+	],
+	"id":"6890478baad3151f9f12dd39",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle calendar_11754284266805",
+	"modifiedTime":1754372621272,
+	"name":"TestButtonGoogle Calendar_11754284266805",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RXRhP-1",
+			"id":"_RXRhP",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_RXRhP-1",
+			"id":"_w0qa1",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
