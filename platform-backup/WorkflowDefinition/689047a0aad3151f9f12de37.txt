@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754285984610,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_TmpiG",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_1YGZj",
+			"type":"next"
+		}
+	],
+	"id":"689047a0aad3151f9f12de37",
+	"lastModifiedBy":34,
+	"lcName":"automation_culture ampdelete11754284269014",
+	"modifiedTime":1754372616832,
+	"name":"Automation_Culture AmpDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_TmpiG-1",
+			"id":"_TmpiG",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_TmpiG-1",
+			"id":"_1YGZj",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
