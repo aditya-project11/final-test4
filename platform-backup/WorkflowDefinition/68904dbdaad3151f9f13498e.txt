@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287549181,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_GDOnN",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_SGccv",
+			"type":"next"
+		}
+	],
+	"id":"68904dbdaad3151f9f13498e",
+	"lastModifiedBy":34,
+	"lcName":"create listadd schema using xsd validate the fields clear all the schema and create new schema using xsd and validate again_117542842668050",
+	"modifiedTime":1754372414819,
+	"name":"Create listAdd Schema using XSD validate the fields clear all the schema and create new schema using XSD and validate again_117542842668050",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GDOnN-1",
+			"id":"_GDOnN",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_GDOnN-1",
+			"id":"_SGccv",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
