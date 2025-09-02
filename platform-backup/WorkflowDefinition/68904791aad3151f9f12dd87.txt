@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754285969909,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_Ytjyq",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_QHyKb",
+			"type":"next"
+		}
+	],
+	"id":"68904791aad3151f9f12dd87",
+	"lastModifiedBy":34,
+	"lcName":"testbuttongoogle cloud storage_11754284266805",
+	"modifiedTime":1754372620225,
+	"name":"TestButtonGoogle Cloud Storage_11754284266805",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ytjyq-1",
+			"id":"_Ytjyq",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Ytjyq-1",
+			"id":"_QHyKb",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
