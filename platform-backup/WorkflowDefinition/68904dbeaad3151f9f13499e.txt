@@ -1,0 +1,60 @@
+{
+	"appsUsed":[],
+	"createdTime":1754287550000,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_OALMj",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_23gY2",
+			"type":"next"
+		}
+	],
+	"id":"68904dbeaad3151f9f13499e",
+	"lastModifiedBy":34,
+	"lcName":"automation_zoho crmdelete11754284269014",
+	"modifiedTime":1754372414532,
+	"name":"Automation_Zoho CRMDelete11754284269014",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OALMj-1",
+			"id":"_OALMj",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_OALMj-1",
+			"id":"_23gY2",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
