@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750416538456,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_hfc8l",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_OIFj4",
+			"type":"next"
+		}
+	],
+	"id":"68553c9a069906395a78cfde",
+	"lastModifiedBy":34,
+	"lcName":"automation_amazon comprehenddelete11750416513723",
+	"modifiedTime":1750514026457,
+	"name":"Automation_Amazon ComprehendDelete11750416513723",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hfc8l-1",
+			"id":"_hfc8l",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_hfc8l-1",
+			"id":"_OIFj4",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
