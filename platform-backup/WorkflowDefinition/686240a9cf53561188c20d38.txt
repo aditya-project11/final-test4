@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1751269545878,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_gclp4",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_1JBJW",
+			"type":"next"
+		}
+	],
+	"id":"686240a9cf53561188c20d38",
+	"lastModifiedBy":34,
+	"lcName":"automation_hadoopdelete11751266296834",
+	"modifiedTime":1754310501248,
+	"name":"Automation_HadoopDelete11751266296834",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_gclp4-1",
+			"id":"_gclp4",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_gclp4-1",
+			"id":"_1JBJW",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
