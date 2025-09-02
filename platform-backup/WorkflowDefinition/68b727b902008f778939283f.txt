@@ -15,7 +15,7 @@
 	"id":"68b727b902008f778939283f",
 	"lastModifiedBy":34,
 	"lcName":"customhttpapptestheaders_117568337168390",
-	"modifiedTime":1756833731042,
+	"modifiedTime":1756833740689,
 	"name":"customHTTPAppTestHeaders_117568337168390",
 	"nodes":[
 		{
@@ -25,7 +25,7 @@
 				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_JlY7q-1",
 			"id":"n_7DcY8",
@@ -62,10 +62,7 @@
 				"responseContentType":"application/json",
 				"isAsync":false,
 				"headersList":[
-					{
-						"key":"input_key",
-						"value":"input_value"
-					}
+					
 				],
 				"requestTimeoutInSecs":-1,
 				"authType":"CUSTOM",
@@ -92,5 +89,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":1
+	"version":2
 }
