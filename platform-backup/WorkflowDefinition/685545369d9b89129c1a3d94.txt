@@ -1,0 +1,56 @@
+{
+	"appsUsed":[],
+	"createdTime":1750418742237,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"_AkhH1",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_kFcTs",
+			"type":"next"
+		}
+	],
+	"id":"685545369d9b89129c1a3d94",
+	"lastModifiedBy":34,
+	"lcName":"freshdesk-new ticketverifytimeisnotautoupdating117504165133910",
+	"modifiedTime":1750513815463,
+	"name":"Freshdesk-New ticketverifyTimeIsNotAutoUpdating117504165133910",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_AkhH1-1",
+			"id":"_AkhH1",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_AkhH1-1",
+			"id":"_kFcTs",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":1
+}
