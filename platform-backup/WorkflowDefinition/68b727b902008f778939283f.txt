@@ -1,50 +1,86 @@
 {
-	"appsUsed":[],
+	"appsUsed":["custom_http_application"],
 	"createdTime":1756833721120,
 	"deleted":false,
 	"description":"description",
 	"edges":[
 		{
-			"fromNodeId":"_JlY7q",
+			"fromNodeId":"n_7DcY8",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_2mNgZ",
+			"toNodeId":"n_BnioV",
 			"type":"next"
 		}
 	],
 	"id":"68b727b902008f778939283f",
 	"lastModifiedBy":34,
 	"lcName":"customhttpapptestheaders_117568337168390",
-	"modifiedTime":1756833721120,
+	"modifiedTime":1756833731042,
 	"name":"customHTTPAppTestHeaders_117568337168390",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":630,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_JlY7q-1",
-			"id":"_JlY7q",
-			"index":0,
+			"id":"n_7DcY8",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"custom_http_application",
+				"resourceVersion":1368,
+				"connectionId":"6878d77aae286a785bd91456",
+				"resourceName":"custom_http_application_execute",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_JlY7q-1",
-			"id":"_2mNgZ",
-			"index":0,
+			"id":"n_BnioV",
+			"index":2,
+			"inputs":{
+				"path":"/",
+				"responseContentType":"application/json",
+				"isAsync":false,
+				"headersList":[
+					{
+						"key":"input_key",
+						"value":"input_value"
+					}
+				],
+				"requestTimeoutInSecs":-1,
+				"authType":"CUSTOM",
+				"httpMethod":"POST",
+				"requestContentType":"application/json",
+				"sslVerify":true
+			},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Custom HTTP Application",
+			"title":"Execute REST Request",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -56,5 +92,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
