@@ -1,49 +1,69 @@
 {
-	"appsUsed":[],
+	"appsUsed":["gmail"],
 	"createdTime":1756785118220,
 	"deleted":false,
 	"edges":[
 		{
-			"fromNodeId":"_FCFDI",
+			"fromNodeId":"n_cm82T",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_1Fuan",
+			"toNodeId":"n_MGYot",
 			"type":"next"
 		}
 	],
 	"id":"68b669de017eb8527c2870f8",
 	"lastModifiedBy":34,
 	"lcName":"test",
-	"modifiedTime":1756785118220,
+	"modifiedTime":1756785202606,
 	"name":"test",
 	"nodes":[
 		{
+			"context":{
+				"appName":"gmail",
+				"resourceVersion":24877,
+				"connectionId":"68b66a1aea841d7fb4b5031e",
+				"resourceName":"gmail_on_new_email_polling"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_FCFDI-1",
-			"id":"_FCFDI",
-			"index":0,
+			"id":"n_cm82T",
+			"index":1,
+			"inputs":{
+				"intervalType":"minutes",
+				"fetchAllMails":false,
+				"pageSize":10,
+				"interval":1,
+				"from":"2025-08-22",
+				"batchSize":10
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Gmail",
+			"title":"New email",
 			"trigger":{
 				"type":"EVENT"
 			},
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"stop"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_FCFDI-1",
-			"id":"_1Fuan",
-			"index":0,
+			"id":"n_MGYot",
+			"index":2,
 			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
+			"subTitle":"Stop",
+			"title":"Stop",
+			"type":"STOP"
 		}
 	],
 	"ownerUserId":34,
+	"schemaReferences":[],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -55,5 +75,5 @@
 	},
 	"standard":false,
 	"tags":[],
-	"version":0
+	"version":1
 }
